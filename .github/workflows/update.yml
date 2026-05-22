@@ -2,9 +2,13 @@ name: Update feed
 
 on:
   schedule:
-    # 13:00 UTC daily — TMDB resets its daily-changes data at 8am UTC, so by
-    # mid-day the catalog reflects whatever shifted overnight in the US.
-    - cron: "0 13 * * *"
+    # 13:17 UTC daily — off the top of the hour to avoid GitHub Actions'
+    # cron scheduling contention. TMDB resets its daily-changes data at 8am
+    # UTC, so by mid-day the catalog reflects whatever shifted overnight.
+    - cron: "17 13 * * *"
+    # TEMPORARY — proves scheduled triggering works. Remove once a run from
+    # this cron has appeared in the Actions tab.
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       bootstrap:
