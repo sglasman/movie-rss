@@ -1,0 +1,55 @@
+name: Update feed
+
+on:
+  schedule:
+    # 13:00 UTC daily — TMDB resets its daily-changes data at 8am UTC, so by
+    # mid-day the catalog reflects whatever shifted overnight in the US.
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: "Seed seen.json without emitting feed entries"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          if [ "${{ inputs.bootstrap }}" = "true" ]; then
+            python update_feed.py --bootstrap
+          else
+            python update_feed.py
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json docs/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "feed: update $(date -u +%Y-%m-%d)"
+            git push
+          fi
