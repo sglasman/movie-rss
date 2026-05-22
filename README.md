@@ -1,3 +1,7 @@
+# THIS IS COMPLETELY VIBE CODED. NO HUMAN WRITTEN CODE HERE
+
+---
+
 # New on US Streaming — RSS feeds
 
 Two daily RSS feeds, built by diffing TMDB's `/discover/movie` results against a persisted snapshot (re-arrivals are suppressed):
