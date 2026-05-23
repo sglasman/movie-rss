@@ -26,6 +26,7 @@ PUBLIC_DIR = ROOT / "docs"
 SEEN_PATH = DATA_DIR / "seen.json"
 
 API_BASE = "https://api.themoviedb.org/3"
+OMDB_BASE = "https://www.omdbapi.com/"
 IMG_BASE = "https://image.tmdb.org/t/p/w500"
 REGION = "US"
 MAX_FEED_ITEMS = 300
@@ -83,6 +84,17 @@ class Arrival:
     release_date: str
     poster_path: str | None
     first_seen: datetime
+    vote_average: float = 0.0
+    vote_count: int = 0
+    country: str = ""
+    runtime: int | None = None
+    genres: list[str] = field(default_factory=list)
+    director: str = ""
+    mpaa: str = ""
+    imdb_id: str = ""
+    imdb_rating: str = ""
+    rt_rating: str = ""
+    mc_rating: str = ""
 
     @property
     def guid(self) -> str:
@@ -197,6 +209,44 @@ def render_feed(cfg: FeedConfig, items: list[dict]) -> str:
     return "\n".join(out)
 
 
+def _runtime_str(minutes: int | None) -> str:
+    if not minutes:
+        return ""
+    h, m = divmod(minutes, 60)
+    if h and m:
+        return f"{h}h {m}m"
+    if h:
+        return f"{h}h"
+    return f"{m}m"
+
+
+def _metadata_line(a: Arrival) -> str:
+    year = a.release_date[:4] if a.release_date else ""
+    parts = [
+        escape(year) if year else "",
+        escape(a.country) if a.country else "",
+        escape(_runtime_str(a.runtime)),
+        escape(a.mpaa) if a.mpaa else "",
+        escape(", ".join(a.genres)) if a.genres else "",
+    ]
+    if a.director:
+        parts.append(f"dir. {escape(a.director)}")
+    return " · ".join(p for p in parts if p)
+
+
+def _ratings_line(a: Arrival) -> str:
+    parts = []
+    if a.vote_count:
+        parts.append(f"TMDB {a.vote_average:.1f} ({a.vote_count:,})")
+    if a.imdb_rating:
+        parts.append(f"IMDb {escape(a.imdb_rating)}")
+    if a.rt_rating:
+        parts.append(f"RT {escape(a.rt_rating)}")
+    if a.mc_rating:
+        parts.append(f"Metacritic {escape(a.mc_rating)}")
+    return " · ".join(parts)
+
+
 def arrival_to_item(a: Arrival) -> dict:
     year = a.release_date[:4] if a.release_date else "????"
     poster_html = (
@@ -205,12 +255,15 @@ def arrival_to_item(a: Arrival) -> dict:
         else ""
     )
     verb = "to rent on" if a.monetization == "rent" else "on"
-    desc = (
-        f"{poster_html}"
-        f"<p><strong>New {verb} {escape(a.provider_name)}</strong> — "
-        f"released {escape(a.release_date or 'unknown')}</p>"
-        f"<p>{escape(a.overview or '')}</p>"
+    header = (
+        f"<p><strong>New {verb} {escape(a.provider_name)}</strong></p>"
     )
+    meta = _metadata_line(a)
+    meta_html = f"<p>{meta}</p>" if meta else ""
+    ratings = _ratings_line(a)
+    ratings_html = f"<p>{ratings}</p>" if ratings else ""
+    overview_html = f"<p>{escape(a.overview)}</p>" if a.overview else ""
+    desc = poster_html + header + meta_html + ratings_html + overview_html
     return {
         "title": f"[{a.provider_name}] {a.title} ({year})",
         "link": a.tmdb_url,
@@ -219,6 +272,98 @@ def arrival_to_item(a: Arrival) -> dict:
         "category": a.provider_name,
         "description": desc,
     }
+
+
+def fetch_movie_details(session: requests.Session, movie_id: int) -> dict:
+    """One-shot bundle: details + credits + per-country release certifications."""
+    return tmdb_get(
+        session,
+        f"/movie/{movie_id}",
+        {"language": "en-US", "append_to_response": "credits,release_dates,external_ids"},
+    )
+
+
+def extract_director(details: dict) -> str:
+    crew = (details.get("credits") or {}).get("crew") or []
+    directors = [c.get("name", "") for c in crew if c.get("job") == "Director"]
+    return ", ".join(d for d in directors if d)
+
+
+def extract_mpaa(details: dict) -> str:
+    for entry in (details.get("release_dates") or {}).get("results", []):
+        if entry.get("iso_3166_1") != "US":
+            continue
+        for rd in entry.get("release_dates", []) or []:
+            cert = (rd.get("certification") or "").strip()
+            if cert:
+                return cert
+    return ""
+
+
+def extract_country(details: dict) -> str:
+    countries = details.get("production_countries") or []
+    names = [c.get("name", "") for c in countries if c.get("name")]
+    return " / ".join(names)
+
+
+def fetch_omdb_ratings(session: requests.Session, imdb_id: str) -> dict[str, str]:
+    """Return {'imdb': '7.5', 'rt': '85%', 'mc': '72'} — empty fields if missing/unavailable.
+
+    No-op (returns {}) when OMDB_API_KEY is not set, so the script keeps working
+    without the sidecar configured.
+    """
+    key = os.environ.get("OMDB_API_KEY")
+    if not key or not imdb_id:
+        return {}
+    try:
+        r = session.get(
+            OMDB_BASE,
+            params={"i": imdb_id, "apikey": key, "r": "json"},
+            timeout=20,
+        )
+        r.raise_for_status()
+        data = r.json()
+    except (requests.RequestException, ValueError):
+        return {}
+    if data.get("Response") != "True":
+        return {}
+    out: dict[str, str] = {}
+    imdb = data.get("imdbRating")
+    if imdb and imdb != "N/A":
+        out["imdb"] = imdb
+    for rating in data.get("Ratings", []) or []:
+        src = rating.get("Source", "")
+        val = rating.get("Value", "")
+        if src == "Rotten Tomatoes" and val:
+            out["rt"] = val
+        elif src == "Metacritic" and val:
+            # OMDb returns "72/100" — keep just the numerator.
+            out["mc"] = val.split("/", 1)[0]
+    return out
+
+
+def enrich(session: requests.Session, a: Arrival) -> None:
+    """Hydrate an Arrival in-place with TMDB details + OMDb ratings."""
+    try:
+        details = fetch_movie_details(session, a.movie_id)
+    except requests.RequestException as e:
+        print(f"  WARN details fetch failed for {a.movie_id}: {e}", file=sys.stderr)
+        return
+    a.vote_average = float(details.get("vote_average") or 0.0)
+    a.vote_count = int(details.get("vote_count") or 0)
+    a.runtime = details.get("runtime") or None
+    a.genres = [g.get("name", "") for g in (details.get("genres") or []) if g.get("name")]
+    a.country = extract_country(details)
+    a.director = extract_director(details)
+    a.mpaa = extract_mpaa(details)
+    a.imdb_id = (details.get("external_ids") or {}).get("imdb_id") or details.get("imdb_id") or ""
+
+    if a.imdb_id:
+        ratings = fetch_omdb_ratings(session, a.imdb_id)
+        a.imdb_rating = ratings.get("imdb", "")
+        a.rt_rating = ratings.get("rt", "")
+        a.mc_rating = ratings.get("mc", "")
+        time.sleep(0.1)  # be gentle with OMDb's free tier
 
 
 def process_feed(
@@ -257,6 +402,9 @@ def process_feed(
             )
 
     print(f"New arrivals for {cfg.slug}: {len(arrivals)}")
+    for a in arrivals:
+        enrich(session, a)
+        time.sleep(0.05)
     new_items = [arrival_to_item(a) for a in arrivals]
     existing = load_existing_items(cfg.output_path)
     merged = new_items + existing

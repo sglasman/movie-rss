@@ -15,12 +15,13 @@ The two feeds are independent: a movie can appear in both at different times (e.
 
 1. Create a new GitHub repo and push this directory to it.
 2. Get a TMDB API key: <https://www.themoviedb.org/settings/api> (free, instant for personal use).
-3. In the repo's **Settings → Secrets and variables → Actions**, add a secret named `TMDB_API_KEY`.
-4. In **Settings → Pages**, set source to "Deploy from a branch", branch `main`, folder `/docs`.
-5. **Run the workflow manually once in bootstrap mode**:
+3. *(Optional)* Get an OMDb API key: <https://www.omdbapi.com/apikey.aspx> — used to fetch IMDb / Rotten Tomatoes / Metacritic scores. Free tier: 1,000 requests/day, ample for this script. If the key is omitted, entries simply ship without the OMDb-sourced scores (TMDB user rating still appears).
+4. In the repo's **Settings → Secrets and variables → Actions**, add a repository secret named `TMDB_API_KEY` (and `OMDB_API_KEY` if you got one).
+5. In **Settings → Pages**, set source to "Deploy from a branch", branch `master`, folder `/docs`.
+6. **Run the workflow manually once in bootstrap mode**:
    - Actions tab → "Update feed" → Run workflow → check `bootstrap`.
    - This seeds `data/seen.json` with everything currently streaming. Without this step, your first scheduled run would emit thousands of "new" arrivals.
-6. The workflow then runs daily at 13:00 UTC. Subscribe Feedly to either or both:
+7. The workflow then runs daily at 13:17 UTC. Subscribe Feedly to either or both:
    - `https://<your-username>.github.io/<repo-name>/feed.xml` (SVOD)
    - `https://<your-username>.github.io/<repo-name>/feed-rentals.xml` (Amazon rentals)
 
@@ -29,8 +30,9 @@ The two feeds are independent: a movie can appear in both at different times (e.
 ```bash
 pip install -r requirements.txt
 export TMDB_API_KEY=...
-python update_feed.py --bootstrap    # first time only
-python update_feed.py                # subsequent runs
+export OMDB_API_KEY=...               # optional — enables IMDb/RT/Metacritic
+python update_feed.py --bootstrap     # first time only
+python update_feed.py                 # subsequent runs
 ```
 
 ## How it works
