@@ -10,12 +10,14 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.parse import quote
 from xml.sax.saxutils import escape
 
 import requests
@@ -34,6 +36,13 @@ MAX_FEED_ITEMS = 300
 # volume by ~10x and focuses each feed on actual new releases rather than
 # catalog churn. 12 months covers most studio theatrical→SVOD gaps.
 RELEASE_WINDOW_DAYS = 365
+
+# Placeholder prompt template for the ChatGPT critical-reception link.
+# {title}, {year}, {director} are substituted before URL-encoding.
+# Replace the body with your own prompt — structure (template + URL) stays the same.
+CHATGPT_PROMPT_TEMPLATE = (
+    "Describe the critical and audience reception of the {year} movie \"{title}\" directed by {director}. Focus on specific opinions on aspects like the tone, plotting, acting and production, not aggregator percentages."
+)
 
 
 @dataclass
@@ -90,6 +99,7 @@ class Arrival:
     runtime: int | None = None
     genres: list[str] = field(default_factory=list)
     director: str = ""
+    cast: list[str] = field(default_factory=list)
     mpaa: str = ""
     imdb_id: str = ""
     imdb_rating: str = ""
@@ -105,17 +115,66 @@ class Arrival:
         return f"https://www.themoviedb.org/movie/{self.movie_id}"
 
 
+def _redact(url: str) -> str:
+    return re.sub(r"(api_key|apikey)=[^&]+", r"\1=***", url)
+
+
+def _body_snippet(r: requests.Response, limit: int = 500) -> str:
+    text = (r.text or "").strip().replace("\n", " ")
+    return text[:limit] + ("…" if len(text) > limit else "")
+
+
 def tmdb_get(session: requests.Session, path: str, params: dict) -> dict:
     params = {**params, "api_key": os.environ["TMDB_API_KEY"]}
+    last_detail = ""
     for attempt in range(5):
-        r = session.get(f"{API_BASE}{path}", params=params, timeout=30)
-        if r.status_code == 429:
-            wait = int(r.headers.get("Retry-After", "2"))
-            time.sleep(wait + 1)
+        try:
+            r = session.get(f"{API_BASE}{path}", params=params, timeout=30)
+        except requests.RequestException as e:
+            wait = 2 ** attempt
+            last_detail = f"network error: {e}"
+            print(
+                f"  WARN TMDB {path} attempt {attempt + 1}/5: {last_detail}; "
+                f"retry in {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
             continue
-        r.raise_for_status()
+
+        if r.status_code == 429:
+            wait = int(r.headers.get("Retry-After", "2")) + 1
+            last_detail = f"429 rate-limited (Retry-After={wait}s)"
+            print(
+                f"  WARN TMDB {_redact(r.url)} attempt {attempt + 1}/5: {last_detail}",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
+
+        if 500 <= r.status_code < 600:
+            wait = 2 ** attempt
+            last_detail = f"{r.status_code} body={_body_snippet(r)!r}"
+            print(
+                f"  WARN TMDB {_redact(r.url)} attempt {attempt + 1}/5: "
+                f"{last_detail}; retry in {wait}s",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+            continue
+
+        if not r.ok:
+            # 4xx other than 429 — almost certainly a request-shape bug, no
+            # point retrying. Raise with full context.
+            raise RuntimeError(
+                f"TMDB {r.status_code} on {_redact(r.url)}: {_body_snippet(r)}"
+            )
+
         return r.json()
-    raise RuntimeError(f"TMDB rate-limited repeatedly for {path}")
+
+    raise RuntimeError(
+        f"TMDB exhausted 5 retries on {_redact(f'{API_BASE}{path}')} "
+        f"(last: {last_detail})"
+    )
 
 
 def fetch_provider_catalog(
@@ -231,7 +290,18 @@ def _metadata_line(a: Arrival) -> str:
     ]
     if a.director:
         parts.append(f"dir. {escape(a.director)}")
+    if a.cast:
+        parts.append(f"with {escape(', '.join(a.cast))}")
     return " · ".join(p for p in parts if p)
+
+
+def _chatgpt_link(a: Arrival) -> str:
+    year = a.release_date[:4] if a.release_date else "unknown year"
+    director = a.director or "unknown director"
+    prompt = CHATGPT_PROMPT_TEMPLATE.format(
+        title=a.title, year=year, director=director
+    )
+    return f"https://chatgpt.com/?prompt={quote(prompt, safe='')}"
 
 
 def _ratings_line(a: Arrival) -> str:
@@ -263,7 +333,10 @@ def arrival_to_item(a: Arrival) -> dict:
     ratings = _ratings_line(a)
     ratings_html = f"<p>{ratings}</p>" if ratings else ""
     overview_html = f"<p>{escape(a.overview)}</p>" if a.overview else ""
-    desc = poster_html + header + meta_html + ratings_html + overview_html
+    chatgpt_html = (
+        f'<p><a href="{escape(_chatgpt_link(a))}">Ask ChatGPT about reception →</a></p>'
+    )
+    desc = poster_html + header + meta_html + ratings_html + overview_html + chatgpt_html
     return {
         "title": f"[{a.provider_name}] {a.title} ({year})",
         "link": a.tmdb_url,
@@ -287,6 +360,12 @@ def extract_director(details: dict) -> str:
     crew = (details.get("credits") or {}).get("crew") or []
     directors = [c.get("name", "") for c in crew if c.get("job") == "Director"]
     return ", ".join(d for d in directors if d)
+
+
+def extract_top_cast(details: dict, n: int = 2) -> list[str]:
+    cast = (details.get("credits") or {}).get("cast") or []
+    cast_sorted = sorted(cast, key=lambda c: c.get("order", 9999))
+    return [c.get("name", "") for c in cast_sorted[:n] if c.get("name")]
 
 
 def extract_mpaa(details: dict) -> str:
@@ -323,9 +402,14 @@ def fetch_omdb_ratings(session: requests.Session, imdb_id: str) -> dict[str, str
         )
         r.raise_for_status()
         data = r.json()
-    except (requests.RequestException, ValueError):
+    except (requests.RequestException, ValueError) as e:
+        print(f"  WARN OMDb {imdb_id} failed: {e}", file=sys.stderr)
         return {}
     if data.get("Response") != "True":
+        print(
+            f"  WARN OMDb {imdb_id}: Response=False error={data.get('Error')!r}",
+            file=sys.stderr,
+        )
         return {}
     out: dict[str, str] = {}
     imdb = data.get("imdbRating")
@@ -355,6 +439,7 @@ def enrich(session: requests.Session, a: Arrival) -> None:
     a.genres = [g.get("name", "") for g in (details.get("genres") or []) if g.get("name")]
     a.country = extract_country(details)
     a.director = extract_director(details)
+    a.cast = extract_top_cast(details, n=2)
     a.mpaa = extract_mpaa(details)
     a.imdb_id = (details.get("external_ids") or {}).get("imdb_id") or details.get("imdb_id") or ""
 
