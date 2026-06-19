@@ -41,7 +41,7 @@ RELEASE_WINDOW_DAYS = 365
 # {title}, {year}, {director} are substituted before URL-encoding.
 # Replace the body with your own prompt — structure (template + URL) stays the same.
 CHATGPT_PROMPT_TEMPLATE = (
-    "Describe the critical and audience reception of the {year} movie \"{title}\" directed by {director}. Focus on specific opinions on aspects like the tone, plotting, acting and production, not aggregator percentages."
+    "Describe the critical and audience reception of the {year} movie \"{title}\" directed by {director}. Focus on specific opinions on aspects like the tone, plotting, acting and production, not aggregator percentages. Keep it spoiler-free."
 )
 
 
