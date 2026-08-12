@@ -14,7 +14,7 @@ import re
 import sys
 import time
 from dataclasses import dataclass, field
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from urllib.parse import quote
@@ -26,6 +26,7 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 PUBLIC_DIR = ROOT / "docs"
 SEEN_PATH = DATA_DIR / "seen.json"
+PENDING_PATH = DATA_DIR / "pending.json"
 
 API_BASE = "https://api.themoviedb.org/3"
 OMDB_BASE = "https://www.omdbapi.com/"
@@ -36,6 +37,19 @@ MAX_FEED_ITEMS = 300
 # volume by ~10x and focuses each feed on actual new releases rather than
 # catalog churn. 12 months covers most studio theatrical→SVOD gaps.
 RELEASE_WINDOW_DAYS = 365
+
+# A streaming-first film that dropped today has no critical reception yet, so
+# the "Ask ChatGPT about reception" link comes back with nothing. Hold those
+# posts this many days past the film's earliest release so reviews can land.
+# Films with a prior theatrical or festival run publish immediately — reviews
+# for those already exist however recently they hit streaming.
+HOLD_DAYS = 7
+
+# TMDB release_dates.type values that mean "the public/press has seen it":
+# 1 = Premiere (incl. festivals), 2 = Theatrical (limited), 3 = Theatrical.
+# The rest — 4 = Digital, 5 = Physical, 6 = TV — are home releases, which for a
+# streaming-first film is the arrival we're posting about.
+PREMIERE_RELEASE_TYPES = {1, 2, 3}
 
 # Placeholder prompt template for the ChatGPT critical-reception link.
 # {title}, {year}, {director} are substituted before URL-encoding.
@@ -92,7 +106,8 @@ class Arrival:
     overview: str
     release_date: str
     poster_path: str | None
-    first_seen: datetime
+    first_seen: datetime  # when the title showed up on the service
+    published_at: datetime | None = None  # set when a hold delayed the post
     vote_average: float = 0.0
     vote_count: int = 0
     country: str = ""
@@ -113,6 +128,14 @@ class Arrival:
     @property
     def tmdb_url(self) -> str:
         return f"https://www.themoviedb.org/movie/{self.movie_id}"
+
+    @property
+    def pub_datetime(self) -> datetime:
+        return self.published_at or self.first_seen
+
+    @property
+    def was_held(self) -> bool:
+        return self.pub_datetime.date() > self.first_seen.date()
 
 
 def _redact(url: str) -> str:
@@ -224,6 +247,61 @@ def save_seen(seen: dict[str, str]) -> None:
     SEEN_PATH.write_text(json.dumps(seen, indent=2, sort_keys=True))
 
 
+def load_pending() -> dict[str, dict]:
+    if not PENDING_PATH.exists():
+        return {}
+    return json.loads(PENDING_PATH.read_text())
+
+
+def save_pending(pending: dict[str, dict]) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    PENDING_PATH.write_text(json.dumps(pending, indent=2, sort_keys=True))
+
+
+def _parse_date(raw: str | None) -> date | None:
+    try:
+        return datetime.strptime((raw or "")[:10], "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
+def all_release_dates(details: dict) -> list[tuple[int, date]]:
+    """Every (type, date) pair across all countries; unparseable entries dropped."""
+    out: list[tuple[int, date]] = []
+    for entry in (details.get("release_dates") or {}).get("results", []):
+        for rd in entry.get("release_dates") or []:
+            d = _parse_date(rd.get("release_date"))
+            if d is None:
+                continue
+            try:
+                rtype = int(rd.get("type") or 0)
+            except (TypeError, ValueError):
+                rtype = 0
+            out.append((rtype, d))
+    return out
+
+
+def hold_until(details: dict, primary_release: str, today: date) -> date | None:
+    """Date this arrival should be posted, or None to post immediately.
+
+    Any theatrical or festival release already behind us means reviews exist, so
+    the post goes out as normal. Otherwise the film is streaming-first and we sit
+    on it until HOLD_DAYS past its earliest release.
+    """
+    past = [(t, d) for t, d in all_release_dates(details) if d <= today]
+    if any(t in PREMIERE_RELEASE_TYPES for t, _ in past):
+        return None
+
+    known = [d for _, d in past]
+    primary = _parse_date(primary_release)
+    if primary is not None and primary <= today:
+        known.append(primary)
+    # Nothing but future or missing dates — treat it as released today.
+    earliest = min(known) if known else today
+    due = earliest + timedelta(days=HOLD_DAYS)
+    return due if due > today else None
+
+
 def load_existing_items(feed_path: Path) -> list[dict]:
     if not feed_path.exists():
         return []
@@ -325,8 +403,15 @@ def arrival_to_item(a: Arrival) -> dict:
         else ""
     )
     verb = "to rent on" if a.monetization == "rent" else "on"
+    # Held posts land up to a week after the film actually appeared, so say so
+    # rather than leaving the date silently off by that much.
+    held_note = (
+        f" · added {a.first_seen.day} {a.first_seen:%b}, held for reviews"
+        if a.was_held
+        else ""
+    )
     header = (
-        f"<p><strong>New {verb} {escape(a.provider_name)}</strong></p>"
+        f"<p><strong>New {verb} {escape(a.provider_name)}</strong>{held_note}</p>"
     )
     meta = _metadata_line(a)
     meta_html = f"<p>{meta}</p>" if meta else ""
@@ -341,7 +426,7 @@ def arrival_to_item(a: Arrival) -> dict:
         "title": f"[{a.provider_name}] {a.title} ({year})",
         "link": a.tmdb_url,
         "guid": a.guid,
-        "pubDate": format_datetime(a.first_seen),
+        "pubDate": format_datetime(a.pub_datetime),
         "category": a.provider_name,
         "description": desc,
     }
@@ -426,13 +511,16 @@ def fetch_omdb_ratings(session: requests.Session, imdb_id: str) -> dict[str, str
     return out
 
 
-def enrich(session: requests.Session, a: Arrival) -> None:
-    """Hydrate an Arrival in-place with TMDB details + OMDb ratings."""
+def fetch_details_safe(session: requests.Session, movie_id: int) -> dict | None:
     try:
-        details = fetch_movie_details(session, a.movie_id)
+        return fetch_movie_details(session, movie_id)
     except requests.RequestException as e:
-        print(f"  WARN details fetch failed for {a.movie_id}: {e}", file=sys.stderr)
-        return
+        print(f"  WARN details fetch failed for {movie_id}: {e}", file=sys.stderr)
+        return None
+
+
+def apply_details(a: Arrival, details: dict) -> None:
+    """Hydrate an Arrival in-place from a TMDB details bundle."""
     a.vote_average = float(details.get("vote_average") or 0.0)
     a.vote_count = int(details.get("vote_count") or 0)
     a.runtime = details.get("runtime") or None
@@ -443,24 +531,79 @@ def enrich(session: requests.Session, a: Arrival) -> None:
     a.mpaa = extract_mpaa(details)
     a.imdb_id = (details.get("external_ids") or {}).get("imdb_id") or details.get("imdb_id") or ""
 
-    if a.imdb_id:
-        ratings = fetch_omdb_ratings(session, a.imdb_id)
-        a.imdb_rating = ratings.get("imdb", "")
-        a.rt_rating = ratings.get("rt", "")
-        a.mc_rating = ratings.get("mc", "")
-        time.sleep(0.1)  # be gentle with OMDb's free tier
+
+def apply_ratings(session: requests.Session, a: Arrival) -> None:
+    if not a.imdb_id:
+        return
+    ratings = fetch_omdb_ratings(session, a.imdb_id)
+    a.imdb_rating = ratings.get("imdb", "")
+    a.rt_rating = ratings.get("rt", "")
+    a.mc_rating = ratings.get("mc", "")
+    time.sleep(0.1)  # be gentle with OMDb's free tier
+
+
+def enrich(session: requests.Session, a: Arrival) -> None:
+    """Hydrate an Arrival in-place with TMDB details + OMDb ratings."""
+    details = fetch_details_safe(session, a.movie_id)
+    if details is None:
+        return
+    apply_details(a, details)
+    apply_ratings(session, a)
+
+
+def release_due(
+    cfg: FeedConfig,
+    session: requests.Session,
+    pending: dict[str, dict],
+    now: datetime,
+) -> list[Arrival]:
+    """Pop this feed's held arrivals whose wait is up, hydrated and ready to post."""
+    today = now.date()
+    released: list[Arrival] = []
+    for key in sorted(k for k in pending if k.startswith(f"{cfg.slug}:")):
+        rec = pending[key]
+        # A malformed record gets released rather than stranded in the store.
+        due = _parse_date(rec.get("publish_after")) or today
+        if due > today:
+            continue
+        arrived = rec.get("arrived")
+        try:
+            first_seen = datetime.fromisoformat(arrived) if arrived else now
+        except ValueError:
+            first_seen = now
+        a = Arrival(
+            provider_id=int(rec["provider_id"]),
+            provider_name=rec["provider_name"],
+            monetization=cfg.monetization,
+            movie_id=int(rec["movie_id"]),
+            title=rec.get("title") or "Untitled",
+            overview=rec.get("overview", ""),
+            release_date=rec.get("release_date", ""),
+            poster_path=rec.get("poster_path"),
+            first_seen=first_seen,
+            published_at=now,
+        )
+        # Re-enriched now, not at hold time — a week of accumulated ratings is
+        # the whole reason we waited.
+        enrich(session, a)
+        released.append(a)
+        del pending[key]
+        print(f"  RELEASE {a.title} (held since {first_seen.date().isoformat()})")
+        time.sleep(0.05)
+    return released
 
 
 def process_feed(
     cfg: FeedConfig,
     session: requests.Session,
     seen: dict[str, str],
+    pending: dict[str, dict],
     now: datetime,
     bootstrap: bool,
 ) -> None:
     print(f"\n=== Feed: {cfg.slug} ({cfg.monetization}) ===")
-    today = now.date().isoformat()
-    arrivals: list[Arrival] = []
+    today = now.date()
+    candidates: list[tuple[str, Arrival]] = []
     for pid, pname in cfg.providers.items():
         print(f"Fetching {pname} (id={pid}, {cfg.monetization})…")
         catalog = fetch_provider_catalog(session, pid, cfg.monetization)
@@ -469,27 +612,57 @@ def process_feed(
             key = f"{cfg.slug}:{pid}:{mid}"
             if key in seen:
                 continue
-            seen[key] = today
+            seen[key] = today.isoformat()
             if bootstrap:
                 continue
-            arrivals.append(
-                Arrival(
-                    provider_id=pid,
-                    provider_name=pname,
-                    monetization=cfg.monetization,
-                    movie_id=mid,
-                    title=m.get("title") or m.get("original_title") or "Untitled",
-                    overview=m.get("overview", ""),
-                    release_date=m.get("release_date", ""),
-                    poster_path=m.get("poster_path"),
-                    first_seen=now,
+            candidates.append(
+                (
+                    key,
+                    Arrival(
+                        provider_id=pid,
+                        provider_name=pname,
+                        monetization=cfg.monetization,
+                        movie_id=mid,
+                        title=m.get("title") or m.get("original_title") or "Untitled",
+                        overview=m.get("overview", ""),
+                        release_date=m.get("release_date", ""),
+                        poster_path=m.get("poster_path"),
+                        first_seen=now,
+                    ),
                 )
             )
 
-    print(f"New arrivals for {cfg.slug}: {len(arrivals)}")
-    for a in arrivals:
-        enrich(session, a)
+    print(f"New arrivals for {cfg.slug}: {len(candidates)}")
+    arrivals: list[Arrival] = []
+    for key, a in candidates:
+        details = fetch_details_safe(session, a.movie_id)
+        if details is None:
+            # No release data to judge by — post it rather than hold blind.
+            arrivals.append(a)
+            continue
+        apply_details(a, details)
+        due = hold_until(details, a.release_date, today)
+        if due:
+            pending[key] = {
+                "publish_after": due.isoformat(),
+                "arrived": a.first_seen.isoformat(),
+                "provider_id": a.provider_id,
+                "provider_name": a.provider_name,
+                "movie_id": a.movie_id,
+                "title": a.title,
+                "overview": a.overview,
+                "release_date": a.release_date,
+                "poster_path": a.poster_path,
+            }
+            print(f"  HOLD {a.title} — streaming-first, posting {due.isoformat()}")
+            time.sleep(0.05)
+            continue
+        apply_ratings(session, a)
+        arrivals.append(a)
         time.sleep(0.05)
+
+    if not bootstrap:
+        arrivals.extend(release_due(cfg, session, pending, now))
     new_items = [arrival_to_item(a) for a in arrivals]
     existing = load_existing_items(cfg.output_path)
     merged = new_items + existing
@@ -502,12 +675,16 @@ def main() -> int:
     bootstrap = "--bootstrap" in sys.argv
     session = requests.Session()
     seen = load_seen()
+    pending = load_pending()
     now = datetime.now(timezone.utc)
 
     for cfg in FEEDS:
-        process_feed(cfg, session, seen, now, bootstrap)
+        process_feed(cfg, session, seen, pending, now, bootstrap)
 
     save_seen(seen)
+    save_pending(pending)
+    if pending:
+        print(f"\n{len(pending)} title(s) on hold awaiting reviews.")
     if bootstrap:
         print("\nBootstrap mode: seeded seen.json without emitting feed entries.")
     return 0

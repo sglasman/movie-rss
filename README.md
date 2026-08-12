@@ -43,6 +43,17 @@ python update_feed.py                 # subsequent runs
 - Each feed keeps the most recent 300 items.
 - Feed configurations live in `FEEDS` at the top of `update_feed.py` — add or tweak providers/monetization there.
 
+## Review-hold for streaming-first films
+
+Each item carries an "Ask ChatGPT about reception" link, which is useless for a film that dropped straight to streaming this morning — there is no reception yet. So new arrivals are triaged on TMDB's per-country `release_dates`:
+
+- **Had a theatrical or festival run** (release type 1 Premiere, 2 Theatrical limited, or 3 Theatrical, on any date already past, in any country) → posted immediately. Reviews for these already exist, however recently the film reached streaming.
+- **Streaming-first** (only Digital/Physical/TV dates, or no dates at all) → held until `HOLD_DAYS` (7) past its earliest known release, then posted.
+
+Held titles live in `data/pending.json` keyed exactly like `seen.json`, and are re-enriched when their wait is up — a week of accumulated IMDb/RT/Metacritic scores is the point of waiting. Their `pubDate` is the date they're actually posted, so they surface as new in your reader; the header notes the real arrival date (`New on Netflix · added 11 Aug, held for reviews`).
+
+Set `HOLD_DAYS = 0` in `update_feed.py` to turn the hold off.
+
 ## Caveats
 
 - The discover query is clamped to films released in the last 12 months (`RELEASE_WINDOW_DAYS` in the script). This keeps the request count low and focuses the feed on actual new releases — older catalog additions are not tracked. Widen the constant if you want a longer tail.
