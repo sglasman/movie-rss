@@ -1,0 +1,13 @@
+{
+  "rentals:10:1577040": {
+    "arrived": "2026-08-12T14:32:33.481415+00:00",
+    "movie_id": 1577040,
+    "overview": "Three college students get entangled in a horrifying ordeal after booking a Bigfoot-themed cabin run by two paranormal-obsessed brothers.",
+    "poster_path": "/b79h209IZ9gAouKRnXy968paXiP.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-08-18",
+    "release_date": "2026-08-11",
+    "title": "Sawtooth Mountain"
+  }
+}
