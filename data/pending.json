@@ -1,4 +1,15 @@
 {
+  "rentals:10:1532439": {
+    "arrived": "2026-08-13T14:33:59.662816+00:00",
+    "movie_id": 1532439,
+    "overview": "As a record-breaking superstorm slams a remote forest cabin, a woman must outwit a storm-haunted killer known as \"the Woodsman\" to rescue a teenager from her group before the lightning takes them all.",
+    "poster_path": "/rp9hjuy1xlJt3ze7GY78VADv8dh.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-08-15",
+    "release_date": "2026-08-08",
+    "title": "Mega Lightning 3"
+  },
   "rentals:10:1577040": {
     "arrived": "2026-08-12T14:32:33.481415+00:00",
     "movie_id": 1577040,
@@ -9,5 +20,49 @@
     "publish_after": "2026-08-18",
     "release_date": "2026-08-11",
     "title": "Sawtooth Mountain"
+  },
+  "rentals:10:1619417": {
+    "arrived": "2026-08-13T14:33:59.662816+00:00",
+    "movie_id": 1619417,
+    "overview": "A group of vloggers investigate an abandoned research facility, where long-buried secrets transform their search into a desperate fight for survival.",
+    "poster_path": "/bmzupHFswYFn8jk7jFqFaZpBEuq.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-08-17",
+    "release_date": "2026-08-10",
+    "title": "The Bigfoot Experiment"
+  },
+  "rentals:10:1738575": {
+    "arrived": "2026-08-13T14:33:59.662816+00:00",
+    "movie_id": 1738575,
+    "overview": "After her last heart transplant fails, Maria is in desperate need of a new heart. Fearing it could give out at any moment, she turns down her boyfriend\u2019s proposal and heads out for a walk \u2014 only to mysteriously disappear. As the search intensifies, homicide and missing persons detective Vicky and her rookie partner are assigned to the case. With Maria's time running out, it becomes a race to uncover the truth behind Maria's disappearance before her failing heart gives out.",
+    "poster_path": "/5FsDc9RpSz9KfxX8SkXbX2Pwmqe.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-08-15",
+    "release_date": "2026-08-08",
+    "title": "She Stole My Son's Heart"
+  },
+  "svod:8:1487864": {
+    "arrived": "2026-08-13T14:33:59.662816+00:00",
+    "movie_id": 1487864,
+    "overview": "Caught between family life and his obligations to the criminal underworld, Nando faces an impossible choice about where his true loyalties lie.",
+    "poster_path": "/lP558W6RgDYaQvs9GKNGPUhVOLU.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-08-19",
+    "release_date": "2026-08-12",
+    "title": "Nando Between Two Worlds - A Sintonia Film"
+  },
+  "svod:8:1736415": {
+    "arrived": "2026-08-13T14:33:59.662816+00:00",
+    "movie_id": 1736415,
+    "overview": "With a hypothetical home invasion, a biblical reenactment, and his late dad's final wish, Rory Scovel delivers unrelenting laughs in this raucous stand-up special filmed at The Neptune in Seattle, Washington.",
+    "poster_path": "/iTiECR1UXAFCQ4IRPPwfbg2Zcjy.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-08-18",
+    "release_date": "2026-08-11",
+    "title": "Rory Scovel: Show Must Go On"
   }
 }
