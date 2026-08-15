@@ -1,14 +1,14 @@
 {
-  "rentals:10:1532439": {
-    "arrived": "2026-08-13T14:33:59.662816+00:00",
-    "movie_id": 1532439,
-    "overview": "As a record-breaking superstorm slams a remote forest cabin, a woman must outwit a storm-haunted killer known as \"the Woodsman\" to rescue a teenager from her group before the lightning takes them all.",
-    "poster_path": "/rp9hjuy1xlJt3ze7GY78VADv8dh.jpg",
+  "rentals:10:1149700": {
+    "arrived": "2026-08-15T13:46:02.926475+00:00",
+    "movie_id": 1149700,
+    "overview": "The day after graduation, four high school friends reunite for one last hangout\u2014revisiting old memories, ending an era, and looking into the unknown.",
+    "poster_path": "/8SpoTjgNRxbbO3dAWKbyM5dEiFi.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-08-15",
-    "release_date": "2026-08-08",
-    "title": "Mega Lightning 3"
+    "publish_after": "2026-08-21",
+    "release_date": "2026-08-14",
+    "title": "The Last Sunday of High School"
   },
   "rentals:10:1577040": {
     "arrived": "2026-08-12T14:32:33.481415+00:00",
@@ -32,17 +32,6 @@
     "release_date": "2026-08-10",
     "title": "The Bigfoot Experiment"
   },
-  "rentals:10:1738575": {
-    "arrived": "2026-08-13T14:33:59.662816+00:00",
-    "movie_id": 1738575,
-    "overview": "After her last heart transplant fails, Maria is in desperate need of a new heart. Fearing it could give out at any moment, she turns down her boyfriend\u2019s proposal and heads out for a walk \u2014 only to mysteriously disappear. As the search intensifies, homicide and missing persons detective Vicky and her rookie partner are assigned to the case. With Maria's time running out, it becomes a race to uncover the truth behind Maria's disappearance before her failing heart gives out.",
-    "poster_path": "/5FsDc9RpSz9KfxX8SkXbX2Pwmqe.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-08-15",
-    "release_date": "2026-08-08",
-    "title": "She Stole My Son's Heart"
-  },
   "svod:8:1487864": {
     "arrived": "2026-08-13T14:33:59.662816+00:00",
     "movie_id": 1487864,
@@ -53,6 +42,17 @@
     "publish_after": "2026-08-19",
     "release_date": "2026-08-12",
     "title": "Nando Between Two Worlds - A Sintonia Film"
+  },
+  "svod:8:1504358": {
+    "arrived": "2026-08-15T13:46:02.926475+00:00",
+    "movie_id": 1504358,
+    "overview": "Sophie Birenbaum is ready for the spotlight as the lead in her high school musical \u2014 until she's suddenly facing more drama at home than on the stage.",
+    "poster_path": "/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-08-20",
+    "release_date": "2026-08-13",
+    "title": "Don't Say Good Luck"
   },
   "svod:8:1632473": {
     "arrived": "2026-08-14T14:27:09.942152+00:00",
