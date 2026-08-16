@@ -32,6 +32,17 @@
     "release_date": "2026-08-10",
     "title": "The Bigfoot Experiment"
   },
+  "rentals:10:1745446": {
+    "arrived": "2026-08-16T13:46:56.144278+00:00",
+    "movie_id": 1745446,
+    "overview": "In a dystopian future where the parole system has been replaced with R.A.P.P. - the Recidivism Accountability Partnership Program - a white collar ex-con must take drastic measures to ensure his survival when he's paired with a sociopathic gangster with terminal cancer. One wrong move by either of them could mean the summary execution of them both, via the explosive charges surgically implanted in their hearts as a condition of their release.",
+    "poster_path": "/wJQjU8AvN5Z2USzGseTL98oZSlB.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-08-18",
+    "release_date": "2026-08-11",
+    "title": "Shackled"
+  },
   "svod:8:1487864": {
     "arrived": "2026-08-13T14:33:59.662816+00:00",
     "movie_id": 1487864,
@@ -53,6 +64,17 @@
     "publish_after": "2026-08-20",
     "release_date": "2026-08-13",
     "title": "Don't Say Good Luck"
+  },
+  "svod:8:1589248": {
+    "arrived": "2026-08-16T13:46:56.144278+00:00",
+    "movie_id": 1589248,
+    "overview": "Olli and Matze are best friends living, working and planning to travel the world together \u2014 until Matze's romance with Rebecca turns it all upside down.",
+    "poster_path": "/aWLshM7DZECutuQVpMfhDiPZUQC.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-08-21",
+    "release_date": "2026-08-14",
+    "title": "My Best Friend, His Girlfriend and Me"
   },
   "svod:8:1632473": {
     "arrived": "2026-08-14T14:27:09.942152+00:00",
