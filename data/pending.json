@@ -21,17 +21,6 @@
     "release_date": "2026-08-11",
     "title": "Sawtooth Mountain"
   },
-  "rentals:10:1619417": {
-    "arrived": "2026-08-13T14:33:59.662816+00:00",
-    "movie_id": 1619417,
-    "overview": "A group of vloggers investigate an abandoned research facility, where long-buried secrets transform their search into a desperate fight for survival.",
-    "poster_path": "/bmzupHFswYFn8jk7jFqFaZpBEuq.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-08-17",
-    "release_date": "2026-08-10",
-    "title": "The Bigfoot Experiment"
-  },
   "rentals:10:1745446": {
     "arrived": "2026-08-16T13:46:56.144278+00:00",
     "movie_id": 1745446,
@@ -42,6 +31,28 @@
     "publish_after": "2026-08-18",
     "release_date": "2026-08-11",
     "title": "Shackled"
+  },
+  "rentals:10:1748345": {
+    "arrived": "2026-08-17T13:55:29.564667+00:00",
+    "movie_id": 1748345,
+    "overview": "After a devastating personal tragedy, an A-list actress retreats to a secluded island villa. But she's not alone....",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-08-22",
+    "release_date": "2026-08-15",
+    "title": "Adored"
+  },
+  "svod:1899:1490260": {
+    "arrived": "2026-08-17T13:55:29.564667+00:00",
+    "movie_id": 1490260,
+    "overview": "Comedian, musician, and actor Whitmer Thomas digs into his small-town Alabama upbringing and his ongoing quest to be cool.",
+    "poster_path": "/6PzBwUDlVv9b2ISrVGApPNpnCls.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-08-21",
+    "release_date": "2026-08-14",
+    "title": "Whitmer Thomas: Terminal Crew of Dudes"
   },
   "svod:8:1487864": {
     "arrived": "2026-08-13T14:33:59.662816+00:00",
