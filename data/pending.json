@@ -10,6 +10,17 @@
     "release_date": "2026-08-25",
     "title": "Plan Bea"
   },
+  "rentals:10:1747096": {
+    "arrived": "2026-08-26T14:07:02.187138+00:00",
+    "movie_id": 1747096,
+    "overview": "When Max Dangerfield's anger issues get her strapped with $25,000 in fines, she's completely lost on how to dig herself out.  Luckily, her two best friends Charlotte and Spence have an idea. The internet show sensation 'Balloon Shop' is having a pickleball tournament with a huge cash prize. The only problem - none of them know what pickleball is.  With an array of unhinged new friends support, Max and her new partner Lexi are ready to take it all on. The only wall in their way is Rachel Summers. The token town mean girl with a vendetta aimed right at Max's forehead.  Rachel hires a 5 time tournament winning pickleball player as her partner to ensure Max and Lexi stand no chance at all.  So, with the odds stacked against them the gang have no choice but to give it everything they've got.",
+    "poster_path": "/hMnh98leXyB1hzmeMlB0DUmsOJF.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-01",
+    "release_date": "2026-08-25",
+    "title": "Pickleballers"
+  },
   "rentals:10:1748419": {
     "arrived": "2026-08-23T13:47:43.206611+00:00",
     "movie_id": 1748419,
@@ -53,6 +64,17 @@
     "publish_after": "2026-08-28",
     "release_date": "2026-08-21",
     "title": "Facing El Chapo"
+  },
+  "svod:8:1739186": {
+    "arrived": "2026-08-26T14:07:02.187138+00:00",
+    "movie_id": 1739186,
+    "overview": "After delivering one of the greatest performances in Rose Bowl history, Texas Longhorns legend Vince Young was the NFL's next big thing, and for a while, he was. But a career riddled by injuries, conflict and sudden loss tells a far more complicated story than the highlight reels ever showed.",
+    "poster_path": "/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-01",
+    "release_date": "2026-08-25",
+    "title": "Untold: The Testimony of Vince Young"
   },
   "svod:8:1741201": {
     "arrived": "2026-08-22T13:46:21.850179+00:00",
