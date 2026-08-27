@@ -1,4 +1,15 @@
 {
+  "rentals:10:1467548": {
+    "arrived": "2026-08-27T22:58:53.715084+00:00",
+    "movie_id": 1467548,
+    "overview": "A group of elite bounty hunters are on the trail to track down and kill The Desert Fiends. Meanwhile, a TikTok style influencer has come into town to have a meet up while the Desert Fiends are heading that way to eliminate that meet up.",
+    "poster_path": "/oZ99apX8QRr1qninnE5yHCw8fpV.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-01",
+    "release_date": "2026-08-25",
+    "title": "Desert Fiends 2"
+  },
   "rentals:10:1725099": {
     "arrived": "2026-08-25T14:07:55.871388+00:00",
     "movie_id": 1725099,
@@ -9,6 +20,17 @@
     "publish_after": "2026-09-01",
     "release_date": "2026-08-25",
     "title": "Plan Bea"
+  },
+  "rentals:10:1735460": {
+    "arrived": "2026-08-27T22:58:53.715084+00:00",
+    "movie_id": 1735460,
+    "overview": "In a remote town, a 14-year-old misfit teenager becomes manipulated by a mysterious, disfigured old man.",
+    "poster_path": "/1cORBHmmUHHzJBVXPD89FWVo299.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-01",
+    "release_date": "2026-08-25",
+    "title": "Hide"
   },
   "rentals:10:1747096": {
     "arrived": "2026-08-26T14:07:02.187138+00:00",
@@ -76,26 +98,26 @@
     "release_date": "2026-08-25",
     "title": "Untold: The Testimony of Vince Young"
   },
-  "svod:8:1741201": {
-    "arrived": "2026-08-22T13:46:21.850179+00:00",
-    "movie_id": 1741201,
-    "overview": "When a young girl vanishes from a remote village, the frantic police hunt become a media frenzy. But who turned a suspected criminal into a celebrity?",
-    "poster_path": "/hrbzPEGyu33JyepFvSe6EkN35yq.jpg",
+  "svod:8:1740313": {
+    "arrived": "2026-08-27T22:58:53.715084+00:00",
+    "movie_id": 1740313,
+    "overview": "Blending the wild worlds of circus and comedy, anarchic acts collide for this raunchy and explicit variety show - clothing not guaranteed.",
+    "poster_path": "/icbUcwgj0iNOJnlPWOXiZxWR5Px.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-08-27",
-    "release_date": "2026-08-20",
-    "title": "Chompoo: Lost\u200b &\u200b Forgotten\u200b"
+    "publish_after": "2026-09-01",
+    "release_date": "2026-08-25",
+    "title": "Stamptown"
   },
-  "svod:9:1626188": {
-    "arrived": "2026-08-22T13:46:21.850179+00:00",
-    "movie_id": 1626188,
-    "overview": "Explore the extraordinary journey of tennis GOAT Novak Djokovic, who began playing on the hardscrabble courts of Serbia and rose to become the most accomplished champion in the history of men's tennis.",
-    "poster_path": "/4VvaFy9Z5C879akw3XJ31XK4lWO.jpg",
+  "svod:9:1516698": {
+    "arrived": "2026-08-27T22:58:53.715084+00:00",
+    "movie_id": 1516698,
+    "overview": "Ry, a college student with a chronic illness, escapes to Mallorca for the summer with her mother, where she unexpectedly falls for a local and begins to embrace living in the moment. But as her condition worsens and long-hidden family secrets come to light, everything she has found before summer's end is threatened.",
+    "poster_path": "/3PWJqDfygN0YNNjWsDUOXclCp3h.jpg",
     "provider_id": 9,
     "provider_name": "Prime Video",
-    "publish_after": "2026-08-27",
-    "release_date": "2026-08-20",
-    "title": "Novak Djokovic: The Wolf in Winter"
+    "publish_after": "2026-09-02",
+    "release_date": "2026-08-26",
+    "title": "The Last Sunrise"
   }
 }
