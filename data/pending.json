@@ -1,4 +1,15 @@
 {
+  "rentals:10:1002280": {
+    "arrived": "2026-08-28T23:04:25.166669+00:00",
+    "movie_id": 1002280,
+    "overview": "While putting together a horror movie, a group of filmmakers are terrorized by a killer after hiring the wrong person for the job.",
+    "poster_path": "/1leQ1P3mT8cnsheKoms0N9CtISK.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-01",
+    "release_date": "2026-08-25",
+    "title": "Pay to Die"
+  },
   "rentals:10:1467548": {
     "arrived": "2026-08-27T22:58:53.715084+00:00",
     "movie_id": 1467548,
@@ -43,17 +54,6 @@
     "release_date": "2026-08-25",
     "title": "Pickleballers"
   },
-  "rentals:10:1748419": {
-    "arrived": "2026-08-23T13:47:43.206611+00:00",
-    "movie_id": 1748419,
-    "overview": "When a body is found in the walls of her dream home during renovation, new mother, Kenzie Carter spirals into paranoia experiencing terrifying visions about her daughter, Anna. Kenzie\u2019s worried but busy husband, Eric, suggests a nanny to help. Enter Genevieve, the mysterious nanny who bonds instantly with Anna. As Kenzie\u2019s grip on reality fractures, the body is identified revealing dark history, a missing past, and a deadly secret that threatens everyone Kenzie loves.",
-    "poster_path": "/gb6w3uvChgjvT6alqqOzAHXz4Yb.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-08-28",
-    "release_date": "2026-08-21",
-    "title": "A Mother's Secret"
-  },
   "rentals:10:1749021": {
     "arrived": "2026-08-25T14:07:55.871388+00:00",
     "movie_id": 1749021,
@@ -64,28 +64,6 @@
     "publish_after": "2026-08-29",
     "release_date": "2026-08-22",
     "title": "The Babysitter\u2019s Double Life"
-  },
-  "svod:8:1538273": {
-    "arrived": "2026-08-23T13:47:43.206611+00:00",
-    "movie_id": 1538273,
-    "overview": "When a bride refuses to leave her family home after marriage, her husband must find out if he can adjust to life under his in-laws' roof.",
-    "poster_path": "/AjaNAeMXOrK9n0YqGqX0Lz5qxYu.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-08-28",
-    "release_date": "2026-08-21",
-    "title": "Pyaar Prema Kalyanam"
-  },
-  "svod:8:1621552": {
-    "arrived": "2026-08-23T13:47:43.206611+00:00",
-    "movie_id": 1621552,
-    "overview": "Two Mexican officers must survive the final hours of their shift after crossing a ruthless cartel boss.",
-    "poster_path": "/alpf5v4UqSFawPmG9RX03Or4BDk.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-08-28",
-    "release_date": "2026-08-21",
-    "title": "Facing El Chapo"
   },
   "svod:8:1739186": {
     "arrived": "2026-08-26T14:07:02.187138+00:00",
@@ -108,6 +86,17 @@
     "publish_after": "2026-09-01",
     "release_date": "2026-08-25",
     "title": "Stamptown"
+  },
+  "svod:8:1756450": {
+    "arrived": "2026-08-28T23:04:25.166669+00:00",
+    "movie_id": 1756450,
+    "overview": "Chronicles the MiG-21's final chapter in the Indian Air Force, showcasing stories of generations of fighter pilots who flew it.",
+    "poster_path": "/vcwG27XxJ7adAOfYiON8IjPUfSX.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-02",
+    "release_date": "2026-08-26",
+    "title": "The Last Salute"
   },
   "svod:9:1516698": {
     "arrived": "2026-08-27T22:58:53.715084+00:00",
