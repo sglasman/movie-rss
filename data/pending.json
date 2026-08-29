@@ -43,6 +43,17 @@
     "release_date": "2026-08-25",
     "title": "Hide"
   },
+  "rentals:10:1737199": {
+    "arrived": "2026-08-29T17:11:34.513106+00:00",
+    "movie_id": 1737199,
+    "overview": "Dead Janitors Club is a dark comedy crime film adapted from Jeff Klima's real-life memoir, The Dead Janitors Club: Pathetically True Tales of a Crime Scene Cleanup King. The story follows crooked cop Dirk (Jake Busey) and his cash-strapped partner Jeff Klima (Felix Merback) as they run a risky, illicit side-hustle cleaning up crime scenes. Things spiral violently out of control when Jeff lifts a mysterious safe from a bloody crime scene, not realizing it belongs to a dangerous drug cartel. At the same time, Jeff falls for Kerry (Brianna Gage), a tattoo artist who is quickly dragged into the crosshairs.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-04",
+    "release_date": "2026-08-28",
+    "title": "Dead Janitors Club"
+  },
   "rentals:10:1747096": {
     "arrived": "2026-08-26T14:07:02.187138+00:00",
     "movie_id": 1747096,
@@ -54,16 +65,16 @@
     "release_date": "2026-08-25",
     "title": "Pickleballers"
   },
-  "rentals:10:1749021": {
-    "arrived": "2026-08-25T14:07:55.871388+00:00",
-    "movie_id": 1749021,
-    "overview": "A College Student begins an affair with a wealthy man who inspires her to create a babysitting-adjacent service for lonely, divorced fathers. However, things soon get dangerous as the operation grows into a full prostitution ring under her name.",
-    "poster_path": "/zubRQUT5kP5nUAtnBjgiFH3zXSi.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-08-29",
-    "release_date": "2026-08-22",
-    "title": "The Babysitter\u2019s Double Life"
+  "svod:8:1631807": {
+    "arrived": "2026-08-29T17:11:34.513106+00:00",
+    "movie_id": 1631807,
+    "overview": "After discovering she has a family and a shipping empire, a woman with amnesia returns to a wealthy and seemingly perfect past to uncover why she left.",
+    "poster_path": "/5FC5vUHFz0fbJOd0bhyzJpCSLrc.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-04",
+    "release_date": "2026-08-28",
+    "title": "The Secret Woman"
   },
   "svod:8:1739186": {
     "arrived": "2026-08-26T14:07:02.187138+00:00",
@@ -97,6 +108,28 @@
     "publish_after": "2026-09-02",
     "release_date": "2026-08-26",
     "title": "The Last Salute"
+  },
+  "svod:8:860508": {
+    "arrived": "2026-08-29T17:11:34.513106+00:00",
+    "movie_id": 860508,
+    "overview": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
+    "poster_path": "/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-03",
+    "release_date": "2026-08-27",
+    "title": "The Whisper Man"
+  },
+  "svod:9:1471168": {
+    "arrived": "2026-08-29T17:11:34.513106+00:00",
+    "movie_id": 1471168,
+    "overview": "A fictionalized drama film based on one of the most shocking crimes in Argentina's history. In 1992, Ricardo Barreda was an unassuming dentist, brutally murdered his wife, mother-in-law, and two adult daughters in their family home. Branding himself as a victim, Ricardo Barreda ignited a media storm and fueled a national scandal.",
+    "poster_path": "/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-09-04",
+    "release_date": "2026-08-28",
+    "title": "Barreda"
   },
   "svod:9:1516698": {
     "arrived": "2026-08-27T22:58:53.715084+00:00",
