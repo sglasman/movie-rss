@@ -1,47 +1,14 @@
 {
-  "rentals:10:1002280": {
-    "arrived": "2026-08-28T23:04:25.166669+00:00",
-    "movie_id": 1002280,
-    "overview": "While putting together a horror movie, a group of filmmakers are terrorized by a killer after hiring the wrong person for the job.",
-    "poster_path": "/1leQ1P3mT8cnsheKoms0N9CtISK.jpg",
+  "rentals:10:1361982": {
+    "arrived": "2026-09-01T17:20:28.835739+00:00",
+    "movie_id": 1361982,
+    "overview": "After losing her son to cancer, a grieving mother living with a mysterious creature in her home befriends another boy to replace her dead son. But when a retired detective begins investigating the child's disappearance, her carefully constructed world starts to unravel.",
+    "poster_path": "/ph0u1WD3snsO42Lh3Mmiw1siTf7.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Pay to Die"
-  },
-  "rentals:10:1467548": {
-    "arrived": "2026-08-27T22:58:53.715084+00:00",
-    "movie_id": 1467548,
-    "overview": "A group of elite bounty hunters are on the trail to track down and kill The Desert Fiends. Meanwhile, a TikTok style influencer has come into town to have a meet up while the Desert Fiends are heading that way to eliminate that meet up.",
-    "poster_path": "/oZ99apX8QRr1qninnE5yHCw8fpV.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Desert Fiends 2"
-  },
-  "rentals:10:1725099": {
-    "arrived": "2026-08-25T14:07:55.871388+00:00",
-    "movie_id": 1725099,
-    "overview": "Bea has always known she was born to perform. But when a pandemic shuts down her school's music program and bans singing altogether, even her boundless ambition hits a wall. Undeterred, she convinces her friends to form an underground show choir \u2014 and what starts as an act of rebellion slowly becomes something much bigger: a reminder that music isn't a privilege, it's a lifeline. Funny, heartfelt, and packed with original songs, Plan Bea is an Australian musical feature film that proves you can't stop joy.",
-    "poster_path": "/bpYyCTdsEQ7HpnlU7XhM9UV2tfj.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Plan Bea"
-  },
-  "rentals:10:1735460": {
-    "arrived": "2026-08-27T22:58:53.715084+00:00",
-    "movie_id": 1735460,
-    "overview": "In a remote town, a 14-year-old misfit teenager becomes manipulated by a mysterious, disfigured old man.",
-    "poster_path": "/1cORBHmmUHHzJBVXPD89FWVo299.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Hide"
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "The Room Below"
   },
   "rentals:10:1737199": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
@@ -54,17 +21,6 @@
     "release_date": "2026-08-28",
     "title": "Dead Janitors Club"
   },
-  "rentals:10:1747096": {
-    "arrived": "2026-08-26T14:07:02.187138+00:00",
-    "movie_id": 1747096,
-    "overview": "When Max Dangerfield's anger issues get her strapped with $25,000 in fines, she's completely lost on how to dig herself out.  Luckily, her two best friends Charlotte and Spence have an idea. The internet show sensation 'Balloon Shop' is having a pickleball tournament with a huge cash prize. The only problem - none of them know what pickleball is.  With an array of unhinged new friends support, Max and her new partner Lexi are ready to take it all on. The only wall in their way is Rachel Summers. The token town mean girl with a vendetta aimed right at Max's forehead.  Rachel hires a 5 time tournament winning pickleball player as her partner to ensure Max and Lexi stand no chance at all.  So, with the odds stacked against them the gang have no choice but to give it everything they've got.",
-    "poster_path": "/hMnh98leXyB1hzmeMlB0DUmsOJF.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Pickleballers"
-  },
   "svod:8:1631807": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
     "movie_id": 1631807,
@@ -75,28 +31,6 @@
     "publish_after": "2026-09-04",
     "release_date": "2026-08-28",
     "title": "The Secret Woman"
-  },
-  "svod:8:1739186": {
-    "arrived": "2026-08-26T14:07:02.187138+00:00",
-    "movie_id": 1739186,
-    "overview": "After delivering one of the greatest performances in Rose Bowl history, Texas Longhorns legend Vince Young was the NFL's next big thing, and for a while, he was. But a career riddled by injuries, conflict and sudden loss tells a far more complicated story than the highlight reels ever showed.",
-    "poster_path": "/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Untold: The Testimony of Vince Young"
-  },
-  "svod:8:1740313": {
-    "arrived": "2026-08-27T22:58:53.715084+00:00",
-    "movie_id": 1740313,
-    "overview": "Blending the wild worlds of circus and comedy, anarchic acts collide for this raunchy and explicit variety show - clothing not guaranteed.",
-    "poster_path": "/icbUcwgj0iNOJnlPWOXiZxWR5Px.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-01",
-    "release_date": "2026-08-25",
-    "title": "Stamptown"
   },
   "svod:8:1756450": {
     "arrived": "2026-08-28T23:04:25.166669+00:00",
