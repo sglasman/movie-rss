@@ -1,4 +1,15 @@
 {
+  "rentals:10:1135425": {
+    "arrived": "2026-09-02T17:11:36.309197+00:00",
+    "movie_id": 1135425,
+    "overview": "Murder binds the lives of a desperate woman and a haunted man as the two try for one night to outrun a maniacal cop, and the toxic lives they're trapped in.",
+    "poster_path": "/pjlTBP0tavhjbMPW7MhsTWZu52l.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "Nowhere Fast"
+  },
   "rentals:10:1361982": {
     "arrived": "2026-09-01T17:20:28.835739+00:00",
     "movie_id": 1361982,
@@ -9,6 +20,17 @@
     "publish_after": "2026-09-08",
     "release_date": "2026-09-01",
     "title": "The Room Below"
+  },
+  "rentals:10:1365569": {
+    "arrived": "2026-09-02T17:11:36.309197+00:00",
+    "movie_id": 1365569,
+    "overview": "At her lowest point, a woman rescues an injured one-day old sparrow, and their profound bond sparks a worldwide journey to explore with other extraordinary human-animal connections, challenging us to see kindness, connection, and compassion, in a whole new light.",
+    "poster_path": "/tJqXbaybaeQLskRaobRNNsEMgjw.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "Finding Happy"
   },
   "rentals:10:1737199": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
@@ -21,6 +43,17 @@
     "release_date": "2026-08-28",
     "title": "Dead Janitors Club"
   },
+  "rentals:10:1742458": {
+    "arrived": "2026-09-02T17:11:36.309197+00:00",
+    "movie_id": 1742458,
+    "overview": "Pregnant and recently widowed, Stella is taken in by her late husband\u2019s estranged family. But beneath their generosity lies something deeply unsettling, leaving Stella fighting for her life as their obsession with her unborn child turns deadly.",
+    "poster_path": "/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "Confinement"
+  },
   "svod:8:1631807": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
     "movie_id": 1631807,
@@ -32,16 +65,27 @@
     "release_date": "2026-08-28",
     "title": "The Secret Woman"
   },
-  "svod:8:1756450": {
-    "arrived": "2026-08-28T23:04:25.166669+00:00",
-    "movie_id": 1756450,
-    "overview": "Chronicles the MiG-21's final chapter in the Indian Air Force, showcasing stories of generations of fighter pilots who flew it.",
-    "poster_path": "/vcwG27XxJ7adAOfYiON8IjPUfSX.jpg",
+  "svod:8:1739202": {
+    "arrived": "2026-09-02T17:11:36.309197+00:00",
+    "movie_id": 1739202,
+    "overview": "Nobody, least of all Rachael Gunn, expected to be an Olympian. But as Raygun\u2019s performance at the 2024 Paris Olympics went viral overnight, so did an avalanche of memes, misinformation, and conspiracy theories questioning how she ever got there.",
+    "poster_path": "/3pnlJjsGtrUp3cPEOLzkR0sPQAK.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-09-02",
-    "release_date": "2026-08-26",
-    "title": "The Last Salute"
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "Untold Raygun: Breaking Badly"
+  },
+  "svod:8:1749166": {
+    "arrived": "2026-09-02T17:11:36.309197+00:00",
+    "movie_id": 1749166,
+    "overview": "The special finds Freid keeping his issues \u201cin the family,\u201d joking about everything from vacationing with his parents to a Karen video that hits close to home.",
+    "poster_path": "/pbkEx1zKRsffOhg3Gfqv7cGkVgJ.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "Jared Freid: The Family Plan"
   },
   "svod:8:860508": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
@@ -64,16 +108,5 @@
     "publish_after": "2026-09-04",
     "release_date": "2026-08-28",
     "title": "Barreda"
-  },
-  "svod:9:1516698": {
-    "arrived": "2026-08-27T22:58:53.715084+00:00",
-    "movie_id": 1516698,
-    "overview": "Ry, a college student with a chronic illness, escapes to Mallorca for the summer with her mother, where she unexpectedly falls for a local and begins to embrace living in the moment. But as her condition worsens and long-hidden family secrets come to light, everything she has found before summer's end is threatened.",
-    "poster_path": "/3PWJqDfygN0YNNjWsDUOXclCp3h.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-09-02",
-    "release_date": "2026-08-26",
-    "title": "The Last Sunrise"
   }
 }
