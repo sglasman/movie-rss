@@ -54,6 +54,17 @@
     "release_date": "2026-09-01",
     "title": "Confinement"
   },
+  "rentals:10:1755665": {
+    "arrived": "2026-09-03T17:03:46.321193+00:00",
+    "movie_id": 1755665,
+    "overview": "A notorious assassin captured by an AI-controlled covert Agency, must navigate fractured versions of his identities to reach the system's hidden cores-and destroy it from within before his secrets are extracted.",
+    "poster_path": "/dCl86bNZt4ww1xLj7T4CwQBVdBY.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "Assassin Within"
+  },
   "svod:8:1631807": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
     "movie_id": 1631807,
@@ -87,16 +98,16 @@
     "release_date": "2026-09-01",
     "title": "Jared Freid: The Family Plan"
   },
-  "svod:8:860508": {
-    "arrived": "2026-08-29T17:11:34.513106+00:00",
-    "movie_id": 860508,
-    "overview": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
-    "poster_path": "/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+  "svod:8:1752159": {
+    "arrived": "2026-09-03T17:03:46.321193+00:00",
+    "movie_id": 1752159,
+    "overview": "A quarter-century after September 11th, the attacks' ripple effects persist across generations. Orphaned children, War on Terror journalists, young Afghans, and U.S. Marines shaped by the 2021 withdrawal share their stories.",
+    "poster_path": "/6DVDbbneXuhFHmqGvTVko2sVz0o.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-09-03",
-    "release_date": "2026-08-27",
-    "title": "The Whisper Man"
+    "publish_after": "2026-09-09",
+    "release_date": "2026-09-02",
+    "title": "Turning Point: Generation 9/11"
   },
   "svod:9:1471168": {
     "arrived": "2026-08-29T17:11:34.513106+00:00",
