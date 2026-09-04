@@ -32,17 +32,6 @@
     "release_date": "2026-09-01",
     "title": "Finding Happy"
   },
-  "rentals:10:1737199": {
-    "arrived": "2026-08-29T17:11:34.513106+00:00",
-    "movie_id": 1737199,
-    "overview": "Dead Janitors Club is a dark comedy crime film adapted from Jeff Klima's real-life memoir, The Dead Janitors Club: Pathetically True Tales of a Crime Scene Cleanup King. The story follows crooked cop Dirk (Jake Busey) and his cash-strapped partner Jeff Klima (Felix Merback) as they run a risky, illicit side-hustle cleaning up crime scenes. Things spiral violently out of control when Jeff lifts a mysterious safe from a bloody crime scene, not realizing it belongs to a dangerous drug cartel. At the same time, Jeff falls for Kerry (Brianna Gage), a tattoo artist who is quickly dragged into the crosshairs.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-04",
-    "release_date": "2026-08-28",
-    "title": "Dead Janitors Club"
-  },
   "rentals:10:1742458": {
     "arrived": "2026-09-02T17:11:36.309197+00:00",
     "movie_id": 1742458,
@@ -53,6 +42,17 @@
     "publish_after": "2026-09-08",
     "release_date": "2026-09-01",
     "title": "Confinement"
+  },
+  "rentals:10:1748841": {
+    "arrived": "2026-09-04T16:53:17.542442+00:00",
+    "movie_id": 1748841,
+    "overview": "When a nightmarish monster emerges from the depths of an Appalachian coal mine, a young mother must hunt down the creature to protect her home and save her family.",
+    "poster_path": "/fMbhJKv5bvVnh9HUwm1mTKmZdeZ.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-11",
+    "release_date": "2026-09-04",
+    "title": "Dark Hollow"
   },
   "rentals:10:1755665": {
     "arrived": "2026-09-03T17:03:46.321193+00:00",
@@ -65,16 +65,16 @@
     "release_date": "2026-09-01",
     "title": "Assassin Within"
   },
-  "svod:8:1631807": {
-    "arrived": "2026-08-29T17:11:34.513106+00:00",
-    "movie_id": 1631807,
-    "overview": "After discovering she has a family and a shipping empire, a woman with amnesia returns to a wealthy and seemingly perfect past to uncover why she left.",
-    "poster_path": "/5FC5vUHFz0fbJOd0bhyzJpCSLrc.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-04",
-    "release_date": "2026-08-28",
-    "title": "The Secret Woman"
+  "svod:15:1752154": {
+    "arrived": "2026-09-04T16:53:17.542442+00:00",
+    "movie_id": 1752154,
+    "overview": "Explore how sports, music, Broadway and comedy helped Americans rediscover joy and begin to heal in the wake of the 9/11 attacks.",
+    "poster_path": "/3BGYcEQnVjVzImecgXcm1xtzdEV.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-09-08",
+    "release_date": "2026-09-01",
+    "title": "9/11: United We Stand -- 25 Years Later"
   },
   "svod:8:1739202": {
     "arrived": "2026-09-02T17:11:36.309197+00:00",
@@ -86,6 +86,17 @@
     "publish_after": "2026-09-08",
     "release_date": "2026-09-01",
     "title": "Untold Raygun: Breaking Badly"
+  },
+  "svod:8:1744876": {
+    "arrived": "2026-09-04T16:53:17.542442+00:00",
+    "movie_id": 1744876,
+    "overview": "A documentary film that observes, listens to, and interacts with Fito P\u00e1ez from a place of profound intimacy. The camera, almost invisible, witnesses his every move, accompanying him for over a year during recordings, rehearsals, tours, and performances in major cities across Latin America, Europe, and the United States. It is also a journey through the life of one of the greatest Spanish-language artists: his loves and heartbreaks, children and friendships, excesses, tragedies, failures, and successes.",
+    "poster_path": "/5Olp4wGl2XEGkjVebukgZljYW3Q.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-10",
+    "release_date": "2026-09-03",
+    "title": "Fito P\u00e1ez: The World Within a Song"
   },
   "svod:8:1749166": {
     "arrived": "2026-09-02T17:11:36.309197+00:00",
@@ -108,16 +119,5 @@
     "publish_after": "2026-09-09",
     "release_date": "2026-09-02",
     "title": "Turning Point: Generation 9/11"
-  },
-  "svod:9:1471168": {
-    "arrived": "2026-08-29T17:11:34.513106+00:00",
-    "movie_id": 1471168,
-    "overview": "A fictionalized drama film based on one of the most shocking crimes in Argentina's history. In 1992, Ricardo Barreda was an unassuming dentist, brutally murdered his wife, mother-in-law, and two adult daughters in their family home. Branding himself as a victim, Ricardo Barreda ignited a media storm and fueled a national scandal.",
-    "poster_path": "/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-09-04",
-    "release_date": "2026-08-28",
-    "title": "Barreda"
   }
 }
