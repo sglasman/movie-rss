@@ -76,6 +76,17 @@
     "release_date": "2026-09-01",
     "title": "9/11: United We Stand -- 25 Years Later"
   },
+  "svod:8:1355228": {
+    "arrived": "2026-09-05T16:06:53.964552+00:00",
+    "movie_id": 1355228,
+    "overview": "When a mother loses her eyesight and her daughter in a kidnapping, she takes matters into her own hands to hunt down those responsible.",
+    "poster_path": "/aF3IhwS1mrVfvM9OMXmTaXAT0l8.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-10",
+    "release_date": "2026-09-03",
+    "title": "Gandhari"
+  },
   "svod:8:1739202": {
     "arrived": "2026-09-02T17:11:36.309197+00:00",
     "movie_id": 1739202,
