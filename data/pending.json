@@ -1,47 +1,14 @@
 {
-  "rentals:10:1135425": {
-    "arrived": "2026-09-02T17:11:36.309197+00:00",
-    "movie_id": 1135425,
-    "overview": "Murder binds the lives of a desperate woman and a haunted man as the two try for one night to outrun a maniacal cop, and the toxic lives they're trapped in.",
-    "poster_path": "/pjlTBP0tavhjbMPW7MhsTWZu52l.jpg",
+  "rentals:10:1742483": {
+    "arrived": "2026-09-08T17:16:41.747581+00:00",
+    "movie_id": 1742483,
+    "overview": "A delusional vampire takes it upon himself to rid his town of violence. To do so, he teams up with a couple of freshly turned vampires, a stubborn christian struggling to adjust to his new truth, and a rook who is quick to adapt to hers.",
+    "poster_path": "/e9MmcMD43KhrrChkq2qmcWPRLFM.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "Nowhere Fast"
-  },
-  "rentals:10:1361982": {
-    "arrived": "2026-09-01T17:20:28.835739+00:00",
-    "movie_id": 1361982,
-    "overview": "After losing her son to cancer, a grieving mother living with a mysterious creature in her home befriends another boy to replace her dead son. But when a retired detective begins investigating the child's disappearance, her carefully constructed world starts to unravel.",
-    "poster_path": "/ph0u1WD3snsO42Lh3Mmiw1siTf7.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "The Room Below"
-  },
-  "rentals:10:1365569": {
-    "arrived": "2026-09-02T17:11:36.309197+00:00",
-    "movie_id": 1365569,
-    "overview": "At her lowest point, a woman rescues an injured one-day old sparrow, and their profound bond sparks a worldwide journey to explore with other extraordinary human-animal connections, challenging us to see kindness, connection, and compassion, in a whole new light.",
-    "poster_path": "/tJqXbaybaeQLskRaobRNNsEMgjw.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "Finding Happy"
-  },
-  "rentals:10:1742458": {
-    "arrived": "2026-09-02T17:11:36.309197+00:00",
-    "movie_id": 1742458,
-    "overview": "Pregnant and recently widowed, Stella is taken in by her late husband\u2019s estranged family. But beneath their generosity lies something deeply unsettling, leaving Stella fighting for her life as their obsession with her unborn child turns deadly.",
-    "poster_path": "/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "Confinement"
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "Biff the Human Slayer"
   },
   "rentals:10:1748841": {
     "arrived": "2026-09-04T16:53:17.542442+00:00",
@@ -54,28 +21,6 @@
     "release_date": "2026-09-04",
     "title": "Dark Hollow"
   },
-  "rentals:10:1755665": {
-    "arrived": "2026-09-03T17:03:46.321193+00:00",
-    "movie_id": 1755665,
-    "overview": "A notorious assassin captured by an AI-controlled covert Agency, must navigate fractured versions of his identities to reach the system's hidden cores-and destroy it from within before his secrets are extracted.",
-    "poster_path": "/dCl86bNZt4ww1xLj7T4CwQBVdBY.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "Assassin Within"
-  },
-  "svod:15:1752154": {
-    "arrived": "2026-09-04T16:53:17.542442+00:00",
-    "movie_id": 1752154,
-    "overview": "Explore how sports, music, Broadway and comedy helped Americans rediscover joy and begin to heal in the wake of the 9/11 attacks.",
-    "poster_path": "/3BGYcEQnVjVzImecgXcm1xtzdEV.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "9/11: United We Stand -- 25 Years Later"
-  },
   "svod:8:1355228": {
     "arrived": "2026-09-05T16:06:53.964552+00:00",
     "movie_id": 1355228,
@@ -87,17 +32,6 @@
     "release_date": "2026-09-03",
     "title": "Gandhari"
   },
-  "svod:8:1739202": {
-    "arrived": "2026-09-02T17:11:36.309197+00:00",
-    "movie_id": 1739202,
-    "overview": "Nobody, least of all Rachael Gunn, expected to be an Olympian. But as Raygun\u2019s performance at the 2024 Paris Olympics went viral overnight, so did an avalanche of memes, misinformation, and conspiracy theories questioning how she ever got there.",
-    "poster_path": "/3pnlJjsGtrUp3cPEOLzkR0sPQAK.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "Untold Raygun: Breaking Badly"
-  },
   "svod:8:1744876": {
     "arrived": "2026-09-04T16:53:17.542442+00:00",
     "movie_id": 1744876,
@@ -108,17 +42,6 @@
     "publish_after": "2026-09-10",
     "release_date": "2026-09-03",
     "title": "Fito P\u00e1ez: The World Within a Song"
-  },
-  "svod:8:1749166": {
-    "arrived": "2026-09-02T17:11:36.309197+00:00",
-    "movie_id": 1749166,
-    "overview": "The special finds Freid keeping his issues \u201cin the family,\u201d joking about everything from vacationing with his parents to a Karen video that hits close to home.",
-    "poster_path": "/pbkEx1zKRsffOhg3Gfqv7cGkVgJ.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-08",
-    "release_date": "2026-09-01",
-    "title": "Jared Freid: The Family Plan"
   },
   "svod:8:1752159": {
     "arrived": "2026-09-03T17:03:46.321193+00:00",
