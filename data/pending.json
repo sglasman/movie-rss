@@ -1,4 +1,26 @@
 {
+  "rentals:10:1646115": {
+    "arrived": "2026-09-09T17:10:45.355887+00:00",
+    "movie_id": 1646115,
+    "overview": "After her family is murdered, a champion swimmer infiltrates the killer's home-ready to drown his world in vengeance.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-14",
+    "release_date": "2026-09-07",
+    "title": "Deep Dive"
+  },
+  "rentals:10:1735476": {
+    "arrived": "2026-09-09T17:10:45.355887+00:00",
+    "movie_id": 1735476,
+    "overview": "A family's fresh start unravels when their son discovers an AI powered tablet, unleashing a wave of terror tied not only to the supernatural but to dark secrets of greed and corruption that surround them.",
+    "poster_path": "/vrRq1li3Yfbz5ntRnH7k7zRkarO.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-11",
+    "release_date": "2026-09-04",
+    "title": "CHAT"
+  },
   "rentals:10:1742483": {
     "arrived": "2026-09-08T17:16:41.747581+00:00",
     "movie_id": 1742483,
@@ -21,6 +43,17 @@
     "release_date": "2026-09-04",
     "title": "Dark Hollow"
   },
+  "rentals:10:1759875": {
+    "arrived": "2026-09-09T17:10:45.355887+00:00",
+    "movie_id": 1759875,
+    "overview": "Daniel Pierce dreams of joining the local Militia alongside his father once he turns eighteen, but when his Dad becomes the target of the local Sheriff, Daniel and his friends form their own militia in a troubled effort to save him.",
+    "poster_path": "/bBAeq5GAt6QKUL5eS0UalflLysH.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "The Militia"
+  },
   "svod:8:1355228": {
     "arrived": "2026-09-05T16:06:53.964552+00:00",
     "movie_id": 1355228,
@@ -31,6 +64,28 @@
     "publish_after": "2026-09-10",
     "release_date": "2026-09-03",
     "title": "Gandhari"
+  },
+  "svod:8:1664003": {
+    "arrived": "2026-09-09T17:10:45.355887+00:00",
+    "movie_id": 1664003,
+    "overview": "In this unruly set, Stavros Halkias imagines becoming a \"dirtbag\" uncle, roasts the health care system and warns of the risks of living your best life.",
+    "poster_path": "/lVdlQbkpnETCZXN76UwQzMiJH6m.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "Stavros Halkias: Uncle Stav"
+  },
+  "svod:8:1739206": {
+    "arrived": "2026-09-09T17:10:45.355887+00:00",
+    "movie_id": 1739206,
+    "overview": "Before the gold chains, mohawk, and Hollywood fame of The A-Team and Rocky III, there was Laurence Tureaud. This is the extraordinary origin story behind one of the most unlikely and beloved icons in entertainment \u2014 Mr. T.",
+    "poster_path": "/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "Untold Mr. T: I Pity the Fool"
   },
   "svod:8:1744876": {
     "arrived": "2026-09-04T16:53:17.542442+00:00",
@@ -43,15 +98,15 @@
     "release_date": "2026-09-03",
     "title": "Fito P\u00e1ez: The World Within a Song"
   },
-  "svod:8:1752159": {
-    "arrived": "2026-09-03T17:03:46.321193+00:00",
-    "movie_id": 1752159,
-    "overview": "A quarter-century after September 11th, the attacks' ripple effects persist across generations. Orphaned children, War on Terror journalists, young Afghans, and U.S. Marines shaped by the 2021 withdrawal share their stories.",
-    "poster_path": "/6DVDbbneXuhFHmqGvTVko2sVz0o.jpg",
+  "svod:8:1762763": {
+    "arrived": "2026-09-09T17:10:45.355887+00:00",
+    "movie_id": 1762763,
+    "overview": "Before her death, activist Gloria Steinem shared her final, heartfelt message with the world, knowing this interview would not air until she was gone.",
+    "poster_path": "/bt0gDeOJv2La7LpbribAw60PXFG.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-09-09",
-    "release_date": "2026-09-02",
-    "title": "Turning Point: Generation 9/11"
+    "publish_after": "2026-09-10",
+    "release_date": "2026-09-03",
+    "title": "Famous Last Words: Gloria Steinem"
   }
 }
