@@ -10,6 +10,17 @@
     "release_date": "2026-09-07",
     "title": "Deep Dive"
   },
+  "rentals:10:1712451": {
+    "arrived": "2026-09-10T17:01:14.995021+00:00",
+    "movie_id": 1712451,
+    "overview": "A man keeping his recently zombified daughter secure in hopes of a cure is tasked with delivering an unknown package through hordes of undead. If he succeeds, he will be given a cure for his daughter. If he fails, or opens the package, they will both be killed.",
+    "poster_path": "/qKhMVWwFikSUzOpkhOl35GBLkGH.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-11",
+    "release_date": "2026-09-04",
+    "title": "Resident Dead"
+  },
   "rentals:10:1735476": {
     "arrived": "2026-09-09T17:10:45.355887+00:00",
     "movie_id": 1735476,
@@ -54,16 +65,16 @@
     "release_date": "2026-09-08",
     "title": "The Militia"
   },
-  "svod:8:1355228": {
-    "arrived": "2026-09-05T16:06:53.964552+00:00",
-    "movie_id": 1355228,
-    "overview": "When a mother loses her eyesight and her daughter in a kidnapping, she takes matters into her own hands to hunt down those responsible.",
-    "poster_path": "/aF3IhwS1mrVfvM9OMXmTaXAT0l8.jpg",
+  "svod:8:1522689": {
+    "arrived": "2026-09-10T17:01:14.995021+00:00",
+    "movie_id": 1522689,
+    "overview": "The couples reunite for the destination wedding of Marcus and Angela's daughter, bringing drama old and new as they ask, \"Why did we get married again?\"",
+    "poster_path": "/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-09-10",
-    "release_date": "2026-09-03",
-    "title": "Gandhari"
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "Why Did I Get Married Again?"
   },
   "svod:8:1664003": {
     "arrived": "2026-09-09T17:10:45.355887+00:00",
@@ -87,26 +98,26 @@
     "release_date": "2026-09-08",
     "title": "Untold Mr. T: I Pity the Fool"
   },
-  "svod:8:1744876": {
-    "arrived": "2026-09-04T16:53:17.542442+00:00",
-    "movie_id": 1744876,
-    "overview": "A documentary film that observes, listens to, and interacts with Fito P\u00e1ez from a place of profound intimacy. The camera, almost invisible, witnesses his every move, accompanying him for over a year during recordings, rehearsals, tours, and performances in major cities across Latin America, Europe, and the United States. It is also a journey through the life of one of the greatest Spanish-language artists: his loves and heartbreaks, children and friendships, excesses, tragedies, failures, and successes.",
-    "poster_path": "/5Olp4wGl2XEGkjVebukgZljYW3Q.jpg",
+  "svod:8:1760262": {
+    "arrived": "2026-09-10T17:01:14.995021+00:00",
+    "movie_id": 1760262,
+    "overview": "A critical threat. A clandestine escape. And a Turkish catering truck? With firsthand accounts, \"Instadocs\" digs into what happened aboard Air Force One.",
+    "poster_path": "/uItPhP1Joq94T8BYCqQbIyZ73kE.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-09-10",
-    "release_date": "2026-09-03",
-    "title": "Fito P\u00e1ez: The World Within a Song"
+    "publish_after": "2026-09-11",
+    "release_date": "2026-09-04",
+    "title": "Instadocs: The Decoy Plane"
   },
-  "svod:8:1762763": {
-    "arrived": "2026-09-09T17:10:45.355887+00:00",
-    "movie_id": 1762763,
-    "overview": "Before her death, activist Gloria Steinem shared her final, heartfelt message with the world, knowing this interview would not air until she was gone.",
-    "poster_path": "/bt0gDeOJv2La7LpbribAw60PXFG.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-10",
-    "release_date": "2026-09-03",
-    "title": "Famous Last Words: Gloria Steinem"
+  "svod:9:1440098": {
+    "arrived": "2026-09-10T17:01:14.995021+00:00",
+    "movie_id": 1440098,
+    "overview": "Marfil Cort\u00e9s, a daughter of a wealthy Spanish businessman, is kidnapped and released, leading her father to hire Sebastian Moore as a bodyguard. Despite initial clashes, they form an irremediable attraction, navigating a world where no one is who they say they are.",
+    "poster_path": "/6rpvddXbaQPOi0fB2HKWbZ3uUSg.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-09-16",
+    "release_date": "2026-09-09",
+    "title": "Drawn Together"
   }
 }
