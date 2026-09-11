@@ -10,28 +10,6 @@
     "release_date": "2026-09-07",
     "title": "Deep Dive"
   },
-  "rentals:10:1712451": {
-    "arrived": "2026-09-10T17:01:14.995021+00:00",
-    "movie_id": 1712451,
-    "overview": "A man keeping his recently zombified daughter secure in hopes of a cure is tasked with delivering an unknown package through hordes of undead. If he succeeds, he will be given a cure for his daughter. If he fails, or opens the package, they will both be killed.",
-    "poster_path": "/qKhMVWwFikSUzOpkhOl35GBLkGH.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-11",
-    "release_date": "2026-09-04",
-    "title": "Resident Dead"
-  },
-  "rentals:10:1735476": {
-    "arrived": "2026-09-09T17:10:45.355887+00:00",
-    "movie_id": 1735476,
-    "overview": "A family's fresh start unravels when their son discovers an AI powered tablet, unleashing a wave of terror tied not only to the supernatural but to dark secrets of greed and corruption that surround them.",
-    "poster_path": "/vrRq1li3Yfbz5ntRnH7k7zRkarO.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-11",
-    "release_date": "2026-09-04",
-    "title": "CHAT"
-  },
   "rentals:10:1742483": {
     "arrived": "2026-09-08T17:16:41.747581+00:00",
     "movie_id": 1742483,
@@ -42,17 +20,6 @@
     "publish_after": "2026-09-15",
     "release_date": "2026-09-08",
     "title": "Biff the Human Slayer"
-  },
-  "rentals:10:1748841": {
-    "arrived": "2026-09-04T16:53:17.542442+00:00",
-    "movie_id": 1748841,
-    "overview": "When a nightmarish monster emerges from the depths of an Appalachian coal mine, a young mother must hunt down the creature to protect her home and save her family.",
-    "poster_path": "/fMbhJKv5bvVnh9HUwm1mTKmZdeZ.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-11",
-    "release_date": "2026-09-04",
-    "title": "Dark Hollow"
   },
   "rentals:10:1759875": {
     "arrived": "2026-09-09T17:10:45.355887+00:00",
@@ -97,17 +64,6 @@
     "publish_after": "2026-09-15",
     "release_date": "2026-09-08",
     "title": "Untold Mr. T: I Pity the Fool"
-  },
-  "svod:8:1760262": {
-    "arrived": "2026-09-10T17:01:14.995021+00:00",
-    "movie_id": 1760262,
-    "overview": "A critical threat. A clandestine escape. And a Turkish catering truck? With firsthand accounts, \"Instadocs\" digs into what happened aboard Air Force One.",
-    "poster_path": "/uItPhP1Joq94T8BYCqQbIyZ73kE.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-11",
-    "release_date": "2026-09-04",
-    "title": "Instadocs: The Decoy Plane"
   },
   "svod:9:1440098": {
     "arrived": "2026-09-10T17:01:14.995021+00:00",
