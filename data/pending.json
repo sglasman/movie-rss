@@ -32,6 +32,28 @@
     "release_date": "2026-09-08",
     "title": "The Militia"
   },
+  "rentals:10:1767395": {
+    "arrived": "2026-09-12T16:21:42.295306+00:00",
+    "movie_id": 1767395,
+    "overview": "A widowed mother, Grace Guidry, is struggling to keep her family farm running. Throughout the holiday season, she must navigate the immense challenges of farm life and the complexities of finding hope and love again.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "Love Reins at Christmas"
+  },
+  "svod:1899:1762506": {
+    "arrived": "2026-09-12T16:21:42.295306+00:00",
+    "movie_id": 1762506,
+    "overview": "This tribute to the groundbreaking series that helped preserve the story of Easy Company and deepened public appreciation for the sacrifices of the Greatest Generation features new interviews with cast members Damian Lewis, Ron Livingston, Michael Cudlitz, Capt. Dale Dye, USMC (Ret.), David Schwimmer, and more. Through personal reflections and behind-the-scenes stories, participants revisit the experience of making the series and explore its lasting cultural resonance, and also includes never-before-seen archival footage and photographs of Easy Company and World War II.",
+    "poster_path": "/n29MsV1m2OCbDp6PLeHxziOVOLG.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-09-16",
+    "release_date": "2026-09-09",
+    "title": "Band of Brothers: Legacy"
+  },
   "svod:8:1522689": {
     "arrived": "2026-09-10T17:01:14.995021+00:00",
     "movie_id": 1522689,
@@ -42,6 +64,17 @@
     "publish_after": "2026-09-15",
     "release_date": "2026-09-08",
     "title": "Why Did I Get Married Again?"
+  },
+  "svod:8:1558568": {
+    "arrived": "2026-09-12T16:21:42.295306+00:00",
+    "movie_id": 1558568,
+    "overview": "When their team-building event gets downgraded to a tiny village, a cheese company's staff think it can't get worse \u2014 then they learn about the layoffs.",
+    "poster_path": "/jM8LRvzYIqZqw6Si5xNECiHFDgM.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-18",
+    "release_date": "2026-09-11",
+    "title": "Go Team!"
   },
   "svod:8:1664003": {
     "arrived": "2026-09-09T17:10:45.355887+00:00",
@@ -64,6 +97,17 @@
     "publish_after": "2026-09-15",
     "release_date": "2026-09-08",
     "title": "Untold Mr. T: I Pity the Fool"
+  },
+  "svod:8:1753614": {
+    "arrived": "2026-09-12T16:21:42.295306+00:00",
+    "movie_id": 1753614,
+    "overview": "25 years after 9/11, discover how Robert De Niro and Jane Rosenthal transformed an ambitious effort to revive Lower Manhattan into one of the world's leading cultural institutions. Through rare archival footage, exclusive interviews and behind-the-scenes access, explore how art can foster community, confront injustice, and help shape culture.",
+    "poster_path": "/u2QerAAASBDxb4WwjfOglwdqtqO.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-18",
+    "release_date": "2026-09-11",
+    "title": "Tribeca 25"
   },
   "svod:9:1440098": {
     "arrived": "2026-09-10T17:01:14.995021+00:00",
