@@ -119,5 +119,16 @@
     "publish_after": "2026-09-16",
     "release_date": "2026-09-09",
     "title": "Drawn Together"
+  },
+  "svod:9:1742483": {
+    "arrived": "2026-09-13T16:58:39.565705+00:00",
+    "movie_id": 1742483,
+    "overview": "A delusional vampire takes it upon himself to rid his town of violence. To do so, he teams up with a couple of freshly turned vampires, a stubborn christian struggling to adjust to his new truth, and a rook who is quick to adapt to hers.",
+    "poster_path": "/e9MmcMD43KhrrChkq2qmcWPRLFM.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-09-15",
+    "release_date": "2026-09-08",
+    "title": "Biff the Human Slayer"
   }
 }
