@@ -1,15 +1,4 @@
 {
-  "rentals:10:1646115": {
-    "arrived": "2026-09-09T17:10:45.355887+00:00",
-    "movie_id": 1646115,
-    "overview": "After her family is murdered, a champion swimmer infiltrates the killer's home-ready to drown his world in vengeance.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-14",
-    "release_date": "2026-09-07",
-    "title": "Deep Dive"
-  },
   "rentals:10:1742483": {
     "arrived": "2026-09-08T17:16:41.747581+00:00",
     "movie_id": 1742483,
