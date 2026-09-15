@@ -1,36 +1,25 @@
 {
-  "rentals:10:1742483": {
-    "arrived": "2026-09-08T17:16:41.747581+00:00",
-    "movie_id": 1742483,
-    "overview": "A delusional vampire takes it upon himself to rid his town of violence. To do so, he teams up with a couple of freshly turned vampires, a stubborn christian struggling to adjust to his new truth, and a rook who is quick to adapt to hers.",
-    "poster_path": "/e9MmcMD43KhrrChkq2qmcWPRLFM.jpg",
+  "rentals:10:1758325": {
+    "arrived": "2026-09-15T17:41:22.602145+00:00",
+    "movie_id": 1758325,
+    "overview": "Known for her razor-sharp wit and heartfelt storytelling, award-winning comedian Mina Hartong mines her personal life- her Connecticut upbringing, life as a lesbian, and years as a public school teacher- to deliver a comedy special that is as hilarious as it is healing.",
+    "poster_path": "/jV9cicFZsQp1eihVQokWVPQjSnk.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "Biff the Human Slayer"
+    "publish_after": "2026-09-22",
+    "release_date": "2026-09-15",
+    "title": "Mina Hartong: Miss Personality"
   },
-  "rentals:10:1759875": {
-    "arrived": "2026-09-09T17:10:45.355887+00:00",
-    "movie_id": 1759875,
-    "overview": "Daniel Pierce dreams of joining the local Militia alongside his father once he turns eighteen, but when his Dad becomes the target of the local Sheriff, Daniel and his friends form their own militia in a troubled effort to save him.",
-    "poster_path": "/bBAeq5GAt6QKUL5eS0UalflLysH.jpg",
+  "rentals:10:1768542": {
+    "arrived": "2026-09-15T17:41:22.602145+00:00",
+    "movie_id": 1768542,
+    "overview": "When a family's home is caught in a deadly wildfire, a husband's choice to stay behind to recover their youngest daughter turns into a fight for redemption, while his wife shepherds their other children to safety.",
+    "poster_path": "/qJ2juagjHbHTi511bNHY8G6DHgZ.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "The Militia"
-  },
-  "rentals:10:1767395": {
-    "arrived": "2026-09-12T16:21:42.295306+00:00",
-    "movie_id": 1767395,
-    "overview": "A widowed mother, Grace Guidry, is struggling to keep her family farm running. Throughout the holiday season, she must navigate the immense challenges of farm life and the complexities of finding hope and love again.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "Love Reins at Christmas"
+    "publish_after": "2026-09-20",
+    "release_date": "2026-09-13",
+    "title": "Family Through the Fire"
   },
   "svod:1899:1762506": {
     "arrived": "2026-09-12T16:21:42.295306+00:00",
@@ -43,17 +32,6 @@
     "release_date": "2026-09-09",
     "title": "Band of Brothers: Legacy"
   },
-  "svod:8:1522689": {
-    "arrived": "2026-09-10T17:01:14.995021+00:00",
-    "movie_id": 1522689,
-    "overview": "The couples reunite for the destination wedding of Marcus and Angela's daughter, bringing drama old and new as they ask, \"Why did we get married again?\"",
-    "poster_path": "/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "Why Did I Get Married Again?"
-  },
   "svod:8:1558568": {
     "arrived": "2026-09-12T16:21:42.295306+00:00",
     "movie_id": 1558568,
@@ -64,28 +42,6 @@
     "publish_after": "2026-09-18",
     "release_date": "2026-09-11",
     "title": "Go Team!"
-  },
-  "svod:8:1664003": {
-    "arrived": "2026-09-09T17:10:45.355887+00:00",
-    "movie_id": 1664003,
-    "overview": "In this unruly set, Stavros Halkias imagines becoming a \"dirtbag\" uncle, roasts the health care system and warns of the risks of living your best life.",
-    "poster_path": "/lVdlQbkpnETCZXN76UwQzMiJH6m.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "Stavros Halkias: Uncle Stav"
-  },
-  "svod:8:1739206": {
-    "arrived": "2026-09-09T17:10:45.355887+00:00",
-    "movie_id": 1739206,
-    "overview": "Before the gold chains, mohawk, and Hollywood fame of The A-Team and Rocky III, there was Laurence Tureaud. This is the extraordinary origin story behind one of the most unlikely and beloved icons in entertainment \u2014 Mr. T.",
-    "poster_path": "/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "Untold Mr. T: I Pity the Fool"
   },
   "svod:8:1753614": {
     "arrived": "2026-09-12T16:21:42.295306+00:00",
@@ -108,16 +64,5 @@
     "publish_after": "2026-09-16",
     "release_date": "2026-09-09",
     "title": "Drawn Together"
-  },
-  "svod:9:1742483": {
-    "arrived": "2026-09-13T16:58:39.565705+00:00",
-    "movie_id": 1742483,
-    "overview": "A delusional vampire takes it upon himself to rid his town of violence. To do so, he teams up with a couple of freshly turned vampires, a stubborn christian struggling to adjust to his new truth, and a rook who is quick to adapt to hers.",
-    "poster_path": "/e9MmcMD43KhrrChkq2qmcWPRLFM.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-09-15",
-    "release_date": "2026-09-08",
-    "title": "Biff the Human Slayer"
   }
 }
