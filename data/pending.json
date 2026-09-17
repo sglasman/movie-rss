@@ -1,15 +1,4 @@
 {
-  "rentals:10:1340102": {
-    "arrived": "2026-09-16T17:38:45.706121+00:00",
-    "movie_id": 1340102,
-    "overview": "Martial arts fighter Joe goes to prison for four years and takes his wife's blame for a drug bust. After his release, he learns that his son needs expensive surgery because of a life-threatening tumor. Joe's only chance to save him: a brutal all-styles tournament with a $100,000 prize.",
-    "poster_path": "/ezFIXWTbIXlBuZ4kKgto4N3i3of.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-17",
-    "release_date": "2026-09-10",
-    "title": "Lion Fist"
-  },
   "rentals:10:1751701": {
     "arrived": "2026-09-16T17:38:45.706121+00:00",
     "movie_id": 1751701,
