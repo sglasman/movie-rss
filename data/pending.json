@@ -1,4 +1,15 @@
 {
+  "rentals:10:1723888": {
+    "arrived": "2026-09-18T17:06:27.725593+00:00",
+    "movie_id": 1723888,
+    "overview": "Antonio is jealous of his new teammate, Stephon, who has kindled a connection with his girlfriend Mya. His anger fuels the fire that stirs up hidden truths and unravels a long list of lies and deception causing chaos around the college campus.",
+    "poster_path": "/zgl9wfuCoBXhpFSNSv4M15cqAtW.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-25",
+    "release_date": "2026-09-18",
+    "title": "Stranger Things Have Happened to Me"
+  },
   "rentals:10:1751701": {
     "arrived": "2026-09-16T17:38:45.706121+00:00",
     "movie_id": 1751701,
@@ -42,27 +53,5 @@
     "publish_after": "2026-09-22",
     "release_date": "2026-09-15",
     "title": "The Iron Door"
-  },
-  "svod:8:1558568": {
-    "arrived": "2026-09-12T16:21:42.295306+00:00",
-    "movie_id": 1558568,
-    "overview": "When their team-building event gets downgraded to a tiny village, a cheese company's staff think it can't get worse \u2014 then they learn about the layoffs.",
-    "poster_path": "/jM8LRvzYIqZqw6Si5xNECiHFDgM.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-18",
-    "release_date": "2026-09-11",
-    "title": "Go Team!"
-  },
-  "svod:8:1753614": {
-    "arrived": "2026-09-12T16:21:42.295306+00:00",
-    "movie_id": 1753614,
-    "overview": "25 years after 9/11, discover how Robert De Niro and Jane Rosenthal transformed an ambitious effort to revive Lower Manhattan into one of the world's leading cultural institutions. Through rare archival footage, exclusive interviews and behind-the-scenes access, explore how art can foster community, confront injustice, and help shape culture.",
-    "poster_path": "/u2QerAAASBDxb4WwjfOglwdqtqO.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-18",
-    "release_date": "2026-09-11",
-    "title": "Tribeca 25"
   }
 }
