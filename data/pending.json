@@ -1,4 +1,15 @@
 {
+  "rentals:10:1216624": {
+    "arrived": "2026-09-19T16:32:14.098106+00:00",
+    "movie_id": 1216624,
+    "overview": "After a brother and sister achieve astral projection, the footage they capture reveals the malicious effects of their family trauma.",
+    "poster_path": "/A4xsiNffRGaenvguC9AAMDu0MBY.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-25",
+    "release_date": "2026-09-18",
+    "title": "The Depths"
+  },
   "rentals:10:1723888": {
     "arrived": "2026-09-18T17:06:27.725593+00:00",
     "movie_id": 1723888,
@@ -53,5 +64,27 @@
     "publish_after": "2026-09-22",
     "release_date": "2026-09-15",
     "title": "The Iron Door"
+  },
+  "svod:8:1514863": {
+    "arrived": "2026-09-19T16:32:14.098106+00:00",
+    "movie_id": 1514863,
+    "overview": "Two best friends at UCLA leap into the competitive and cutthroat world of collegiate Bollywood-fusion dance.",
+    "poster_path": "/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-25",
+    "release_date": "2026-09-18",
+    "title": "Best of the Best"
+  },
+  "svod:8:1760576": {
+    "arrived": "2026-09-19T16:32:14.098106+00:00",
+    "movie_id": 1760576,
+    "overview": "Zakir Khan reflects on his childhood and the special bond he shares with his father, turning personal memories and family experiences into heartfelt comedy. With his signature blend of observational humour, poetry and emotional storytelling, he explores the unspoken sides of fatherhood and the relationship between a father and son.",
+    "poster_path": "/layTkFN24JouxXQpYyMIn8WxBrB.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-25",
+    "release_date": "2026-09-18",
+    "title": "Zakir Khan: Papa Yaar"
   }
 }
