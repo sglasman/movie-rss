@@ -21,39 +21,6 @@
     "release_date": "2026-09-18",
     "title": "Stranger Things Have Happened to Me"
   },
-  "rentals:10:1751701": {
-    "arrived": "2026-09-16T17:38:45.706121+00:00",
-    "movie_id": 1751701,
-    "overview": "After losing his father, Ethan Nichols inherits one of the largest greenhouses in the country, just as the world faces a devastating threat from an approaching asteroid. As society begins to unravel, Ethan grapples with personal betrayal, overwhelming loneliness, and the growing fear that survival may come at the cost of his humanity. Seeking refuge in his family\u2019s bunker, Ethan endures the harsh aftermath of the impact, wrestling with physical injury and emotional despair. When a faint voice crackles over his radio, Ethan discovers he's not as alone as he believed.",
-    "poster_path": "/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-22",
-    "release_date": "2026-09-15",
-    "title": "After Impact"
-  },
-  "rentals:10:1758325": {
-    "arrived": "2026-09-15T17:41:22.602145+00:00",
-    "movie_id": 1758325,
-    "overview": "Known for her razor-sharp wit and heartfelt storytelling, award-winning comedian Mina Hartong mines her personal life- her Connecticut upbringing, life as a lesbian, and years as a public school teacher- to deliver a comedy special that is as hilarious as it is healing.",
-    "poster_path": "/jV9cicFZsQp1eihVQokWVPQjSnk.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-22",
-    "release_date": "2026-09-15",
-    "title": "Mina Hartong: Miss Personality"
-  },
-  "rentals:10:1768877": {
-    "arrived": "2026-09-16T17:38:45.706121+00:00",
-    "movie_id": 1768877,
-    "overview": "Inspired by true events in the 1920s Yucca Valley, a miner named Johnny Lang seals his cannibal son behind an iron door. Generations later, a motorcycle shop owner named Zach receives a journal, a letter, and a gold ring from his estranged father detailing the legend, leading him and his friends on a dangerous desert trip.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-22",
-    "release_date": "2026-09-15",
-    "title": "The Iron Door"
-  },
   "svod:8:1451944": {
     "arrived": "2026-09-20T16:51:40.470021+00:00",
     "movie_id": 1451944,
@@ -86,17 +53,6 @@
     "publish_after": "2026-09-25",
     "release_date": "2026-09-18",
     "title": "Zakir Khan: Papa Yaar"
-  },
-  "svod:8:1770859": {
-    "arrived": "2026-09-20T16:51:40.470021+00:00",
-    "movie_id": 1770859,
-    "overview": "Jo Koy relives a wild dental disaster, recounts getting fired from McDonald's and celebrates his veteran stepdad in this hilariously heartfelt set.",
-    "poster_path": "/ex8xdDlmo0HWv716Ml5DDMwTkAt.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-22",
-    "release_date": "2026-09-15",
-    "title": "Jo Koy: Blue in the Face"
   },
   "svod:8:1773587": {
     "arrived": "2026-09-20T16:51:40.470021+00:00",
