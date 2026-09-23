@@ -21,6 +21,39 @@
     "release_date": "2026-09-18",
     "title": "Stranger Things Have Happened to Me"
   },
+  "rentals:10:1759109": {
+    "arrived": "2026-09-23T17:52:12.538807+00:00",
+    "movie_id": 1759109,
+    "overview": "This slice-of-life documentary follows a New Jersey-based elementary school teacher who spent his nights playing in a successful punk/ska band with his first ever music student. Now, many years later, after suffering a family tragedy, he's finally retiring as an educator in hopes of taking a third bite of the apple.",
+    "poster_path": "/bEHGbpLwLbpC82teWc5V4mszXCb.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-29",
+    "release_date": "2026-09-22",
+    "title": "Misfit Mentor"
+  },
+  "rentals:10:1768871": {
+    "arrived": "2026-09-23T17:52:12.538807+00:00",
+    "movie_id": 1768871,
+    "overview": "A group of people come together to test an exciting and experimental new technology. But it quickly turns into a deadly game of survival as the technology turns against them.",
+    "poster_path": "/9rsoy7wI16mBJtzxAoLsonxL9.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-29",
+    "release_date": "2026-09-22",
+    "title": "Glasses"
+  },
+  "svod:8:1447713": {
+    "arrived": "2026-09-23T17:52:12.538807+00:00",
+    "movie_id": 1447713,
+    "overview": "In his first Netflix special, Nimesh Patel talks rebelling against his traditional parents and why you should never go viral in India.",
+    "poster_path": "/dBPlzg2HNhKxJgzKjPqGjytwBm0.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-09-29",
+    "release_date": "2026-09-22",
+    "title": "Nimesh Patel: Buy The Dip"
+  },
   "svod:8:1451944": {
     "arrived": "2026-09-20T16:51:40.470021+00:00",
     "movie_id": 1451944,
