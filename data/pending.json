@@ -1,25 +1,36 @@
 {
-  "rentals:10:1216624": {
-    "arrived": "2026-09-19T16:32:14.098106+00:00",
-    "movie_id": 1216624,
-    "overview": "After a brother and sister achieve astral projection, the footage they capture reveals the malicious effects of their family trauma.",
-    "poster_path": "/A4xsiNffRGaenvguC9AAMDu0MBY.jpg",
+  "rentals:10:130972": {
+    "arrived": "2026-09-25T17:58:44.788647+00:00",
+    "movie_id": 130972,
+    "overview": "Twenty-five years ago, a documentary crew vanished in Hawaii's deepest valleys while hunting the legendary Night Marchers. Now, their recovered footage shows the horrifying truth about an ancient Hawaiian legend best left alone.",
+    "poster_path": "/vmdd4n5QFF8bKsU1skzROz1fVTc.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "The Depths"
+    "publish_after": "2026-10-02",
+    "release_date": "2026-09-25",
+    "title": "The Night Marchers"
   },
-  "rentals:10:1723888": {
-    "arrived": "2026-09-18T17:06:27.725593+00:00",
-    "movie_id": 1723888,
-    "overview": "Antonio is jealous of his new teammate, Stephon, who has kindled a connection with his girlfriend Mya. His anger fuels the fire that stirs up hidden truths and unravels a long list of lies and deception causing chaos around the college campus.",
-    "poster_path": "/zgl9wfuCoBXhpFSNSv4M15cqAtW.jpg",
+  "rentals:10:1719718": {
+    "arrived": "2026-09-25T17:58:44.788647+00:00",
+    "movie_id": 1719718,
+    "overview": "A failed experiment causes four aggressive animals to escape a zoo and converge on a remote cabin, where a grieving woman and her friends must fight to survive as tensions and morality unravel.",
+    "poster_path": "/ciLYS2R8JsgWAfCATHodKzrte7s.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "Stranger Things Have Happened to Me"
+    "publish_after": "2026-09-28",
+    "release_date": "2026-09-21",
+    "title": "Zoo Break Out"
+  },
+  "rentals:10:1735702": {
+    "arrived": "2026-09-25T17:58:44.788647+00:00",
+    "movie_id": 1735702,
+    "overview": "On their honeymoon in a treehouse, Noah and Annabelle ignore a local\u2019s warning. They\u2019re soon pulled into a AI-run experiment by a tech giant. As the challenges escalate, secrets emerge\u2014and survival becomes the only thing that matters.",
+    "poster_path": "/dGBJgX3Li3I1YdNLvno1AwTZ4fr.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-02",
+    "release_date": "2026-09-25",
+    "title": "The Living Tree"
   },
   "rentals:10:1759109": {
     "arrived": "2026-09-23T17:52:12.538807+00:00",
@@ -54,50 +65,6 @@
     "release_date": "2026-09-22",
     "title": "Nimesh Patel: Buy The Dip"
   },
-  "svod:8:1451944": {
-    "arrived": "2026-09-20T16:51:40.470021+00:00",
-    "movie_id": 1451944,
-    "overview": "Through four bite-sized yet emotionally resonant films, the anthology once again explores lust, love, relationships, and repressed desire, offering fresh perspectives on intimacy, longing, and human connection in all their complexity.",
-    "poster_path": "/feBkcOeda0X505mPyyyeGuuS9Ct.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "Lust Stories 3"
-  },
-  "svod:8:1514863": {
-    "arrived": "2026-09-19T16:32:14.098106+00:00",
-    "movie_id": 1514863,
-    "overview": "Two best friends at UCLA leap into the competitive and cutthroat world of collegiate Bollywood-fusion dance.",
-    "poster_path": "/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "Best of the Best"
-  },
-  "svod:8:1760576": {
-    "arrived": "2026-09-19T16:32:14.098106+00:00",
-    "movie_id": 1760576,
-    "overview": "Zakir Khan reflects on his childhood and the special bond he shares with his father, turning personal memories and family experiences into heartfelt comedy. With his signature blend of observational humour, poetry and emotional storytelling, he explores the unspoken sides of fatherhood and the relationship between a father and son.",
-    "poster_path": "/layTkFN24JouxXQpYyMIn8WxBrB.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "Zakir Khan: Papa Yaar"
-  },
-  "svod:8:1773587": {
-    "arrived": "2026-09-20T16:51:40.470021+00:00",
-    "movie_id": 1773587,
-    "overview": "A young officer is killed inside a general's home. The investigation that followed revealed a cover-up at the highest ranks of the National Police.",
-    "poster_path": "/iN2M4vfplS1m0QqixtNpe1vWM1g.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "General Mayhem: The Killing of Brigadier J"
-  },
   "svod:9:1032863": {
     "arrived": "2026-09-24T17:52:39.553894+00:00",
     "movie_id": 1032863,
@@ -108,16 +75,5 @@
     "publish_after": "2026-09-30",
     "release_date": "2026-09-23",
     "title": "The Love Hypothesis"
-  },
-  "svod:9:1641629": {
-    "arrived": "2026-09-20T16:51:40.470021+00:00",
-    "movie_id": 1641629,
-    "overview": "Alma Lancaster, 18, appears to lead a perfect life within a wealthy family who believes she is studying law. In secret, she pursues her true dream: filmmaking. On campus, she meets Vadim Arcadi, 20, a magnetic and solitary rebel with a troubled past. Forced to collaborate on a student film, they clash, grow closer and fall in love \u2014 despite themselves. But someone is watching them, determined to tear them apart and expose secrets that could destroy both Alma and Vadim.",
-    "poster_path": "/bAbBNVplg7h79sm94OyHeKk8Phz.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-09-25",
-    "release_date": "2026-09-18",
-    "title": "You+Me - Against the World"
   }
 }
