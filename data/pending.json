@@ -10,6 +10,39 @@
     "release_date": "2026-09-25",
     "title": "The Night Marchers"
   },
+  "rentals:10:1398523": {
+    "arrived": "2026-09-26T17:15:20.487126+00:00",
+    "movie_id": 1398523,
+    "overview": "Mallory, an ambitious New York reporter, is assigned to a story on the Best Small Town in America, sending her to Alabama. Mallory stays at a BnB run by Robin and her charming son Wren, a former Marine. Beneath her exterior, Mallory\u2019s warm side is revealed as she bonds with the community, especially Wren. Zeke, Mallory\u2019s best friend and Hollywood heartthrob, visits her there and challenges her to rethink what she really wants.",
+    "poster_path": "/yotVBVVtwjaZK6SELR07SEmrn2q.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-02",
+    "release_date": "2026-09-25",
+    "title": "How Hard Can It Be?"
+  },
+  "rentals:10:1408335": {
+    "arrived": "2026-09-26T17:15:20.487126+00:00",
+    "movie_id": 1408335,
+    "overview": "Isolation explores loneliness, grief, loss, and the struggles of mental health. All within a pursuit of understanding one's purpose. It's a coalescence of one's trauma and working through it while performing at a high level.",
+    "poster_path": "/sMTjrcobevhJf7OnLSrAo1q5Uhs.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-29",
+    "release_date": "2026-09-22",
+    "title": "Isolation"
+  },
+  "rentals:10:1646119": {
+    "arrived": "2026-09-26T17:15:20.487126+00:00",
+    "movie_id": 1646119,
+    "overview": "A quiet countryside is plunged into chaos when a monstrous tornado tears across the region\u2014only to reveal something far worse riding in its winds.",
+    "poster_path": "/wMSysl6cp67jdlF3YJXrTfYEs9P.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-09-28",
+    "release_date": "2026-09-21",
+    "title": "Spidernado"
+  },
   "rentals:10:1719718": {
     "arrived": "2026-09-25T17:58:44.788647+00:00",
     "movie_id": 1719718,
@@ -43,6 +76,17 @@
     "release_date": "2026-09-22",
     "title": "Misfit Mentor"
   },
+  "rentals:10:1767141": {
+    "arrived": "2026-09-26T17:15:20.487126+00:00",
+    "movie_id": 1767141,
+    "overview": "A family vacation in Belize turns into a nightmare when a sudden storm strands a young kayaker named Miranda at sea, prompting her mother, Joan, to launch a desperate search.",
+    "poster_path": "/rvDlonSUbTk182BQJSdSVULMsSK.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-03",
+    "release_date": "2026-09-26",
+    "title": "The Ocean Between Them"
+  },
   "rentals:10:1768871": {
     "arrived": "2026-09-23T17:52:12.538807+00:00",
     "movie_id": 1768871,
@@ -64,6 +108,17 @@
     "publish_after": "2026-09-29",
     "release_date": "2026-09-22",
     "title": "Nimesh Patel: Buy The Dip"
+  },
+  "svod:8:1492640": {
+    "arrived": "2026-09-26T17:15:20.487126+00:00",
+    "movie_id": 1492640,
+    "overview": "Follow Ted Kaczynski's transformation from Harvard prodigy into the infamous Unabomber. Subjected to controversial psychological experiments by Professor Henry Murray, Kaczynski's troubled past resurfaces decades later when his manhunt, led by FBI agent Joanne Miller, brings to light the chilling consequences of ambition and isolation.",
+    "poster_path": "/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-02",
+    "release_date": "2026-09-25",
+    "title": "UNABOMBER"
   },
   "svod:9:1032863": {
     "arrived": "2026-09-24T17:52:39.553894+00:00",
