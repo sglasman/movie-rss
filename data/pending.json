@@ -32,28 +32,6 @@
     "release_date": "2026-09-22",
     "title": "Isolation"
   },
-  "rentals:10:1646119": {
-    "arrived": "2026-09-26T17:15:20.487126+00:00",
-    "movie_id": 1646119,
-    "overview": "A quiet countryside is plunged into chaos when a monstrous tornado tears across the region\u2014only to reveal something far worse riding in its winds.",
-    "poster_path": "/wMSysl6cp67jdlF3YJXrTfYEs9P.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-28",
-    "release_date": "2026-09-21",
-    "title": "Spidernado"
-  },
-  "rentals:10:1719718": {
-    "arrived": "2026-09-25T17:58:44.788647+00:00",
-    "movie_id": 1719718,
-    "overview": "A failed experiment causes four aggressive animals to escape a zoo and converge on a remote cabin, where a grieving woman and her friends must fight to survive as tensions and morality unravel.",
-    "poster_path": "/ciLYS2R8JsgWAfCATHodKzrte7s.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-28",
-    "release_date": "2026-09-21",
-    "title": "Zoo Break Out"
-  },
   "rentals:10:1735702": {
     "arrived": "2026-09-25T17:58:44.788647+00:00",
     "movie_id": 1735702,
@@ -130,5 +108,16 @@
     "publish_after": "2026-09-30",
     "release_date": "2026-09-23",
     "title": "The Love Hypothesis"
+  },
+  "svod:9:1529372": {
+    "arrived": "2026-09-28T20:08:39.894492+00:00",
+    "movie_id": 1529372,
+    "overview": "Quintessential Mean Girl, Shyamili \u2018Shy\u2019 Das, finds herself suddenly relegated to Loser-ville when Mayank, her boyfriend of three years, suddenly dumps her. But Shy, all set to get her revenge, finds herself falling into friendship and compassion with someone unexpected\u2026 Mayank\u2019s new girlfriend - Tara.",
+    "poster_path": "/lBeDq7KmZaQNnnIXgExCAmfLMqT.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-10-02",
+    "release_date": "2026-09-25",
+    "title": "Don't Be Shy!"
   }
 }
