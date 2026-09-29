@@ -10,6 +10,17 @@
     "release_date": "2026-09-25",
     "title": "The Night Marchers"
   },
+  "rentals:10:1351033": {
+    "arrived": "2026-09-29T18:40:32.304158+00:00",
+    "movie_id": 1351033,
+    "overview": "As a terminally ill Liverpool gangster summons his estranged eldest daughter back to their hometown after a five-year absence, his youngest daughter, determined to inherit everything, plots to eliminate her.",
+    "poster_path": "/xHKf8MF4EuIucYt7Z6lbAob4gTf.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-05",
+    "release_date": "2026-09-28",
+    "title": "Semolina Pilchard"
+  },
   "rentals:10:1398523": {
     "arrived": "2026-09-26T17:15:20.487126+00:00",
     "movie_id": 1398523,
@@ -21,16 +32,16 @@
     "release_date": "2026-09-25",
     "title": "How Hard Can It Be?"
   },
-  "rentals:10:1408335": {
-    "arrived": "2026-09-26T17:15:20.487126+00:00",
-    "movie_id": 1408335,
-    "overview": "Isolation explores loneliness, grief, loss, and the struggles of mental health. All within a pursuit of understanding one's purpose. It's a coalescence of one's trauma and working through it while performing at a high level.",
-    "poster_path": "/sMTjrcobevhJf7OnLSrAo1q5Uhs.jpg",
+  "rentals:10:1716668": {
+    "arrived": "2026-09-29T18:40:32.304158+00:00",
+    "movie_id": 1716668,
+    "overview": "An earthquake in the Atlantic triggers a devastating drop in global temperatures, plunging the world into a deadly, apocalyptic ice age.",
+    "poster_path": "/djTczYtz7GkoNbNgx0n7mY3M1LZ.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-29",
-    "release_date": "2026-09-22",
-    "title": "Isolation"
+    "publish_after": "2026-10-02",
+    "release_date": "2026-09-25",
+    "title": "Arctic Annihilation"
   },
   "rentals:10:1735702": {
     "arrived": "2026-09-25T17:58:44.788647+00:00",
@@ -43,16 +54,27 @@
     "release_date": "2026-09-25",
     "title": "The Living Tree"
   },
-  "rentals:10:1759109": {
-    "arrived": "2026-09-23T17:52:12.538807+00:00",
-    "movie_id": 1759109,
-    "overview": "This slice-of-life documentary follows a New Jersey-based elementary school teacher who spent his nights playing in a successful punk/ska band with his first ever music student. Now, many years later, after suffering a family tragedy, he's finally retiring as an educator in hopes of taking a third bite of the apple.",
-    "poster_path": "/bEHGbpLwLbpC82teWc5V4mszXCb.jpg",
+  "rentals:10:1757506": {
+    "arrived": "2026-09-29T18:40:32.304158+00:00",
+    "movie_id": 1757506,
+    "overview": "Desperate people receive a mystical gift that grants wishes, collects souls, and creates monsters.",
+    "poster_path": "/2uHnVT80PJKgWPii7OX1tpB8uTQ.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-09-29",
-    "release_date": "2026-09-22",
-    "title": "Misfit Mentor"
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "Crooked Miles"
+  },
+  "rentals:10:1767072": {
+    "arrived": "2026-09-29T18:40:32.304158+00:00",
+    "movie_id": 1767072,
+    "overview": "When Kate joins her boyfriend\u2019s friends at a remote countryside retreat, old wounds resurface as strange lights appear in the sky. As unease grows, members of the group begin to change\u2014becoming unnervingly calm, kind, and \u201cnice.\u201d Dismissed as unstable, Kate struggles to convince the others something is wrong before the force behind it spreads.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "The Nice Ones"
   },
   "rentals:10:1767141": {
     "arrived": "2026-09-26T17:15:20.487126+00:00",
@@ -64,28 +86,6 @@
     "publish_after": "2026-10-03",
     "release_date": "2026-09-26",
     "title": "The Ocean Between Them"
-  },
-  "rentals:10:1768871": {
-    "arrived": "2026-09-23T17:52:12.538807+00:00",
-    "movie_id": 1768871,
-    "overview": "A group of people come together to test an exciting and experimental new technology. But it quickly turns into a deadly game of survival as the technology turns against them.",
-    "poster_path": "/9rsoy7wI16mBJtzxAoLsonxL9.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-09-29",
-    "release_date": "2026-09-22",
-    "title": "Glasses"
-  },
-  "svod:8:1447713": {
-    "arrived": "2026-09-23T17:52:12.538807+00:00",
-    "movie_id": 1447713,
-    "overview": "In his first Netflix special, Nimesh Patel talks rebelling against his traditional parents and why you should never go viral in India.",
-    "poster_path": "/dBPlzg2HNhKxJgzKjPqGjytwBm0.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-09-29",
-    "release_date": "2026-09-22",
-    "title": "Nimesh Patel: Buy The Dip"
   },
   "svod:8:1492640": {
     "arrived": "2026-09-26T17:15:20.487126+00:00",
@@ -119,5 +119,16 @@
     "publish_after": "2026-10-02",
     "release_date": "2026-09-25",
     "title": "Don't Be Shy!"
+  },
+  "svod:9:1766609": {
+    "arrived": "2026-09-29T18:40:32.304158+00:00",
+    "movie_id": 1766609,
+    "overview": "Built from an extraordinary archive - thousands of hours of raw home video footage shot across 35 years by DeSean's older brother Byron - this is an intimate, unfiltered portrait of a father and his two sons - their bond, their sacrifices, their conflicts, and their shared pursuit of a better life.",
+    "poster_path": "/vijDQnbLhOOhHU1bNs5vE5qJOI0.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-10-01",
+    "release_date": "2026-09-24",
+    "title": "Go Deep: The DeSean Jackson Story"
   }
 }
