@@ -76,6 +76,17 @@
     "release_date": "2026-09-29",
     "title": "The Nice Ones"
   },
+  "rentals:10:1767073": {
+    "arrived": "2026-09-30T18:28:05.150320+00:00",
+    "movie_id": 1767073,
+    "overview": "When Kate joins her boyfriend\u2019s friends at a remote countryside retreat, old wounds resurface as strange lights appear in the sky. As unease grows, members of the group begin to change\u2014becoming unnervingly calm, kind, and \u201cnice.\u201d Dismissed as unstable, Kate struggles to convince the others something is wrong before the force behind it spreads.",
+    "poster_path": "/ktaGbNySsx0csWYRZJIGda27DL7.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "The Nice Ones"
+  },
   "rentals:10:1767141": {
     "arrived": "2026-09-26T17:15:20.487126+00:00",
     "movie_id": 1767141,
@@ -87,6 +98,28 @@
     "release_date": "2026-09-26",
     "title": "The Ocean Between Them"
   },
+  "rentals:10:934644": {
+    "arrived": "2026-09-30T18:28:05.150320+00:00",
+    "movie_id": 934644,
+    "overview": "Marion Callevero has her guest list checked twice to host the company Christmas event, but gifts quickly turn to gore. This struggling staff has been invited to the party but no one will be returning home for the holidays.",
+    "poster_path": "/sznm5JQCWR6DJ4H1JKf70ZavAnv.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "Mistletoe Massacre"
+  },
+  "svod:15:1646945": {
+    "arrived": "2026-09-30T18:28:05.150320+00:00",
+    "movie_id": 1646945,
+    "overview": "A look at the controversial 2004 reality series The Swan, which took self-proclaimed 'ugly ducklings' and set out to make them... not that.",
+    "poster_path": "/hCALD2uCetzUjj40k8TUMnsA397.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "The Swan: Behind the Mirror"
+  },
   "svod:8:1492640": {
     "arrived": "2026-09-26T17:15:20.487126+00:00",
     "movie_id": 1492640,
@@ -97,17 +130,6 @@
     "publish_after": "2026-10-02",
     "release_date": "2026-09-25",
     "title": "UNABOMBER"
-  },
-  "svod:9:1032863": {
-    "arrived": "2026-09-24T17:52:39.553894+00:00",
-    "movie_id": 1032863,
-    "overview": "Olive Smith, a biology PhD candidate, and Dr. Adam Carlsen, a hotshot professor and well-known tyrant, enter into a fake relationship, seeing each of their carefully calculated theories on love get thrown into chaos.",
-    "poster_path": "/vfZxVHextAGC70zrNhS8lsROqP1.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-09-30",
-    "release_date": "2026-09-23",
-    "title": "The Love Hypothesis"
   },
   "svod:9:1529372": {
     "arrived": "2026-09-28T20:08:39.894492+00:00",
