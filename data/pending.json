@@ -98,6 +98,17 @@
     "release_date": "2026-09-26",
     "title": "The Ocean Between Them"
   },
+  "rentals:10:1767436": {
+    "arrived": "2026-10-01T18:55:32.737118+00:00",
+    "movie_id": 1767436,
+    "overview": "When a covert black-ops contractor seizes Alcatraz, the CIA smuggles hardened agent Lt. Jack Callahan inside to extract whistleblower Anya Turner and her damning evidence before the mission spirals into a deadly fight for survival.",
+    "poster_path": "/pz1q0j05YoQarSf39BSqw0ANv0h.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-07",
+    "release_date": "2026-09-30",
+    "title": "Escape at Alcatraz"
+  },
   "rentals:10:934644": {
     "arrived": "2026-09-30T18:28:05.150320+00:00",
     "movie_id": 934644,
@@ -120,6 +131,17 @@
     "release_date": "2026-09-29",
     "title": "The Swan: Behind the Mirror"
   },
+  "svod:1899:1757068": {
+    "arrived": "2026-10-01T18:55:32.737118+00:00",
+    "movie_id": 1757068,
+    "overview": "Chronicles comedian Dennis Miller's unlikely arrival in the \"Monday Night Football\" (MNF) broadcast booth in 2000, alongside veteran sportscaster Al Michaels and former NFL quarterback Dan Fouts. Intended to reinvigorate the iconic television franchise and attract a broader audience, Miller's addition, and his distinctly cerebral brand of humor, was met with both intrigue and skepticism across sports and television.",
+    "poster_path": "/i9k5eDDpYs84rDgeZ2vyXgNtmLF.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "Miller Night Football"
+  },
   "svod:8:1492640": {
     "arrived": "2026-09-26T17:15:20.487126+00:00",
     "movie_id": 1492640,
@@ -131,6 +153,17 @@
     "release_date": "2026-09-25",
     "title": "UNABOMBER"
   },
+  "svod:8:1758536": {
+    "arrived": "2026-10-01T18:55:32.737118+00:00",
+    "movie_id": 1758536,
+    "overview": "A journalist and a detective uncover the truth about a killer whose charm masked a trail of failed marriages and suspicious deaths.",
+    "poster_path": "/8MmN3JmgscGiAP3bUlrc2rLsGDq.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-07",
+    "release_date": "2026-09-30",
+    "title": "The Widower: 'Til Death Do Us Part"
+  },
   "svod:9:1529372": {
     "arrived": "2026-09-28T20:08:39.894492+00:00",
     "movie_id": 1529372,
@@ -141,16 +174,5 @@
     "publish_after": "2026-10-02",
     "release_date": "2026-09-25",
     "title": "Don't Be Shy!"
-  },
-  "svod:9:1766609": {
-    "arrived": "2026-09-29T18:40:32.304158+00:00",
-    "movie_id": 1766609,
-    "overview": "Built from an extraordinary archive - thousands of hours of raw home video footage shot across 35 years by DeSean's older brother Byron - this is an intimate, unfiltered portrait of a father and his two sons - their bond, their sacrifices, their conflicts, and their shared pursuit of a better life.",
-    "poster_path": "/vijDQnbLhOOhHU1bNs5vE5qJOI0.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-10-01",
-    "release_date": "2026-09-24",
-    "title": "Go Deep: The DeSean Jackson Story"
   }
 }
