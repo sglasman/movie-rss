@@ -1,15 +1,4 @@
 {
-  "rentals:10:130972": {
-    "arrived": "2026-09-25T17:58:44.788647+00:00",
-    "movie_id": 130972,
-    "overview": "Twenty-five years ago, a documentary crew vanished in Hawaii's deepest valleys while hunting the legendary Night Marchers. Now, their recovered footage shows the horrifying truth about an ancient Hawaiian legend best left alone.",
-    "poster_path": "/vmdd4n5QFF8bKsU1skzROz1fVTc.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-02",
-    "release_date": "2026-09-25",
-    "title": "The Night Marchers"
-  },
   "rentals:10:1351033": {
     "arrived": "2026-09-29T18:40:32.304158+00:00",
     "movie_id": 1351033,
@@ -21,38 +10,49 @@
     "release_date": "2026-09-28",
     "title": "Semolina Pilchard"
   },
-  "rentals:10:1398523": {
-    "arrived": "2026-09-26T17:15:20.487126+00:00",
-    "movie_id": 1398523,
-    "overview": "Mallory, an ambitious New York reporter, is assigned to a story on the Best Small Town in America, sending her to Alabama. Mallory stays at a BnB run by Robin and her charming son Wren, a former Marine. Beneath her exterior, Mallory\u2019s warm side is revealed as she bonds with the community, especially Wren. Zeke, Mallory\u2019s best friend and Hollywood heartthrob, visits her there and challenges her to rethink what she really wants.",
-    "poster_path": "/yotVBVVtwjaZK6SELR07SEmrn2q.jpg",
+  "rentals:10:1485646": {
+    "arrived": "2026-10-02T18:30:14.517848+00:00",
+    "movie_id": 1485646,
+    "overview": "Following sudden cardiac arrest, Julia Winters is forced back to her Nashville hometown, where Christmas never fades and old wounds still linger. To truly move forward, she must confront the past she thought she\u2019d left behind\u2014and the future she never saw coming.",
+    "poster_path": "/rr2f4zFUbbLEV8yPF8tDelwjzAP.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-02",
-    "release_date": "2026-09-25",
-    "title": "How Hard Can It Be?"
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "The Christmas Heartbeat"
   },
-  "rentals:10:1716668": {
-    "arrived": "2026-09-29T18:40:32.304158+00:00",
-    "movie_id": 1716668,
-    "overview": "An earthquake in the Atlantic triggers a devastating drop in global temperatures, plunging the world into a deadly, apocalyptic ice age.",
-    "poster_path": "/djTczYtz7GkoNbNgx0n7mY3M1LZ.jpg",
+  "rentals:10:1728416": {
+    "arrived": "2026-10-02T18:30:14.517848+00:00",
+    "movie_id": 1728416,
+    "overview": "An ex-Chronoforce agent starts his reign of terror by freeing notorious killer Vianna Liang from her interdimensional prison. When their friend is killed, Jet Hikoki and Flex Ramos must survive their journey to save reality.",
+    "poster_path": "/e3b8Y6VtpqzLMdbh2MJUOtHFNo4.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-02",
-    "release_date": "2026-09-25",
-    "title": "Arctic Annihilation"
+    "publish_after": "2026-10-09",
+    "release_date": "2026-10-02",
+    "title": "Intensive Purposes"
   },
-  "rentals:10:1735702": {
-    "arrived": "2026-09-25T17:58:44.788647+00:00",
-    "movie_id": 1735702,
-    "overview": "On their honeymoon in a treehouse, Noah and Annabelle ignore a local\u2019s warning. They\u2019re soon pulled into a AI-run experiment by a tech giant. As the challenges escalate, secrets emerge\u2014and survival becomes the only thing that matters.",
-    "poster_path": "/dGBJgX3Li3I1YdNLvno1AwTZ4fr.jpg",
+  "rentals:10:1733775": {
+    "arrived": "2026-10-02T18:30:14.517848+00:00",
+    "movie_id": 1733775,
+    "overview": "Backpay follows Steve, a desperate father fighting to save his marriage, who teams up with Murphy, a cop scarred by life as an informant. Their \u201csimple\u201d extortion plot\u2014kidnap a corrupt politician and crack a safe\u2014quickly spirals into danger.",
+    "poster_path": "/o0JCIJ2yBcavkh0JY05HOTRpBYz.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-02",
-    "release_date": "2026-09-25",
-    "title": "The Living Tree"
+    "publish_after": "2026-10-09",
+    "release_date": "2026-10-02",
+    "title": "Backpay"
+  },
+  "rentals:10:1757386": {
+    "arrived": "2026-10-02T18:30:14.517848+00:00",
+    "movie_id": 1757386,
+    "overview": "At the height of his career, Dane Cook wasn't just selling out arenas; he was redefining what a stand-up comedian could be. Then, in a shocking betrayal, the person he trusted most stole millions of dollars, forever changing his life. FUNNY MONEY: THE DANECOOK STORY is a gripping documentary about fame, family, greed, and survival, revealing the extraordinary true story behind one of comedy's biggest icons.",
+    "poster_path": "/5oKnnzzoOJk8v1wR4Qal8iRgllg.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-06",
+    "release_date": "2026-09-29",
+    "title": "Funny Money: The Dane Cook Story"
   },
   "rentals:10:1757506": {
     "arrived": "2026-09-29T18:40:32.304158+00:00",
@@ -142,17 +142,6 @@
     "release_date": "2026-09-29",
     "title": "Miller Night Football"
   },
-  "svod:8:1492640": {
-    "arrived": "2026-09-26T17:15:20.487126+00:00",
-    "movie_id": 1492640,
-    "overview": "Follow Ted Kaczynski's transformation from Harvard prodigy into the infamous Unabomber. Subjected to controversial psychological experiments by Professor Henry Murray, Kaczynski's troubled past resurfaces decades later when his manhunt, led by FBI agent Joanne Miller, brings to light the chilling consequences of ambition and isolation.",
-    "poster_path": "/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-02",
-    "release_date": "2026-09-25",
-    "title": "UNABOMBER"
-  },
   "svod:8:1758536": {
     "arrived": "2026-10-01T18:55:32.737118+00:00",
     "movie_id": 1758536,
@@ -164,15 +153,26 @@
     "release_date": "2026-09-30",
     "title": "The Widower: 'Til Death Do Us Part"
   },
-  "svod:9:1529372": {
-    "arrived": "2026-09-28T20:08:39.894492+00:00",
-    "movie_id": 1529372,
-    "overview": "Quintessential Mean Girl, Shyamili \u2018Shy\u2019 Das, finds herself suddenly relegated to Loser-ville when Mayank, her boyfriend of three years, suddenly dumps her. But Shy, all set to get her revenge, finds herself falling into friendship and compassion with someone unexpected\u2026 Mayank\u2019s new girlfriend - Tara.",
-    "poster_path": "/lBeDq7KmZaQNnnIXgExCAmfLMqT.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-10-02",
-    "release_date": "2026-09-25",
-    "title": "Don't Be Shy!"
+  "svod:8:1763619": {
+    "arrived": "2026-10-02T18:30:14.517848+00:00",
+    "movie_id": 1763619,
+    "overview": "When the snobbish and wealthy AlThahabi family find out they're actually not as loaded as they think, they're forced to fake their affluence to survive.",
+    "poster_path": "/zXrxCpD6UR96mk3umb93ub3RmSs.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-08",
+    "release_date": "2026-10-01",
+    "title": "Crazy Rich, Incredibly Broke"
+  },
+  "svod:8:1777082": {
+    "arrived": "2026-10-02T18:30:14.517848+00:00",
+    "movie_id": 1777082,
+    "overview": "Comedian Pandji Pragiwaksono turns spontaneous audience exchanges into an intimate and unpredictable crowd-work special.",
+    "poster_path": "/kjVVAsN0Zy6uMiIF9pUXCIZlT86.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-07",
+    "release_date": "2026-09-30",
+    "title": "Crowyokan"
   }
 }
