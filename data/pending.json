@@ -1,4 +1,15 @@
 {
+  "rentals:10:1320039": {
+    "arrived": "2026-10-03T17:25:03.799669+00:00",
+    "movie_id": 1320039,
+    "overview": "Bailey is an exotic dancer with big dreams. She and her Army vet husband Tim are fed up with their lives of barely getting by in small-town Arkansas, so they decide to rob the strip club that employs her.",
+    "poster_path": "/l5qjpG401icYMQC4aaCYZFElD7B.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-09",
+    "release_date": "2026-10-02",
+    "title": "Stranglehold"
+  },
   "rentals:10:1351033": {
     "arrived": "2026-09-29T18:40:32.304158+00:00",
     "movie_id": 1351033,
@@ -87,17 +98,6 @@
     "release_date": "2026-09-29",
     "title": "The Nice Ones"
   },
-  "rentals:10:1767141": {
-    "arrived": "2026-09-26T17:15:20.487126+00:00",
-    "movie_id": 1767141,
-    "overview": "A family vacation in Belize turns into a nightmare when a sudden storm strands a young kayaker named Miranda at sea, prompting her mother, Joan, to launch a desperate search.",
-    "poster_path": "/rvDlonSUbTk182BQJSdSVULMsSK.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-03",
-    "release_date": "2026-09-26",
-    "title": "The Ocean Between Them"
-  },
   "rentals:10:1767436": {
     "arrived": "2026-10-01T18:55:32.737118+00:00",
     "movie_id": 1767436,
@@ -108,6 +108,17 @@
     "publish_after": "2026-10-07",
     "release_date": "2026-09-30",
     "title": "Escape at Alcatraz"
+  },
+  "rentals:10:1778410": {
+    "arrived": "2026-10-03T17:25:03.799669+00:00",
+    "movie_id": 1778410,
+    "overview": "ISKY follows racing pioneer Ed Iskenderian and the fearless gearheads who turned hot-rodding into a cultural revolution. From humble beginnings to motorsports legend, Edward helped redefine speed and American car culture.",
+    "poster_path": "/zmrS7ZVjWCNQO54LUjynUuo0cD2.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-09",
+    "release_date": "2026-10-02",
+    "title": "Isky"
   },
   "rentals:10:934644": {
     "arrived": "2026-09-30T18:28:05.150320+00:00",
@@ -141,6 +152,39 @@
     "publish_after": "2026-10-06",
     "release_date": "2026-09-29",
     "title": "Miller Night Football"
+  },
+  "svod:8:1458857": {
+    "arrived": "2026-10-03T17:25:03.799669+00:00",
+    "movie_id": 1458857,
+    "overview": "A single mother and an incarcerated man forge an unlikely bond through heartfelt letters, unlocking a door to redemption, hope and love against all odds.",
+    "poster_path": "/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-09",
+    "release_date": "2026-10-02",
+    "title": "Doing Life"
+  },
+  "svod:8:1706128": {
+    "arrived": "2026-10-03T17:25:03.799669+00:00",
+    "movie_id": 1706128,
+    "overview": "YouTube star and musician Reza Arap takes the hot seat as top Indonesian comics roast his career, controversies and persona in this comedy special.",
+    "poster_path": "/fSprwIQDLtxMknlQJ2JPH3juNw6.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-08",
+    "release_date": "2026-10-01",
+    "title": "Adili Idola Celebrity Roast: Reza Oktovian"
+  },
+  "svod:8:1752355": {
+    "arrived": "2026-10-03T17:25:03.799669+00:00",
+    "movie_id": 1752355,
+    "overview": "Michael Schumacher's first World Championship win roars to life through personal interviews and archival footage of the legendary 1994 Formula 1 season.",
+    "poster_path": "/em19DrMkLSinf04NEhiRxTnVupI.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-09",
+    "release_date": "2026-10-02",
+    "title": "Schumacher '94 - The Birth of a Legend"
   },
   "svod:8:1758536": {
     "arrived": "2026-10-01T18:55:32.737118+00:00",
