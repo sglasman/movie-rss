@@ -50,6 +50,15 @@ HOLD_DAYS = 7
 # The rest — 4 = Digital, 5 = Physical, 6 = TV — are home releases, which for a
 # streaming-first film is the arrival we're posting about.
 PREMIERE_RELEASE_TYPES = {1, 2, 3}
+DIGITAL_RELEASE_TYPE = 4
+
+# Pre-orders only exist on transactional storefronts, so only those feeds hold
+# early listings for the digital date. An SVOD listing ahead of a "Digital"
+# date is usually a streaming original with messy dates — post it.
+EARLY_LISTING_MONETIZATIONS = {"rent", "buy"}
+# A digital date further out than this is treated as a placeholder, not a
+# reason to sit on the title. 123-day theatrical windows land well inside it.
+MAX_DIGITAL_HOLD_DAYS = 90
 
 # Placeholder prompt template for the ChatGPT critical-reception link.
 # {title}, {year}, {director} are substituted before URL-encoding.
@@ -123,7 +132,13 @@ class Arrival:
 
     @property
     def guid(self) -> str:
-        return f"tmdb-{self.monetization}-{self.provider_id}-{self.movie_id}"
+        # Dated, so a title re-detected after a phantom early listing gets a
+        # fresh guid instead of being deduped against the bogus post by readers.
+        # Items already in the feed keep the undated guid they were stored with.
+        return (
+            f"tmdb-{self.monetization}-{self.provider_id}-{self.movie_id}"
+            f"-{self.pub_datetime:%Y%m%d}"
+        )
 
     @property
     def tmdb_url(self) -> str:
@@ -300,6 +315,47 @@ def hold_until(details: dict, primary_release: str, today: date) -> date | None:
     earliest = min(known) if known else today
     due = earliest + timedelta(days=HOLD_DAYS)
     return due if due > today else None
+
+
+def upcoming_digital_release(details: dict, today: date) -> date | None:
+    """The film's US Digital release date, if it's still in the future.
+
+    JustWatch sometimes lists a storefront offer weeks early — a pre-order page,
+    or a bad scrape (Nolan's The Odyssey showed as an Amazon rental on 30 Sep
+    with a 17 Nov digital date). An offer that predates the digital release
+    isn't watchable yet, so it waits for that date and is re-checked then.
+
+    Errs toward posting: any digital date already past means it's out, and a
+    date further off than MAX_DIGITAL_HOLD_DAYS is likely a placeholder.
+    """
+    for entry in (details.get("release_dates") or {}).get("results", []):
+        if entry.get("iso_3166_1") != REGION:
+            continue
+        dates = [
+            d
+            for rd in entry.get("release_dates") or []
+            if rd.get("type") == DIGITAL_RELEASE_TYPE
+            and (d := _parse_date(rd.get("release_date"))) is not None
+        ]
+        if not dates or min(dates) <= today:
+            return None
+        if min(dates) > today + timedelta(days=MAX_DIGITAL_HOLD_DAYS):
+            return None
+        return min(dates)
+    return None
+
+
+def still_offered(
+    session: requests.Session, movie_id: int, provider_id: int, monetization: str
+) -> bool | None:
+    """Whether the provider still lists the film; None if TMDB couldn't say."""
+    try:
+        data = tmdb_get(session, f"/movie/{movie_id}/watch/providers", {})
+    except Exception as e:
+        print(f"  WARN provider re-check failed for {movie_id}: {e}", file=sys.stderr)
+        return None
+    offers = ((data.get("results") or {}).get(REGION) or {}).get(monetization) or []
+    return any(o.get("provider_id") == provider_id for o in offers)
 
 
 def load_existing_items(feed_path: Path) -> list[dict]:
@@ -554,6 +610,7 @@ def enrich(session: requests.Session, a: Arrival) -> None:
 def release_due(
     cfg: FeedConfig,
     session: requests.Session,
+    seen: dict[str, str],
     pending: dict[str, dict],
     now: datetime,
 ) -> list[Arrival]:
@@ -564,12 +621,36 @@ def release_due(
         rec = pending[key]
         # A malformed record gets released rather than stranded in the store.
         due = _parse_date(rec.get("publish_after")) or today
+        if due > today and rec.get("reason") == "digital":
+            # TMDB digital dates get corrected; re-read daily so a film whose
+            # date moved up (or vanished) isn't held to the stale one.
+            details = fetch_details_safe(session, int(rec["movie_id"]))
+            if details is not None:
+                fresh = upcoming_digital_release(details, today)
+                due = fresh or today
+                rec["publish_after"] = due.isoformat()
         if due > today:
+            continue
+        offered = still_offered(
+            session, int(rec["movie_id"]), int(rec["provider_id"]), cfg.monetization
+        )
+        if offered is None:
+            continue  # TMDB hiccup — try again tomorrow
+        if not offered:
+            # The listing evaporated while we waited. Forget we saw it, so the
+            # real arrival is detected fresh whenever it actually lands.
+            del pending[key]
+            seen.pop(key, None)
+            print(f"  DROP {rec.get('title')} — no longer offered, will re-detect")
             continue
         arrived = rec.get("arrived")
         try:
             first_seen = datetime.fromisoformat(arrived) if arrived else now
         except ValueError:
+            first_seen = now
+        if rec.get("reason") == "digital":
+            # The early listing wasn't a real arrival; today is. Dating it
+            # from the pre-order would misreport it as "held for reviews".
             first_seen = now
         a = Arrival(
             provider_id=int(rec["provider_id"]),
@@ -642,9 +723,18 @@ def process_feed(
             continue
         apply_details(a, details)
         due = hold_until(details, a.release_date, today)
+        reason = "reviews"
+        digital = (
+            upcoming_digital_release(details, today)
+            if cfg.monetization in EARLY_LISTING_MONETIZATIONS
+            else None
+        )
+        if digital and (due is None or digital > due):
+            due, reason = digital, "digital"
         if due:
             pending[key] = {
                 "publish_after": due.isoformat(),
+                "reason": reason,
                 "arrived": a.first_seen.isoformat(),
                 "provider_id": a.provider_id,
                 "provider_name": a.provider_name,
@@ -654,7 +744,12 @@ def process_feed(
                 "release_date": a.release_date,
                 "poster_path": a.poster_path,
             }
-            print(f"  HOLD {a.title} — streaming-first, posting {due.isoformat()}")
+            why = (
+                "listed before its US digital date"
+                if reason == "digital"
+                else "streaming-first"
+            )
+            print(f"  HOLD {a.title} — {why}, posting {due.isoformat()}")
             time.sleep(0.05)
             continue
         apply_ratings(session, a)
@@ -662,7 +757,7 @@ def process_feed(
         time.sleep(0.05)
 
     if not bootstrap:
-        arrivals.extend(release_due(cfg, session, pending, now))
+        arrivals.extend(release_due(cfg, session, seen, pending, now))
     new_items = [arrival_to_item(a) for a in arrivals]
     existing = load_existing_items(cfg.output_path)
     merged = new_items + existing

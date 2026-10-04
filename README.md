@@ -54,6 +54,14 @@ Held titles live in `data/pending.json` keyed exactly like `seen.json`, and are 
 
 Set `HOLD_DAYS = 0` in `update_feed.py` to turn the hold off.
 
+**Early listings.** JustWatch occasionally reports a storefront offer weeks before a film is watchable (a pre-order page, or a bad scrape — Nolan's *The Odyssey* showed up as an Amazon rental on 30 Sep 2026 with a 17 Nov digital date). In the rentals feed, any arrival whose US Digital release date (type 4) is still in the future is held in `pending.json` until that date. That date is re-read from TMDB daily, so a correction takes effect.
+
+The hold is designed to err toward posting:
+- Pre-orders only exist on storefronts, so the SVOD feed never uses this hold.
+- A digital date that's already past, or more than 90 days out (`MAX_DIGITAL_HOLD_DAYS`, probably a placeholder), means the title posts now.
+
+Every held title is re-checked against `/movie/{id}/watch/providers` before it posts. If the offer has gone, the hold is dropped and its `seen.json` key removed, so the real arrival is picked up fresh when it lands. Item guids carry the post date, so that re-post isn't deduped by your reader against the bogus one.
+
 ## Caveats
 
 - The discover query is clamped to films released in the last 12 months (`RELEASE_WINDOW_DAYS` in the script). This keeps the request count low and focuses the feed on actual new releases — older catalog additions are not tracked. Widen the constant if you want a longer tail.
