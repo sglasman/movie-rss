@@ -4,10 +4,11 @@
 
 # New on US Streaming — RSS feeds
 
-Two daily RSS feeds, built by diffing TMDB's `/discover/movie` results against a persisted snapshot (re-arrivals are suppressed):
+Three daily RSS feeds, built by diffing TMDB results against a persisted snapshot (re-arrivals are suppressed):
 
 - **`feed.xml`** — SVOD arrivals on Netflix, Max, Prime Video, Hulu, and Apple TV+.
 - **`feed-rentals.xml`** — Amazon Video rentals (PVOD window — useful for films newly home-viewable that haven't reached subscription yet).
+- **`feed-tv.xml`** — new series and new seasons of streaming originals from Netflix, HBO / HBO Max, Prime Video, Hulu, and Apple TV+. See [TV feed](#tv-feed).
 
 The two feeds are independent: a movie can appear in both at different times (e.g. an Amazon rental in April, then a Netflix arrival in October), and Netflix originals will only ever appear in the SVOD feed.
 
@@ -24,6 +25,7 @@ The two feeds are independent: a movie can appear in both at different times (e.
 7. The workflow then runs daily at 13:17 UTC. Subscribe Feedly to either or both:
    - `https://<your-username>.github.io/<repo-name>/feed.xml` (SVOD)
    - `https://<your-username>.github.io/<repo-name>/feed-rentals.xml` (Amazon rentals)
+   - `https://<your-username>.github.io/<repo-name>/feed-tv.xml` (streaming-original series)
 
 ## Local run
 
@@ -61,6 +63,17 @@ The hold is designed to err toward posting:
 - A digital date that's already past, or more than 90 days out (`MAX_DIGITAL_HOLD_DAYS`, probably a placeholder), means the title posts now.
 
 Every held title is re-checked against `/movie/{id}/watch/providers` before it posts. If the offer has gone, the hold is dropped and its `seen.json` key removed, so the real arrival is picked up fresh when it lands. Item guids carry the post date, so that re-post isn't deduped by your reader against the bogus one.
+
+## TV feed
+
+The TV feed finds originals by TMDB **network** (who commissioned the show), not by watch provider (who carries it). Licensed shows on Netflix don't count; a Netflix original does. Networks live in `TV_NETWORKS`. HBO (49) is included alongside HBO Max (3186) because that's where HBO shows stream.
+
+- Each run asks `/discover/tv` for each network's shows with any episode in the last `TV_WINDOW_DAYS` (45), then reads each show's season list.
+- The unit is a season. `data/seen.json` keys look like `"tv:<show_id>:s<season>"`, so a new series is its season 1 and a returning show posts once per new season. Specials (season 0) are ignored.
+- **Hold:** a season posts `TV_HOLD_DAYS` (7) after its TMDB air date, so the ChatGPT reception link has something to find. These are TMDB's own air dates, not JustWatch listings, so there's no pending store. A season simply isn't eligible until its date plus 7 days. Each item says when the season premiered.
+- An unseen season that premiered before the 45-day window is back catalog: it's marked seen and never posted.
+- **No bootstrap needed:** if `seen.json` has no `tv:` keys yet, the first run seeds silently. Seasons still inside their 7-day hold aren't seeded, so they post on schedule.
+- A failing TV run is logged (and annotated in Actions) without blocking the movie feeds.
 
 ## Caveats
 

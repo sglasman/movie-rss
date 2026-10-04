@@ -3,7 +3,8 @@
 Queries TMDB's /discover/movie for each tracked feed configuration (SVOD on
 the major US services, plus Amazon's rental storefront), diffs against a
 persisted "ever-seen" snapshot, and appends genuinely-new (provider, movie)
-arrivals to per-feed RSS files.
+arrivals to per-feed RSS files. A separate TV feed tracks new series and new
+seasons of streaming originals via /discover/tv by network.
 """
 
 from __future__ import annotations
@@ -103,6 +104,37 @@ FEEDS: list[FeedConfig] = [
         providers={10: "Amazon Video"},
     ),
 ]
+
+# Streaming-original series, tracked by TMDB *network* (who made/commissioned
+# it) rather than watch provider (who carries it) — that's what makes a show an
+# original. Separate from FEEDS: TV is diffed per season, not per provider.
+TV_FEED = FeedConfig(
+    slug="tv",
+    title="New Streaming Originals",
+    description="New series and new seasons from Netflix, HBO Max, Prime Video, Hulu, and Apple TV+.",
+    monetization="flatrate",
+)
+TV_NETWORKS: dict[int, str] = {
+    213: "Netflix",
+    3186: "HBO Max",
+    49: "HBO",
+    1024: "Prime Video",
+    453: "Hulu",
+    2552: "Apple TV+",
+}
+# Same reasoning as HOLD_DAYS: a season that premiered this morning has no
+# reception to ask about. TV dates come from TMDB's own air dates (not
+# JustWatch), so the hold is just "air date + N days" — no pending store.
+TV_HOLD_DAYS = 7
+# Shows with any episode in this window get their season list checked. Must
+# comfortably exceed TV_HOLD_DAYS so a season is still in range when its hold
+# ends, with slack for missed runs. Unseen seasons that premiered before the
+# window are marked seen silently (back catalog, not new).
+TV_WINDOW_DAYS = 45
+
+CHATGPT_TV_PROMPT_TEMPLATE = (
+    "Describe the critical and audience reception of {subject}. Focus on specific opinions on aspects like the tone, plotting, acting and production, not aggregator percentages. Keep it spoiler-free."
+)
 
 
 @dataclass
@@ -766,6 +798,242 @@ def process_feed(
     print(f"Wrote {cfg.output_path} with {min(len(merged), MAX_FEED_ITEMS)} items.")
 
 
+@dataclass
+class SeasonArrival:
+    show_id: int
+    season_number: int
+    network: str
+    title: str
+    overview: str
+    air_date: date
+    poster_path: str | None
+    first_seen: datetime
+    episode_count: int = 0
+    episode_runtime: int | None = None
+    vote_average: float = 0.0
+    vote_count: int = 0
+    country: str = ""
+    genres: list[str] = field(default_factory=list)
+    creators: list[str] = field(default_factory=list)
+    cast: list[str] = field(default_factory=list)
+    rating: str = ""
+    imdb_id: str = ""
+    imdb_rating: str = ""
+    rt_rating: str = ""
+    mc_rating: str = ""
+
+    @property
+    def is_new_series(self) -> bool:
+        return self.season_number == 1
+
+    @property
+    def tmdb_url(self) -> str:
+        return f"https://www.themoviedb.org/tv/{self.show_id}/season/{self.season_number}"
+
+
+def fetch_tv_catalog(session: requests.Session, network_id: int) -> dict[int, dict]:
+    """Return {show_id: discover-result} for the network's shows airing in the window."""
+    catalog: dict[int, dict] = {}
+    today = datetime.now(timezone.utc).date()
+    params = {
+        "with_networks": str(network_id),
+        "language": "en-US",
+        "include_adult": "false",
+        "sort_by": "first_air_date.desc",
+        "air_date.gte": (today - timedelta(days=TV_WINDOW_DAYS)).isoformat(),
+        "air_date.lte": today.isoformat(),
+    }
+    page = 1
+    while True:
+        data = tmdb_get(session, "/discover/tv", {**params, "page": page})
+        for s in data.get("results", []):
+            catalog[s["id"]] = s
+        total_pages = min(data.get("total_pages", 1), 500)
+        if page >= total_pages:
+            break
+        page += 1
+        time.sleep(0.05)
+    return catalog
+
+
+def fetch_tv_details_safe(session: requests.Session, show_id: int) -> dict | None:
+    try:
+        return tmdb_get(
+            session,
+            f"/tv/{show_id}",
+            {"language": "en-US", "append_to_response": "credits,content_ratings,external_ids"},
+        )
+    except (requests.RequestException, RuntimeError) as e:
+        print(f"  WARN TV details fetch failed for {show_id}: {e}", file=sys.stderr)
+        return None
+
+
+def build_season_arrival(
+    details: dict, season: dict, network: str, aired: date, now: datetime
+) -> SeasonArrival:
+    n = int(season["season_number"])
+    # Season overviews are often blank for later seasons; the show's still helps.
+    overview = season.get("overview") or details.get("overview") or ""
+    runtimes = details.get("episode_run_time") or []
+    runtime = runtimes[0] if runtimes else (details.get("last_episode_to_air") or {}).get("runtime")
+    rating = next(
+        (
+            r.get("rating", "")
+            for r in (details.get("content_ratings") or {}).get("results", [])
+            if r.get("iso_3166_1") == REGION
+        ),
+        "",
+    )
+    return SeasonArrival(
+        show_id=int(details["id"]),
+        season_number=n,
+        network=network,
+        title=details.get("name") or details.get("original_name") or "Untitled",
+        overview=overview,
+        air_date=aired,
+        poster_path=season.get("poster_path") or details.get("poster_path"),
+        first_seen=now,
+        episode_count=int(season.get("episode_count") or 0),
+        episode_runtime=runtime or None,
+        vote_average=float(details.get("vote_average") or 0.0),
+        vote_count=int(details.get("vote_count") or 0),
+        country=extract_country(details),
+        genres=[g.get("name", "") for g in (details.get("genres") or []) if g.get("name")],
+        creators=[c.get("name", "") for c in (details.get("created_by") or []) if c.get("name")],
+        cast=extract_top_cast(details, n=2),
+        rating=rating,
+        imdb_id=(details.get("external_ids") or {}).get("imdb_id") or "",
+    )
+
+
+def _tv_chatgpt_link(a: SeasonArrival) -> str:
+    year = a.air_date.year
+    if a.is_new_series:
+        subject = f'the {year} TV series "{a.title}" ({a.network})'
+    else:
+        subject = (
+            f'season {a.season_number} ({year}) of the TV series "{a.title}" '
+            f"({a.network}), and how it compares to earlier seasons"
+        )
+    prompt = CHATGPT_TV_PROMPT_TEMPLATE.format(subject=subject)
+    return f"https://chatgpt.com/?prompt={quote(prompt, safe='')}"
+
+
+def season_to_item(a: SeasonArrival) -> dict:
+    poster_html = (
+        f'<p><img src="{IMG_BASE}{a.poster_path}" alt="{escape(a.title)}"/></p>'
+        if a.poster_path
+        else ""
+    )
+    what = "New series" if a.is_new_series else f"Season {a.season_number}"
+    header = (
+        f"<p><strong>{what} on {escape(a.network)}</strong>"
+        f" · premiered {a.air_date.day} {a.air_date:%b}</p>"
+    )
+    episodes = (
+        f"{a.episode_count} episode{'s' if a.episode_count != 1 else ''}"
+        if a.episode_count
+        else ""
+    )
+    runtime = _runtime_str(a.episode_runtime)
+    meta_parts = [
+        str(a.air_date.year),
+        escape(a.country),
+        episodes,
+        f"~{runtime}" if runtime else "",
+        escape(a.rating),
+        escape(", ".join(a.genres)),
+        f"created by {escape(', '.join(a.creators))}" if a.creators else "",
+        f"with {escape(', '.join(a.cast))}" if a.cast else "",
+    ]
+    meta = " · ".join(p for p in meta_parts if p)
+    ratings = _ratings_line(a)  # duck-typed: same rating fields as Arrival
+    desc = (
+        poster_html
+        + header
+        + (f"<p>{meta}</p>" if meta else "")
+        + (f"<p>{ratings}</p>" if ratings else "")
+        + (f"<p>{escape(a.overview)}</p>" if a.overview else "")
+        + f'<p><a href="{escape(_tv_chatgpt_link(a))}">Ask ChatGPT about reception →</a></p>'
+    )
+    title = (
+        f"[{a.network}] {a.title} ({a.air_date.year})"
+        if a.is_new_series
+        else f"[{a.network}] {a.title} — Season {a.season_number}"
+    )
+    return {
+        "title": title,
+        "link": a.tmdb_url,
+        "guid": f"tmdb-tv-{a.show_id}-s{a.season_number}",
+        "pubDate": format_datetime(a.first_seen),
+        "category": a.network,
+        "description": desc,
+    }
+
+
+def process_tv_feed(
+    session: requests.Session, seen: dict[str, str], now: datetime, bootstrap: bool
+) -> None:
+    cfg = TV_FEED
+    print(f"\n=== Feed: {cfg.slug} (originals by network) ===")
+    today = now.date()
+    # First run with no TV history: seed rather than post every season in the
+    # window. Seasons still inside the hold aren't marked, so they post on time.
+    seed = bootstrap or not any(k.startswith(f"{cfg.slug}:") for k in seen)
+    if seed and not bootstrap:
+        print("  No TV history yet — seeding without posting.")
+
+    shows: dict[int, int] = {}  # show_id -> network it was discovered under
+    for nid, name in TV_NETWORKS.items():
+        print(f"Fetching {name} (network={nid})…")
+        catalog = fetch_tv_catalog(session, nid)
+        print(f"  {len(catalog)} shows with episodes in window")
+        for sid in catalog:
+            shows.setdefault(sid, nid)
+
+    hold_cutoff = today - timedelta(days=TV_HOLD_DAYS)
+    window_start = today - timedelta(days=TV_WINDOW_DAYS)
+    arrivals: list[SeasonArrival] = []
+    for sid, nid in shows.items():
+        details = fetch_tv_details_safe(session, sid)
+        time.sleep(0.05)
+        if details is None:
+            continue  # nothing marked seen, so it's re-checked tomorrow
+        # Label with the show's primary network among ours (a co-production can
+        # list several), falling back to the one discover matched.
+        network = next(
+            (TV_NETWORKS[n["id"]] for n in details.get("networks") or [] if n.get("id") in TV_NETWORKS),
+            TV_NETWORKS[nid],
+        )
+        for season in details.get("seasons") or []:
+            n = season.get("season_number") or 0
+            if n < 1:
+                continue  # season 0 is specials
+            aired = _parse_date(season.get("air_date"))
+            if aired is None or aired > hold_cutoff:
+                continue  # unaired or still in its hold; left unseen for later
+            key = f"{cfg.slug}:{sid}:s{n}"
+            if key in seen:
+                continue
+            seen[key] = today.isoformat()
+            if seed or aired < window_start:
+                continue
+            a = build_season_arrival(details, season, network, aired, now)
+            if a.imdb_id:
+                r = fetch_omdb_ratings(session, a.imdb_id)
+                a.imdb_rating, a.rt_rating, a.mc_rating = r.get("imdb", ""), r.get("rt", ""), r.get("mc", "")
+                time.sleep(0.1)
+            arrivals.append(a)
+            print(f"  NEW {a.title} S{n} ({network}, premiered {aired.isoformat()})")
+
+    print(f"New seasons for {cfg.slug}: {len(arrivals)}")
+    arrivals.sort(key=lambda a: a.air_date, reverse=True)
+    merged = [season_to_item(a) for a in arrivals] + load_existing_items(cfg.output_path)
+    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
+    cfg.output_path.write_text(render_feed(cfg, merged), encoding="utf-8")
+    print(f"Wrote {cfg.output_path} with {min(len(merged), MAX_FEED_ITEMS)} items.")
+
+
 def main() -> int:
     bootstrap = "--bootstrap" in sys.argv
     session = requests.Session()
@@ -775,6 +1043,15 @@ def main() -> int:
 
     for cfg in FEEDS:
         process_feed(cfg, session, seen, pending, now, bootstrap)
+    # The movie feeds are already written; a TV failure mustn't lose their
+    # seen.json updates (that would re-post today's arrivals tomorrow).
+    try:
+        process_tv_feed(session, seen, now, bootstrap)
+    except Exception:
+        import traceback
+
+        traceback.print_exc()
+        print("::error::TV feed failed; movie feeds were still updated")
 
     save_seen(seen)
     save_pending(pending)
