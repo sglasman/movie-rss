@@ -10,17 +10,6 @@
     "release_date": "2026-10-02",
     "title": "Stranglehold"
   },
-  "rentals:10:1485646": {
-    "arrived": "2026-10-02T18:30:14.517848+00:00",
-    "movie_id": 1485646,
-    "overview": "Following sudden cardiac arrest, Julia Winters is forced back to her Nashville hometown, where Christmas never fades and old wounds still linger. To truly move forward, she must confront the past she thought she\u2019d left behind\u2014and the future she never saw coming.",
-    "poster_path": "/rr2f4zFUbbLEV8yPF8tDelwjzAP.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "The Christmas Heartbeat"
-  },
   "rentals:10:1728416": {
     "arrived": "2026-10-02T18:30:14.517848+00:00",
     "movie_id": 1728416,
@@ -42,50 +31,6 @@
     "publish_after": "2026-10-09",
     "release_date": "2026-10-02",
     "title": "Backpay"
-  },
-  "rentals:10:1757386": {
-    "arrived": "2026-10-02T18:30:14.517848+00:00",
-    "movie_id": 1757386,
-    "overview": "At the height of his career, Dane Cook wasn't just selling out arenas; he was redefining what a stand-up comedian could be. Then, in a shocking betrayal, the person he trusted most stole millions of dollars, forever changing his life. FUNNY MONEY: THE DANECOOK STORY is a gripping documentary about fame, family, greed, and survival, revealing the extraordinary true story behind one of comedy's biggest icons.",
-    "poster_path": "/5oKnnzzoOJk8v1wR4Qal8iRgllg.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "Funny Money: The Dane Cook Story"
-  },
-  "rentals:10:1757506": {
-    "arrived": "2026-09-29T18:40:32.304158+00:00",
-    "movie_id": 1757506,
-    "overview": "Desperate people receive a mystical gift that grants wishes, collects souls, and creates monsters.",
-    "poster_path": "/2uHnVT80PJKgWPii7OX1tpB8uTQ.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "Crooked Miles"
-  },
-  "rentals:10:1767072": {
-    "arrived": "2026-09-29T18:40:32.304158+00:00",
-    "movie_id": 1767072,
-    "overview": "When Kate joins her boyfriend\u2019s friends at a remote countryside retreat, old wounds resurface as strange lights appear in the sky. As unease grows, members of the group begin to change\u2014becoming unnervingly calm, kind, and \u201cnice.\u201d Dismissed as unstable, Kate struggles to convince the others something is wrong before the force behind it spreads.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "The Nice Ones"
-  },
-  "rentals:10:1767073": {
-    "arrived": "2026-09-30T18:28:05.150320+00:00",
-    "movie_id": 1767073,
-    "overview": "When Kate joins her boyfriend\u2019s friends at a remote countryside retreat, old wounds resurface as strange lights appear in the sky. As unease grows, members of the group begin to change\u2014becoming unnervingly calm, kind, and \u201cnice.\u201d Dismissed as unstable, Kate struggles to convince the others something is wrong before the force behind it spreads.",
-    "poster_path": "/ktaGbNySsx0csWYRZJIGda27DL7.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "The Nice Ones"
   },
   "rentals:10:1767436": {
     "arrived": "2026-10-01T18:55:32.737118+00:00",
@@ -109,38 +54,17 @@
     "release_date": "2026-10-02",
     "title": "Isky"
   },
-  "rentals:10:934644": {
-    "arrived": "2026-09-30T18:28:05.150320+00:00",
-    "movie_id": 934644,
-    "overview": "Marion Callevero has her guest list checked twice to host the company Christmas event, but gifts quickly turn to gore. This struggling staff has been invited to the party but no one will be returning home for the holidays.",
-    "poster_path": "/sznm5JQCWR6DJ4H1JKf70ZavAnv.jpg",
+  "rentals:10:1784043": {
+    "arrived": "2026-10-06T18:55:44.019794+00:00",
+    "movie_id": 1784043,
+    "overview": "After moving into her new home, Mia, a mute Girl, discovers a cursed dollhouse hidden in the attic. When her younger brother vanishes into thin air, she must unlock the relic's dark mysteries before the ancient hex claims his soul forever.",
+    "poster_path": "/cKt3zqbyvyqUiRrzowQVdRiuFiW.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "Mistletoe Massacre"
-  },
-  "svod:15:1646945": {
-    "arrived": "2026-09-30T18:28:05.150320+00:00",
-    "movie_id": 1646945,
-    "overview": "A look at the controversial 2004 reality series The Swan, which took self-proclaimed 'ugly ducklings' and set out to make them... not that.",
-    "poster_path": "/hCALD2uCetzUjj40k8TUMnsA397.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "The Swan: Behind the Mirror"
-  },
-  "svod:1899:1757068": {
-    "arrived": "2026-10-01T18:55:32.737118+00:00",
-    "movie_id": 1757068,
-    "overview": "Chronicles comedian Dennis Miller's unlikely arrival in the \"Monday Night Football\" (MNF) broadcast booth in 2000, alongside veteran sportscaster Al Michaels and former NFL quarterback Dan Fouts. Intended to reinvigorate the iconic television franchise and attract a broader audience, Miller's addition, and his distinctly cerebral brand of humor, was met with both intrigue and skepticism across sports and television.",
-    "poster_path": "/i9k5eDDpYs84rDgeZ2vyXgNtmLF.jpg",
-    "provider_id": 1899,
-    "provider_name": "Max",
-    "publish_after": "2026-10-06",
-    "release_date": "2026-09-29",
-    "title": "Miller Night Football"
+    "publish_after": "2026-10-13",
+    "reason": "reviews",
+    "release_date": "2026-10-06",
+    "title": "JINX"
   },
   "svod:8:1458857": {
     "arrived": "2026-10-03T17:25:03.799669+00:00",
