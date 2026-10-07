@@ -1,4 +1,16 @@
 {
+  "rentals:10:1290062": {
+    "arrived": "2026-10-07T19:22:56.929910+00:00",
+    "movie_id": 1290062,
+    "overview": "Following a tragic event that shattered her life, renowned author Alice Chevalier struggles to find meaning in her existence. Searching for answers and a sign from destiny, she meets Thomas, a mysterious man who offers her an experience that defies the boundaries of reality. Driven by the hope of rebuilding herself, Alice embarks on a mystical journey, like an astronaut venturing into the far reaches of the unknown.",
+    "poster_path": "/jnKUmaR661bXpVDFh6xMFcs6LyA.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-13",
+    "reason": "reviews",
+    "release_date": "2026-10-06",
+    "title": "Land of Shadows"
+  },
   "rentals:10:1320039": {
     "arrived": "2026-10-03T17:25:03.799669+00:00",
     "movie_id": 1320039,
@@ -9,6 +21,18 @@
     "publish_after": "2026-10-09",
     "release_date": "2026-10-02",
     "title": "Stranglehold"
+  },
+  "rentals:10:1454834": {
+    "arrived": "2026-10-07T19:22:56.929910+00:00",
+    "movie_id": 1454834,
+    "overview": "A newlywed couple's dream wedding spirals into a bloody nightmare when they uncover that their secluded venue- a desolate motel deep in the Nevada desert- is run by a relentless bloodthirsty family with dark secrets, revealing that one bride's future may not be all that it was promised to be.",
+    "poster_path": "/klwqPIJaOODQ39RGbXEcxk5xhSE.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-13",
+    "reason": "reviews",
+    "release_date": "2026-10-06",
+    "title": "Last Chance Motel"
   },
   "rentals:10:1728416": {
     "arrived": "2026-10-02T18:30:14.517848+00:00",
@@ -32,17 +56,6 @@
     "release_date": "2026-10-02",
     "title": "Backpay"
   },
-  "rentals:10:1767436": {
-    "arrived": "2026-10-01T18:55:32.737118+00:00",
-    "movie_id": 1767436,
-    "overview": "When a covert black-ops contractor seizes Alcatraz, the CIA smuggles hardened agent Lt. Jack Callahan inside to extract whistleblower Anya Turner and her damning evidence before the mission spirals into a deadly fight for survival.",
-    "poster_path": "/pz1q0j05YoQarSf39BSqw0ANv0h.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-07",
-    "release_date": "2026-09-30",
-    "title": "Escape at Alcatraz"
-  },
   "rentals:10:1778410": {
     "arrived": "2026-10-03T17:25:03.799669+00:00",
     "movie_id": 1778410,
@@ -65,6 +78,18 @@
     "reason": "reviews",
     "release_date": "2026-10-06",
     "title": "JINX"
+  },
+  "rentals:10:1786827": {
+    "arrived": "2026-10-07T19:22:56.929910+00:00",
+    "movie_id": 1786827,
+    "overview": "When her teen daughter Izzy is kidnapped and buried alive, Jamie and her ex-husband must put aside their differences and work together to raise a massive ransom and save Izzy from a premature grave.",
+    "poster_path": "/oW9WWUAbDlNYKtXZuAPp0CzC8KI.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-11",
+    "reason": "reviews",
+    "release_date": "2026-10-04",
+    "title": "Where No One Can Find Her"
   },
   "svod:8:1458857": {
     "arrived": "2026-10-03T17:25:03.799669+00:00",
@@ -99,17 +124,6 @@
     "release_date": "2026-10-02",
     "title": "Schumacher '94 - The Birth of a Legend"
   },
-  "svod:8:1758536": {
-    "arrived": "2026-10-01T18:55:32.737118+00:00",
-    "movie_id": 1758536,
-    "overview": "A journalist and a detective uncover the truth about a killer whose charm masked a trail of failed marriages and suspicious deaths.",
-    "poster_path": "/8MmN3JmgscGiAP3bUlrc2rLsGDq.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-07",
-    "release_date": "2026-09-30",
-    "title": "The Widower: 'Til Death Do Us Part"
-  },
   "svod:8:1763619": {
     "arrived": "2026-10-02T18:30:14.517848+00:00",
     "movie_id": 1763619,
@@ -120,16 +134,5 @@
     "publish_after": "2026-10-08",
     "release_date": "2026-10-01",
     "title": "Crazy Rich, Incredibly Broke"
-  },
-  "svod:8:1777082": {
-    "arrived": "2026-10-02T18:30:14.517848+00:00",
-    "movie_id": 1777082,
-    "overview": "Comedian Pandji Pragiwaksono turns spontaneous audience exchanges into an intimate and unpredictable crowd-work special.",
-    "poster_path": "/kjVVAsN0Zy6uMiIF9pUXCIZlT86.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-07",
-    "release_date": "2026-09-30",
-    "title": "Crowyokan"
   }
 }
