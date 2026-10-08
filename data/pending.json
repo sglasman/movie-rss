@@ -79,6 +79,18 @@
     "release_date": "2026-10-06",
     "title": "JINX"
   },
+  "rentals:10:1786809": {
+    "arrived": "2026-10-08T19:18:15.514945+00:00",
+    "movie_id": 1786809,
+    "overview": "After the death of her husband, Allison Simon finds love again with charming businessman Roger, but her son Eric quickly senses something sinister beneath his new stepfather's perfect facade.",
+    "poster_path": "/cZ1VB99TJKNw4RQHD3IHKhUYAB0.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-09",
+    "reason": "reviews",
+    "release_date": "2026-10-02",
+    "title": "To Catch a Stepfather"
+  },
   "rentals:10:1786827": {
     "arrived": "2026-10-07T19:22:56.929910+00:00",
     "movie_id": 1786827,
@@ -91,6 +103,18 @@
     "release_date": "2026-10-04",
     "title": "Where No One Can Find Her"
   },
+  "svod:15:1781653": {
+    "arrived": "2026-10-08T19:18:15.514945+00:00",
+    "movie_id": 1781653,
+    "overview": "Jamie Foxx delivers honest self-care comedy in \"Take Care of Yourself.\" He joins the \"Hularious\" lineup with Hannah Berner, Ralph Barbosa, Bill Burr, Chris Distefano, Jim Gaffigan, Zarna Garg, Nikki Glaser, Ilana Glazer and more.",
+    "poster_path": "/yldpC40h6F8c55vu6hMFotG1Hs6.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-10-14",
+    "reason": "reviews",
+    "release_date": "2026-10-07",
+    "title": "Jamie Foxx: Take Care of Yourself"
+  },
   "svod:8:1458857": {
     "arrived": "2026-10-03T17:25:03.799669+00:00",
     "movie_id": 1458857,
@@ -101,17 +125,6 @@
     "publish_after": "2026-10-09",
     "release_date": "2026-10-02",
     "title": "Doing Life"
-  },
-  "svod:8:1706128": {
-    "arrived": "2026-10-03T17:25:03.799669+00:00",
-    "movie_id": 1706128,
-    "overview": "YouTube star and musician Reza Arap takes the hot seat as top Indonesian comics roast his career, controversies and persona in this comedy special.",
-    "poster_path": "/fSprwIQDLtxMknlQJ2JPH3juNw6.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-08",
-    "release_date": "2026-10-01",
-    "title": "Adili Idola Celebrity Roast: Reza Oktovian"
   },
   "svod:8:1752355": {
     "arrived": "2026-10-03T17:25:03.799669+00:00",
@@ -124,15 +137,28 @@
     "release_date": "2026-10-02",
     "title": "Schumacher '94 - The Birth of a Legend"
   },
-  "svod:8:1763619": {
-    "arrived": "2026-10-02T18:30:14.517848+00:00",
-    "movie_id": 1763619,
-    "overview": "When the snobbish and wealthy AlThahabi family find out they're actually not as loaded as they think, they're forced to fake their affluence to survive.",
-    "poster_path": "/zXrxCpD6UR96mk3umb93ub3RmSs.jpg",
+  "svod:8:1756138": {
+    "arrived": "2026-10-08T19:18:15.514945+00:00",
+    "movie_id": 1756138,
+    "overview": "Discover Martin Mull's restless reinvention from smoky folk clubs to primetime sitcoms to gallery walls, told in his own words and by the friends who watched it happen, including Steve Martin, Tom Waits, David Alan Grier and others.",
+    "poster_path": "/xpIXOeUsHGl9HLc32p7Z09tkh0t.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-10-08",
-    "release_date": "2026-10-01",
-    "title": "Crazy Rich, Incredibly Broke"
+    "publish_after": "2026-10-14",
+    "reason": "reviews",
+    "release_date": "2026-10-07",
+    "title": "Who Is Martin Mull?"
+  },
+  "svod:8:1789554": {
+    "arrived": "2026-10-08T19:18:15.514945+00:00",
+    "movie_id": 1789554,
+    "overview": "Scene-stealer Mojo Brookzz unloads on freaky partners, wild BBL culture and his niece's big coming-out present in his debut Netflix special.",
+    "poster_path": "/qw9mwyKEWeRIWudfaMK1gvVcGP2.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-13",
+    "reason": "reviews",
+    "release_date": "2026-10-06",
+    "title": "Mojo Brookzz: I Know You Lying"
   }
 }
