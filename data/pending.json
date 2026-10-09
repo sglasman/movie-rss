@@ -1,4 +1,16 @@
 {
+  "rentals:10:1049480": {
+    "arrived": "2026-10-09T18:51:12.166863+00:00",
+    "movie_id": 1049480,
+    "overview": "Trapped on the roof of a skyscraper over a holiday weekend and without communication, two co-workers attempt to escape in increasingly dangerous ways as their health deteriorates while both realize how much they have ruined their lives.",
+    "poster_path": "/jb2ioLU55Bu0o9hD4OL4KY7FRoJ.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-16",
+    "reason": "reviews",
+    "release_date": "2026-10-09",
+    "title": "Roof"
+  },
   "rentals:10:1290062": {
     "arrived": "2026-10-07T19:22:56.929910+00:00",
     "movie_id": 1290062,
@@ -10,17 +22,6 @@
     "reason": "reviews",
     "release_date": "2026-10-06",
     "title": "Land of Shadows"
-  },
-  "rentals:10:1320039": {
-    "arrived": "2026-10-03T17:25:03.799669+00:00",
-    "movie_id": 1320039,
-    "overview": "Bailey is an exotic dancer with big dreams. She and her Army vet husband Tim are fed up with their lives of barely getting by in small-town Arkansas, so they decide to rob the strip club that employs her.",
-    "poster_path": "/l5qjpG401icYMQC4aaCYZFElD7B.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-09",
-    "release_date": "2026-10-02",
-    "title": "Stranglehold"
   },
   "rentals:10:1454834": {
     "arrived": "2026-10-07T19:22:56.929910+00:00",
@@ -34,39 +35,6 @@
     "release_date": "2026-10-06",
     "title": "Last Chance Motel"
   },
-  "rentals:10:1728416": {
-    "arrived": "2026-10-02T18:30:14.517848+00:00",
-    "movie_id": 1728416,
-    "overview": "An ex-Chronoforce agent starts his reign of terror by freeing notorious killer Vianna Liang from her interdimensional prison. When their friend is killed, Jet Hikoki and Flex Ramos must survive their journey to save reality.",
-    "poster_path": "/e3b8Y6VtpqzLMdbh2MJUOtHFNo4.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-09",
-    "release_date": "2026-10-02",
-    "title": "Intensive Purposes"
-  },
-  "rentals:10:1733775": {
-    "arrived": "2026-10-02T18:30:14.517848+00:00",
-    "movie_id": 1733775,
-    "overview": "Backpay follows Steve, a desperate father fighting to save his marriage, who teams up with Murphy, a cop scarred by life as an informant. Their \u201csimple\u201d extortion plot\u2014kidnap a corrupt politician and crack a safe\u2014quickly spirals into danger.",
-    "poster_path": "/o0JCIJ2yBcavkh0JY05HOTRpBYz.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-09",
-    "release_date": "2026-10-02",
-    "title": "Backpay"
-  },
-  "rentals:10:1778410": {
-    "arrived": "2026-10-03T17:25:03.799669+00:00",
-    "movie_id": 1778410,
-    "overview": "ISKY follows racing pioneer Ed Iskenderian and the fearless gearheads who turned hot-rodding into a cultural revolution. From humble beginnings to motorsports legend, Edward helped redefine speed and American car culture.",
-    "poster_path": "/zmrS7ZVjWCNQO54LUjynUuo0cD2.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-09",
-    "release_date": "2026-10-02",
-    "title": "Isky"
-  },
   "rentals:10:1784043": {
     "arrived": "2026-10-06T18:55:44.019794+00:00",
     "movie_id": 1784043,
@@ -78,18 +46,6 @@
     "reason": "reviews",
     "release_date": "2026-10-06",
     "title": "JINX"
-  },
-  "rentals:10:1786809": {
-    "arrived": "2026-10-08T19:18:15.514945+00:00",
-    "movie_id": 1786809,
-    "overview": "After the death of her husband, Allison Simon finds love again with charming businessman Roger, but her son Eric quickly senses something sinister beneath his new stepfather's perfect facade.",
-    "poster_path": "/cZ1VB99TJKNw4RQHD3IHKhUYAB0.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-09",
-    "reason": "reviews",
-    "release_date": "2026-10-02",
-    "title": "To Catch a Stepfather"
   },
   "rentals:10:1786827": {
     "arrived": "2026-10-07T19:22:56.929910+00:00",
@@ -103,6 +59,18 @@
     "release_date": "2026-10-04",
     "title": "Where No One Can Find Her"
   },
+  "rentals:10:1790725": {
+    "arrived": "2026-10-09T18:51:12.166863+00:00",
+    "movie_id": 1790725,
+    "overview": "Two friends give up on revision in favour for a friendly game of Snakes and Ladders.  While playing the conversation that follows becomes as unpredictable as the game.",
+    "poster_path": "/ck6XsiFSIPwJJ5cRecmKlj6szpG.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-12",
+    "reason": "reviews",
+    "release_date": "2026-10-05",
+    "title": "Snakes and Ladders"
+  },
   "svod:15:1781653": {
     "arrived": "2026-10-08T19:18:15.514945+00:00",
     "movie_id": 1781653,
@@ -114,28 +82,6 @@
     "reason": "reviews",
     "release_date": "2026-10-07",
     "title": "Jamie Foxx: Take Care of Yourself"
-  },
-  "svod:8:1458857": {
-    "arrived": "2026-10-03T17:25:03.799669+00:00",
-    "movie_id": 1458857,
-    "overview": "A single mother and an incarcerated man forge an unlikely bond through heartfelt letters, unlocking a door to redemption, hope and love against all odds.",
-    "poster_path": "/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-09",
-    "release_date": "2026-10-02",
-    "title": "Doing Life"
-  },
-  "svod:8:1752355": {
-    "arrived": "2026-10-03T17:25:03.799669+00:00",
-    "movie_id": 1752355,
-    "overview": "Michael Schumacher's first World Championship win roars to life through personal interviews and archival footage of the legendary 1994 Formula 1 season.",
-    "poster_path": "/em19DrMkLSinf04NEhiRxTnVupI.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-09",
-    "release_date": "2026-10-02",
-    "title": "Schumacher '94 - The Birth of a Legend"
   },
   "svod:8:1756138": {
     "arrived": "2026-10-08T19:18:15.514945+00:00",
