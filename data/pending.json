@@ -47,18 +47,6 @@
     "release_date": "2026-10-06",
     "title": "JINX"
   },
-  "rentals:10:1786827": {
-    "arrived": "2026-10-07T19:22:56.929910+00:00",
-    "movie_id": 1786827,
-    "overview": "When her teen daughter Izzy is kidnapped and buried alive, Jamie and her ex-husband must put aside their differences and work together to raise a massive ransom and save Izzy from a premature grave.",
-    "poster_path": "/oW9WWUAbDlNYKtXZuAPp0CzC8KI.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-11",
-    "reason": "reviews",
-    "release_date": "2026-10-04",
-    "title": "Where No One Can Find Her"
-  },
   "rentals:10:1790725": {
     "arrived": "2026-10-09T18:51:12.166863+00:00",
     "movie_id": 1790725,
