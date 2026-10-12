@@ -47,18 +47,6 @@
     "release_date": "2026-10-06",
     "title": "JINX"
   },
-  "rentals:10:1790725": {
-    "arrived": "2026-10-09T18:51:12.166863+00:00",
-    "movie_id": 1790725,
-    "overview": "Two friends give up on revision in favour for a friendly game of Snakes and Ladders.  While playing the conversation that follows becomes as unpredictable as the game.",
-    "poster_path": "/ck6XsiFSIPwJJ5cRecmKlj6szpG.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-12",
-    "reason": "reviews",
-    "release_date": "2026-10-05",
-    "title": "Snakes and Ladders"
-  },
   "svod:15:1781653": {
     "arrived": "2026-10-08T19:18:15.514945+00:00",
     "movie_id": 1781653,
@@ -70,6 +58,18 @@
     "reason": "reviews",
     "release_date": "2026-10-07",
     "title": "Jamie Foxx: Take Care of Yourself"
+  },
+  "svod:8:1389172": {
+    "arrived": "2026-10-12T21:45:56.621387+00:00",
+    "movie_id": 1389172,
+    "overview": "A young reporter and her reluctant cameraman chase a story, only to get entangled in an illegal sand-mining racket run by a ruthless syndicate.",
+    "poster_path": "/7Ncfrt43mLLFB8yWcWON8imHr0Q.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-16",
+    "reason": "reviews",
+    "release_date": "2026-10-09",
+    "title": "Reporting Live"
   },
   "svod:8:1756138": {
     "arrived": "2026-10-08T19:18:15.514945+00:00",
