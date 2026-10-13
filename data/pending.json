@@ -11,41 +11,17 @@
     "release_date": "2026-10-09",
     "title": "Roof"
   },
-  "rentals:10:1290062": {
-    "arrived": "2026-10-07T19:22:56.929910+00:00",
-    "movie_id": 1290062,
-    "overview": "Following a tragic event that shattered her life, renowned author Alice Chevalier struggles to find meaning in her existence. Searching for answers and a sign from destiny, she meets Thomas, a mysterious man who offers her an experience that defies the boundaries of reality. Driven by the hope of rebuilding herself, Alice embarks on a mystical journey, like an astronaut venturing into the far reaches of the unknown.",
-    "poster_path": "/jnKUmaR661bXpVDFh6xMFcs6LyA.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-13",
+  "svod:15:1776531": {
+    "arrived": "2026-10-13T19:53:09.186379+00:00",
+    "movie_id": 1776531,
+    "overview": "Revisits the bizarre nationwide hysteria of 2016, which began with reports of creepy clowns hiding near woods in South Carolina and quickly spiraled into widespread panic, school lockdowns, and police interventions across the United States. This in-depth documentary features interviews with eyewitnesses, law enforcement officials, cultural commentators, and professional clowns whose livelihoods were impacted by the craze.",
+    "poster_path": "/pZ15WSO7UzzJ297SLBMvxHNQDC1.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-10-19",
     "reason": "reviews",
-    "release_date": "2026-10-06",
-    "title": "Land of Shadows"
-  },
-  "rentals:10:1454834": {
-    "arrived": "2026-10-07T19:22:56.929910+00:00",
-    "movie_id": 1454834,
-    "overview": "A newlywed couple's dream wedding spirals into a bloody nightmare when they uncover that their secluded venue- a desolate motel deep in the Nevada desert- is run by a relentless bloodthirsty family with dark secrets, revealing that one bride's future may not be all that it was promised to be.",
-    "poster_path": "/klwqPIJaOODQ39RGbXEcxk5xhSE.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-13",
-    "reason": "reviews",
-    "release_date": "2026-10-06",
-    "title": "Last Chance Motel"
-  },
-  "rentals:10:1784043": {
-    "arrived": "2026-10-06T18:55:44.019794+00:00",
-    "movie_id": 1784043,
-    "overview": "After moving into her new home, Mia, a mute Girl, discovers a cursed dollhouse hidden in the attic. When her younger brother vanishes into thin air, she must unlock the relic's dark mysteries before the ancient hex claims his soul forever.",
-    "poster_path": "/cKt3zqbyvyqUiRrzowQVdRiuFiW.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-13",
-    "reason": "reviews",
-    "release_date": "2026-10-06",
-    "title": "JINX"
+    "release_date": "2026-10-12",
+    "title": "Clown Panic"
   },
   "svod:15:1781653": {
     "arrived": "2026-10-08T19:18:15.514945+00:00",
@@ -82,17 +58,5 @@
     "reason": "reviews",
     "release_date": "2026-10-07",
     "title": "Who Is Martin Mull?"
-  },
-  "svod:8:1789554": {
-    "arrived": "2026-10-08T19:18:15.514945+00:00",
-    "movie_id": 1789554,
-    "overview": "Scene-stealer Mojo Brookzz unloads on freaky partners, wild BBL culture and his niece's big coming-out present in his debut Netflix special.",
-    "poster_path": "/qw9mwyKEWeRIWudfaMK1gvVcGP2.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-13",
-    "reason": "reviews",
-    "release_date": "2026-10-06",
-    "title": "Mojo Brookzz: I Know You Lying"
   }
 }
