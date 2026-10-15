@@ -11,6 +11,42 @@
     "release_date": "2026-10-09",
     "title": "Roof"
   },
+  "rentals:10:1139129": {
+    "arrived": "2026-10-15T17:47:41.454454+00:00",
+    "movie_id": 1139129,
+    "overview": "Just when you thought it couldn't get any worse, the Arachnado has returned, this time as a \"Firenado\" with Flaming Spiders. It's up to a renegade Sergeant Preston and the Janitor from the original film to overthrow the corrupt Lieutenant Gallagher and put the fire out.",
+    "poster_path": "/7gxCZly72UMD1Y5RgxEgWGvwXu8.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-20",
+    "reason": "reviews",
+    "release_date": "2026-10-13",
+    "title": "Arachnado 2: Flaming Spiders"
+  },
+  "rentals:10:1226230": {
+    "arrived": "2026-10-15T17:47:41.454454+00:00",
+    "movie_id": 1226230,
+    "overview": "Citizens of a troubled city must navigate through an unforeseen crisis that threatens every walk of life.",
+    "poster_path": "/w7dTed9KJ6CqIzsyH27ZxrQgcPL.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-20",
+    "reason": "reviews",
+    "release_date": "2026-10-13",
+    "title": "Bunker Heights"
+  },
+  "rentals:10:1282159": {
+    "arrived": "2026-10-15T17:47:41.454454+00:00",
+    "movie_id": 1282159,
+    "overview": "Two best friends, Emma and Phoebe, decide to get pregnant simultaneously to navigate motherhood together, but their friendship is tested when only one of them conceives.",
+    "poster_path": "/ciHBHFWAUn9tXNpm5NfDOkcgcMx.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-20",
+    "reason": "reviews",
+    "release_date": "2026-10-13",
+    "title": "Let's Have Kids!"
+  },
   "svod:15:1776531": {
     "arrived": "2026-10-13T19:53:09.186379+00:00",
     "movie_id": 1776531,
