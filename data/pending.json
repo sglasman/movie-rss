@@ -1,16 +1,4 @@
 {
-  "rentals:10:1049480": {
-    "arrived": "2026-10-09T18:51:12.166863+00:00",
-    "movie_id": 1049480,
-    "overview": "Trapped on the roof of a skyscraper over a holiday weekend and without communication, two co-workers attempt to escape in increasingly dangerous ways as their health deteriorates while both realize how much they have ruined their lives.",
-    "poster_path": "/jb2ioLU55Bu0o9hD4OL4KY7FRoJ.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-16",
-    "reason": "reviews",
-    "release_date": "2026-10-09",
-    "title": "Roof"
-  },
   "rentals:10:1139129": {
     "arrived": "2026-10-15T17:47:41.454454+00:00",
     "movie_id": 1139129,
@@ -47,6 +35,42 @@
     "release_date": "2026-10-13",
     "title": "Let's Have Kids!"
   },
+  "rentals:10:1767251": {
+    "arrived": "2026-10-16T17:30:07.333894+00:00",
+    "movie_id": 1767251,
+    "overview": "Myrna, a former gang member, runs a roadside motel with her younger boyfriend, Floyd. When her old gang arrives for a mysterious Bitcoin heist, buried grudges, jealousy, and betrayal threaten the score- and the new life Myrna fought to build.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "Blood Before Bitcoin"
+  },
+  "rentals:10:1790001": {
+    "arrived": "2026-10-16T17:30:07.333894+00:00",
+    "movie_id": 1790001,
+    "overview": "Five friends from Chicago head into the woods for a weekend getaway with their coworkers. What begins as a chance to escape the everyday quickly turns terrifying when the group discovers that the legend surrounding their destination is far from a campfire story.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-20",
+    "reason": "reviews",
+    "release_date": "2026-10-13",
+    "title": "Camp Night"
+  },
+  "rentals:10:1794750": {
+    "arrived": "2026-10-16T17:30:07.333894+00:00",
+    "movie_id": 1794750,
+    "overview": "Over the past six years, a team of filmmakers has been following more than a dozen Americans in eight states across the U.S., charting their views about changes in the country and in their own lives. Now, a month before the midterm elections, how are these Americans \u2014 from a doctor to a pastor to a barber to a construction company owner to a retiree \u2014 feeling about the direction of the country? \"American Voices 2026\" asks how their hopes and fears have evolved amid another polarizing election season, a faltering economy, and a war with Iran that's now in its eighth month.",
+    "poster_path": "/wQzoxUlfDz71YAvIiDGdkB2FkNi.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-20",
+    "reason": "reviews",
+    "release_date": "2026-10-13",
+    "title": "American Voices 2026"
+  },
   "svod:15:1776531": {
     "arrived": "2026-10-13T19:53:09.186379+00:00",
     "movie_id": 1776531,
@@ -59,16 +83,40 @@
     "release_date": "2026-10-12",
     "title": "Clown Panic"
   },
-  "svod:8:1389172": {
-    "arrived": "2026-10-12T21:45:56.621387+00:00",
-    "movie_id": 1389172,
-    "overview": "A young reporter and her reluctant cameraman chase a story, only to get entangled in an illegal sand-mining racket run by a ruthless syndicate.",
-    "poster_path": "/7Ncfrt43mLLFB8yWcWON8imHr0Q.jpg",
+  "svod:8:1623256": {
+    "arrived": "2026-10-16T17:30:07.333894+00:00",
+    "movie_id": 1623256,
+    "overview": "When a storm traps old university pals at a luxury lodge, their civilized birthday bash spirals into a cyclone of betrayals, grudges and unfiltered chaos.",
+    "poster_path": "/5YNjTi5AhbSM4hDOynJcgFfvKRn.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-10-16",
+    "publish_after": "2026-10-22",
     "reason": "reviews",
-    "release_date": "2026-10-09",
-    "title": "Reporting Live"
+    "release_date": "2026-10-15",
+    "title": "The Storm"
+  },
+  "svod:8:1788682": {
+    "arrived": "2026-10-16T17:30:07.333894+00:00",
+    "movie_id": 1788682,
+    "overview": "Singlehood, relationships with parents and facing taboos \u2014 Sumukhi Suresh doesn't hold back as she tackles all this and more in her comedy special.",
+    "poster_path": "/3zmfnrpjZDz9sSglPzpPDLa21KS.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-21",
+    "reason": "reviews",
+    "release_date": "2026-10-14",
+    "title": "Sumukhi Suresh: Hoemonal"
+  },
+  "svod:9:1561726": {
+    "arrived": "2026-10-16T17:30:07.333894+00:00",
+    "movie_id": 1561726,
+    "overview": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings\u2026 and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together \u2014 and try not to kill each other \u2014 if they want any chance at pulling off the heist of the century.",
+    "poster_path": "/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "Masterplan"
   }
 }
