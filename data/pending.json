@@ -35,6 +35,18 @@
     "release_date": "2026-10-13",
     "title": "Let's Have Kids!"
   },
+  "rentals:10:1701085": {
+    "arrived": "2026-10-17T16:28:56.282978+00:00",
+    "movie_id": 1701085,
+    "overview": "In Comfort, Kentucky, Ginny Nolan tries to keep her family's Christmas shop afloat as coffee-chain owner Nick Day offers to buy it. Meanwhile, Ginny's ex-flame and former songwriting partner Tyler Benton returns to town, seeking her help.",
+    "poster_path": "/uZ182RTgsLIjmfAgGLvRBvXUcKk.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-24",
+    "reason": "reviews",
+    "release_date": "2026-10-17",
+    "title": "Silver Bells at Christmas"
+  },
   "rentals:10:1767251": {
     "arrived": "2026-10-16T17:30:07.333894+00:00",
     "movie_id": 1767251,
@@ -83,6 +95,42 @@
     "release_date": "2026-10-12",
     "title": "Clown Panic"
   },
+  "svod:15:1787736": {
+    "arrived": "2026-10-17T16:28:56.282978+00:00",
+    "movie_id": 1787736,
+    "overview": "Everyone\u2019s stressed. We\u2019re all hanging on BY A THREAD. But don\u2019t worry, we can all laugh about it together. BY A THREAD. October 16. Hulu.",
+    "poster_path": "/juQgJkraNasHQJ9vydh589ZcYsm.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "Heather McMahan: By a Thread"
+  },
+  "svod:8:1512493": {
+    "arrived": "2026-10-17T16:28:56.282978+00:00",
+    "movie_id": 1512493,
+    "overview": "Young Daisy turns to toy bricks as she finds herself trying to fit into a new school in a new country. When she stumbles across a mysterious key, she is transported to Heartlake City where she makes new friends. But they soon require her help to save a vital local landmark \u2013 with plenty of song and dance numbers along the way.",
+    "poster_path": "/6PMMEU8eHSN0TlPG6koC8EEvavx.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "LEGO Friends: Heartlake the Musical"
+  },
+  "svod:8:1620918": {
+    "arrived": "2026-10-17T16:28:56.282978+00:00",
+    "movie_id": 1620918,
+    "overview": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions.",
+    "poster_path": "/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "Norm: The Tale of Norm Macdonald"
+  },
   "svod:8:1623256": {
     "arrived": "2026-10-16T17:30:07.333894+00:00",
     "movie_id": 1623256,
@@ -94,6 +142,18 @@
     "reason": "reviews",
     "release_date": "2026-10-15",
     "title": "The Storm"
+  },
+  "svod:8:1773759": {
+    "arrived": "2026-10-17T16:28:56.282978+00:00",
+    "movie_id": 1773759,
+    "overview": "Dineo and Noni \u2014 besties meant to take on the party scene together \u2014 suddenly face their biggest fear when Noni's boyfriend spontaneously propose.",
+    "poster_path": "/hbApG0WSwgtaK7hXTZpwZDstDaR.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "Seriously Single Too"
   },
   "svod:8:1788682": {
     "arrived": "2026-10-16T17:30:07.333894+00:00",
