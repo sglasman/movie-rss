@@ -107,6 +107,18 @@
     "release_date": "2026-10-16",
     "title": "Heather McMahan: By a Thread"
   },
+  "svod:1899:1771844": {
+    "arrived": "2026-10-18T16:35:09.624923+00:00",
+    "movie_id": 1771844,
+    "overview": "Seamlessly weaving through personal stories and stream-of-consciousness epiphanies, Kate Berlant offers up reflections on everything from the moon, to her destructive relationship to technology, to the evolving nature of sexuality.",
+    "poster_path": "/t4dw7pBmcs0JkB8h4CLSix88EEM.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-10-23",
+    "reason": "reviews",
+    "release_date": "2026-10-16",
+    "title": "Kate Berlant: Parmesan"
+  },
   "svod:8:1512493": {
     "arrived": "2026-10-17T16:28:56.282978+00:00",
     "movie_id": 1512493,
