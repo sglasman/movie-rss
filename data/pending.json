@@ -47,6 +47,18 @@
     "release_date": "2026-10-17",
     "title": "Silver Bells at Christmas"
   },
+  "rentals:10:1722652": {
+    "arrived": "2026-10-19T19:21:39.773297+00:00",
+    "movie_id": 1722652,
+    "overview": "A meditation on time and being alive, PRESENT is the follow-up comedy special to Gavin Matts: Progression (2023).",
+    "poster_path": "/g5sW4C2q60ZIn8mxWgLMLYOwgXg.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-26",
+    "reason": "reviews",
+    "release_date": "2026-10-19",
+    "title": "Gavin Matts: present"
+  },
   "rentals:10:1767251": {
     "arrived": "2026-10-16T17:30:07.333894+00:00",
     "movie_id": 1767251,
@@ -82,18 +94,6 @@
     "reason": "reviews",
     "release_date": "2026-10-13",
     "title": "American Voices 2026"
-  },
-  "svod:15:1776531": {
-    "arrived": "2026-10-13T19:53:09.186379+00:00",
-    "movie_id": 1776531,
-    "overview": "Revisits the bizarre nationwide hysteria of 2016, which began with reports of creepy clowns hiding near woods in South Carolina and quickly spiraled into widespread panic, school lockdowns, and police interventions across the United States. This in-depth documentary features interviews with eyewitnesses, law enforcement officials, cultural commentators, and professional clowns whose livelihoods were impacted by the craze.",
-    "poster_path": "/pZ15WSO7UzzJ297SLBMvxHNQDC1.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-10-19",
-    "reason": "reviews",
-    "release_date": "2026-10-12",
-    "title": "Clown Panic"
   },
   "svod:15:1787736": {
     "arrived": "2026-10-17T16:28:56.282978+00:00",
