@@ -119,18 +119,6 @@
     "release_date": "2026-10-16",
     "title": "Norm: The Tale of Norm Macdonald"
   },
-  "svod:8:1623256": {
-    "arrived": "2026-10-16T17:30:07.333894+00:00",
-    "movie_id": 1623256,
-    "overview": "When a storm traps old university pals at a luxury lodge, their civilized birthday bash spirals into a cyclone of betrayals, grudges and unfiltered chaos.",
-    "poster_path": "/5YNjTi5AhbSM4hDOynJcgFfvKRn.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-22",
-    "reason": "reviews",
-    "release_date": "2026-10-15",
-    "title": "The Storm"
-  },
   "svod:8:1773759": {
     "arrived": "2026-10-17T16:28:56.282978+00:00",
     "movie_id": 1773759,
@@ -142,6 +130,30 @@
     "reason": "reviews",
     "release_date": "2026-10-16",
     "title": "Seriously Single Too"
+  },
+  "svod:8:1795934": {
+    "arrived": "2026-10-22T18:01:56.529233+00:00",
+    "movie_id": 1795934,
+    "overview": "Comedian and chart-topping podcaster Theo Von returns to Netflix with his third stand-up special and his first in five years. The comedian opens up about the wild world that raised him, from his back-road upbringing to acid-filled adventures, in this revealing stand-up hour.",
+    "poster_path": "/eXmGan1CAQV4QtAeGcFUFxgfbvU.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-27",
+    "reason": "reviews",
+    "release_date": "2026-10-20",
+    "title": "Theo Von: I'm Doing Fine"
+  },
+  "svod:8:1802674": {
+    "arrived": "2026-10-22T18:01:56.529233+00:00",
+    "movie_id": 1802674,
+    "overview": "When a giant T-Rex threatens Hot Wheels City, it's up to Coop and his friends to race to the rescue and save the day.",
+    "poster_path": "/aNJ1k9gyBPXkpc3zKTymFn8LvRR.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-27",
+    "reason": "reviews",
+    "release_date": "2026-10-20",
+    "title": "Hot Wheels Let's Race: Attack of the T-Rex"
   },
   "svod:9:1561726": {
     "arrived": "2026-10-16T17:30:07.333894+00:00",
