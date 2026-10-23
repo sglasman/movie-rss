@@ -1,16 +1,4 @@
 {
-  "rentals:10:1582437": {
-    "arrived": "2026-10-21T18:06:18.150556+00:00",
-    "movie_id": 1582437,
-    "overview": "Mr. Lockwood arrives at the remote and storm-battered Wuthering Heights, unaware that Catherine's vengeful ghost walks its halls. Her obsessed lover, Heathcliff, feeds her bloodlust with human sacrifice, hoping to give her soul a new body to inhabit. As Lockwood grows sick and delusional, he is drawn deeper into their deadly, undying love, and must escape before he becomes their next victim.",
-    "poster_path": "/tsPulaQpmrR02NZIkPcReSG9tsc.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Wuthering Heights: The House of the Damned"
-  },
   "rentals:10:1701085": {
     "arrived": "2026-10-17T16:28:56.282978+00:00",
     "movie_id": 1701085,
@@ -35,18 +23,6 @@
     "release_date": "2026-10-19",
     "title": "Gavin Matts: present"
   },
-  "rentals:10:1767251": {
-    "arrived": "2026-10-16T17:30:07.333894+00:00",
-    "movie_id": 1767251,
-    "overview": "Myrna, a former gang member, runs a roadside motel with her younger boyfriend, Floyd. When her old gang arrives for a mysterious Bitcoin heist, buried grudges, jealousy, and betrayal threaten the score- and the new life Myrna fought to build.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Blood Before Bitcoin"
-  },
   "rentals:10:1796501": {
     "arrived": "2026-10-20T18:00:41.130134+00:00",
     "movie_id": 1796501,
@@ -59,6 +35,18 @@
     "release_date": "2026-10-18",
     "title": "Seduced by an Amish Stranger"
   },
+  "rentals:10:1801244": {
+    "arrived": "2026-10-23T17:53:38.206939+00:00",
+    "movie_id": 1801244,
+    "overview": "Earlier this year, the Trump administration ended temporary legal status for hundreds of thousands of Haitians who had fled violence and upheaval for the U.S.  The administration said Haiti was now safe enough for them to return home. But what is the reality on the ground?",
+    "poster_path": "/4fww5rQSpDm90yaPd022Yj9F4xG.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-27",
+    "reason": "reviews",
+    "release_date": "2026-10-20",
+    "title": "Hait\u00ed Deportation Crisis"
+  },
   "svod:15:1771323": {
     "arrived": "2026-10-21T18:06:18.150556+00:00",
     "movie_id": 1771323,
@@ -70,66 +58,6 @@
     "reason": "reviews",
     "release_date": "2026-10-17",
     "title": "Super Scam Me"
-  },
-  "svod:15:1787736": {
-    "arrived": "2026-10-17T16:28:56.282978+00:00",
-    "movie_id": 1787736,
-    "overview": "Everyone\u2019s stressed. We\u2019re all hanging on BY A THREAD. But don\u2019t worry, we can all laugh about it together. BY A THREAD. October 16. Hulu.",
-    "poster_path": "/juQgJkraNasHQJ9vydh589ZcYsm.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Heather McMahan: By a Thread"
-  },
-  "svod:1899:1771844": {
-    "arrived": "2026-10-18T16:35:09.624923+00:00",
-    "movie_id": 1771844,
-    "overview": "Seamlessly weaving through personal stories and stream-of-consciousness epiphanies, Kate Berlant offers up reflections on everything from the moon, to her destructive relationship to technology, to the evolving nature of sexuality.",
-    "poster_path": "/t4dw7pBmcs0JkB8h4CLSix88EEM.jpg",
-    "provider_id": 1899,
-    "provider_name": "Max",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Kate Berlant: Parmesan"
-  },
-  "svod:8:1512493": {
-    "arrived": "2026-10-17T16:28:56.282978+00:00",
-    "movie_id": 1512493,
-    "overview": "Young Daisy turns to toy bricks as she finds herself trying to fit into a new school in a new country. When she stumbles across a mysterious key, she is transported to Heartlake City where she makes new friends. But they soon require her help to save a vital local landmark \u2013 with plenty of song and dance numbers along the way.",
-    "poster_path": "/6PMMEU8eHSN0TlPG6koC8EEvavx.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "LEGO Friends: Heartlake the Musical"
-  },
-  "svod:8:1620918": {
-    "arrived": "2026-10-17T16:28:56.282978+00:00",
-    "movie_id": 1620918,
-    "overview": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions.",
-    "poster_path": "/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Norm: The Tale of Norm Macdonald"
-  },
-  "svod:8:1773759": {
-    "arrived": "2026-10-17T16:28:56.282978+00:00",
-    "movie_id": 1773759,
-    "overview": "Dineo and Noni \u2014 besties meant to take on the party scene together \u2014 suddenly face their biggest fear when Noni's boyfriend spontaneously propose.",
-    "poster_path": "/hbApG0WSwgtaK7hXTZpwZDstDaR.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-23",
-    "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Seriously Single Too"
   },
   "svod:8:1795934": {
     "arrived": "2026-10-22T18:01:56.529233+00:00",
@@ -155,16 +83,28 @@
     "release_date": "2026-10-20",
     "title": "Hot Wheels Let's Race: Attack of the T-Rex"
   },
-  "svod:9:1561726": {
-    "arrived": "2026-10-16T17:30:07.333894+00:00",
-    "movie_id": 1561726,
-    "overview": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings\u2026 and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together \u2014 and try not to kill each other \u2014 if they want any chance at pulling off the heist of the century.",
-    "poster_path": "/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
+  "svod:9:1722652": {
+    "arrived": "2026-10-23T17:53:38.206939+00:00",
+    "movie_id": 1722652,
+    "overview": "A meditation on time and being alive, PRESENT is the follow-up comedy special to Gavin Matts: Progression (2023).",
+    "poster_path": "/g5sW4C2q60ZIn8mxWgLMLYOwgXg.jpg",
     "provider_id": 9,
     "provider_name": "Prime Video",
-    "publish_after": "2026-10-23",
+    "publish_after": "2026-10-26",
     "reason": "reviews",
-    "release_date": "2026-10-16",
-    "title": "Masterplan"
+    "release_date": "2026-10-19",
+    "title": "Gavin Matts: present"
+  },
+  "svod:9:1768182": {
+    "arrived": "2026-10-23T17:53:38.206939+00:00",
+    "movie_id": 1768182,
+    "overview": "Misaki Yamada, 30 and single, has no clear ambitions. After drifting between jobs and places, she works as a care worker until trouble in love and work upends her life. Shiba, 38, avoids close relationships, but takes in his nephew and slowly bonds with him through Yamada. Shimizu, 46, faces caring for her father after years of putting work first. All three search for where they belong.",
+    "poster_path": "/4FgmM1wuQxCLzVfPUJNmRyCBMtE.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-10-30",
+    "reason": "reviews",
+    "release_date": "2026-10-23",
+    "title": "Dot to Dot: Will I Be Single Forever?"
   }
 }
