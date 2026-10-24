@@ -1,15 +1,15 @@
 {
-  "rentals:10:1701085": {
-    "arrived": "2026-10-17T16:28:56.282978+00:00",
-    "movie_id": 1701085,
-    "overview": "In Comfort, Kentucky, Ginny Nolan tries to keep her family's Christmas shop afloat as coffee-chain owner Nick Day offers to buy it. Meanwhile, Ginny's ex-flame and former songwriting partner Tyler Benton returns to town, seeking her help.",
-    "poster_path": "/uZ182RTgsLIjmfAgGLvRBvXUcKk.jpg",
+  "rentals:10:1393398": {
+    "arrived": "2026-10-24T16:40:39.630042+00:00",
+    "movie_id": 1393398,
+    "overview": "A local farmer is desperate and does the unthinkable in his attempt to get his precious livestock back. A blood oath is put in place when the killer pigs make their way back to where their nightmare began. Darkness shrouds the farmhouse and its occupants when the three piggies come home.",
+    "poster_path": "/mfNvQfGDRVp4NWofAtxNaZsLJDq.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-24",
+    "publish_after": "2026-10-30",
     "reason": "reviews",
-    "release_date": "2026-10-17",
-    "title": "Silver Bells at Christmas"
+    "release_date": "2026-10-23",
+    "title": "The 3 Killer Pigs"
   },
   "rentals:10:1722652": {
     "arrived": "2026-10-19T19:21:39.773297+00:00",
@@ -47,17 +47,17 @@
     "release_date": "2026-10-20",
     "title": "Hait\u00ed Deportation Crisis"
   },
-  "svod:15:1771323": {
-    "arrived": "2026-10-21T18:06:18.150556+00:00",
-    "movie_id": 1771323,
-    "overview": "After years of reporting on the scam industry, Mariana van Zeller enters one of her most immersive investigations to date. In a real-life social experiment, she builds a new online dating persona and goes undercover as the target of a romance scam to understand and expose the tactics, technologies, and psychological manipulations these criminals utilize to deceive their victims.",
-    "poster_path": "/y07DF84TR67NVAevJR6JMydIL5H.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-10-24",
+  "svod:8:1780005": {
+    "arrived": "2026-10-24T16:40:39.630042+00:00",
+    "movie_id": 1780005,
+    "overview": "Two estranged brothers struggle to survive Hurricane Otis in Acapulco, where their bond and courage turn adversity into hope.",
+    "poster_path": "/chZa8Jd9kSDj11bekGjwwotFPEw.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-30",
     "reason": "reviews",
-    "release_date": "2026-10-17",
-    "title": "Super Scam Me"
+    "release_date": "2026-10-23",
+    "title": "Surviving Hurricane Otis"
   },
   "svod:8:1795934": {
     "arrived": "2026-10-22T18:01:56.529233+00:00",
