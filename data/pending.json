@@ -1,4 +1,16 @@
 {
+  "rentals:10:1308980": {
+    "arrived": "2026-10-25T17:05:09.807527+00:00",
+    "movie_id": 1308980,
+    "overview": "Jack, while quick-witted, charming, and avoidant, finally risks opening his heart when he starts dating Jillian. He never expected, though, that his best friend Johnny would fall for her, too.",
+    "poster_path": "/qDcws8pGIRgxwq7CoSL1MbFbvEz.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-10",
+    "reason": "digital",
+    "release_date": "2026-10-09",
+    "title": "Falling"
+  },
   "rentals:10:1393398": {
     "arrived": "2026-10-24T16:40:39.630042+00:00",
     "movie_id": 1393398,
@@ -23,18 +35,6 @@
     "release_date": "2026-10-19",
     "title": "Gavin Matts: present"
   },
-  "rentals:10:1796501": {
-    "arrived": "2026-10-20T18:00:41.130134+00:00",
-    "movie_id": 1796501,
-    "overview": "A handsome young man arrives in an Amish community claiming to be homeless. He's taken in and treated with particular kindness by a widowed mother, but she soon discovers he isn't who he claims to be.",
-    "poster_path": "/7Rizo74AU6fFiUgPSVIMT1zrtEH.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-25",
-    "reason": "reviews",
-    "release_date": "2026-10-18",
-    "title": "Seduced by an Amish Stranger"
-  },
   "rentals:10:1801244": {
     "arrived": "2026-10-23T17:53:38.206939+00:00",
     "movie_id": 1801244,
@@ -46,6 +46,18 @@
     "reason": "reviews",
     "release_date": "2026-10-20",
     "title": "Hait\u00ed Deportation Crisis"
+  },
+  "svod:8:1453407": {
+    "arrived": "2026-10-25T17:05:09.807527+00:00",
+    "movie_id": 1453407,
+    "overview": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
+    "poster_path": "/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-10-30",
+    "reason": "reviews",
+    "release_date": "2026-10-23",
+    "title": "Gajab Raat"
   },
   "svod:8:1780005": {
     "arrived": "2026-10-24T16:40:39.630042+00:00",
