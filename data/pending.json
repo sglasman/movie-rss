@@ -23,17 +23,17 @@
     "release_date": "2026-10-23",
     "title": "The 3 Killer Pigs"
   },
-  "rentals:10:1722652": {
-    "arrived": "2026-10-19T19:21:39.773297+00:00",
-    "movie_id": 1722652,
-    "overview": "A meditation on time and being alive, PRESENT is the follow-up comedy special to Gavin Matts: Progression (2023).",
-    "poster_path": "/g5sW4C2q60ZIn8mxWgLMLYOwgXg.jpg",
+  "rentals:10:1799613": {
+    "arrived": "2026-10-26T19:23:05.972154+00:00",
+    "movie_id": 1799613,
+    "overview": "Returning to the working-class town she fled as a teenager, Kendra confronts the long-buried secret of the baby daughter she left behind. Facing pain, guilt and unanswered questions, she searches for healing, forgiveness and a second chance.",
+    "poster_path": "/s5ogboZAEErIt396T2nickf7WtG.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-26",
+    "publish_after": "2026-10-31",
     "reason": "reviews",
-    "release_date": "2026-10-19",
-    "title": "Gavin Matts: present"
+    "release_date": "2026-10-24",
+    "title": "Secrets of Mercy Hospital"
   },
   "rentals:10:1801244": {
     "arrived": "2026-10-23T17:53:38.206939+00:00",
@@ -94,18 +94,6 @@
     "reason": "reviews",
     "release_date": "2026-10-20",
     "title": "Hot Wheels Let's Race: Attack of the T-Rex"
-  },
-  "svod:9:1722652": {
-    "arrived": "2026-10-23T17:53:38.206939+00:00",
-    "movie_id": 1722652,
-    "overview": "A meditation on time and being alive, PRESENT is the follow-up comedy special to Gavin Matts: Progression (2023).",
-    "poster_path": "/g5sW4C2q60ZIn8mxWgLMLYOwgXg.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-10-26",
-    "reason": "reviews",
-    "release_date": "2026-10-19",
-    "title": "Gavin Matts: present"
   },
   "svod:9:1768182": {
     "arrived": "2026-10-23T17:53:38.206939+00:00",
