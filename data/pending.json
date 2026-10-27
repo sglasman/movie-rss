@@ -35,17 +35,29 @@
     "release_date": "2026-10-24",
     "title": "Secrets of Mercy Hospital"
   },
-  "rentals:10:1801244": {
-    "arrived": "2026-10-23T17:53:38.206939+00:00",
-    "movie_id": 1801244,
-    "overview": "Earlier this year, the Trump administration ended temporary legal status for hundreds of thousands of Haitians who had fled violence and upheaval for the U.S.  The administration said Haiti was now safe enough for them to return home. But what is the reality on the ground?",
-    "poster_path": "/4fww5rQSpDm90yaPd022Yj9F4xG.jpg",
+  "rentals:10:1800491": {
+    "arrived": "2026-10-27T18:44:01.991540+00:00",
+    "movie_id": 1800491,
+    "overview": "A corrupt sheriff arrests a woman for killing the man who was sexually assaulting her young daughter. Determined to stand up to the town's power structure, she decides to run against the sheriff in a local election while awaiting her day in court.",
+    "poster_path": "/iFMNHXljJtonJINkkdsmBgsGGPV.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-27",
+    "publish_after": "2026-11-01",
     "reason": "reviews",
-    "release_date": "2026-10-20",
-    "title": "Hait\u00ed Deportation Crisis"
+    "release_date": "2026-10-25",
+    "title": "Secrets in a Small Georgia Town"
+  },
+  "rentals:10:1807926": {
+    "arrived": "2026-10-27T18:44:01.991540+00:00",
+    "movie_id": 1807926,
+    "overview": "",
+    "poster_path": "/bD1axNzUONxX7jodVaeSpDNVsO0.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-01",
+    "reason": "reviews",
+    "release_date": "2026-10-25",
+    "title": "LARA - The Man Who Took on Escobar"
   },
   "svod:8:1453407": {
     "arrived": "2026-10-25T17:05:09.807527+00:00",
@@ -70,30 +82,6 @@
     "reason": "reviews",
     "release_date": "2026-10-23",
     "title": "Surviving Hurricane Otis"
-  },
-  "svod:8:1795934": {
-    "arrived": "2026-10-22T18:01:56.529233+00:00",
-    "movie_id": 1795934,
-    "overview": "Comedian and chart-topping podcaster Theo Von returns to Netflix with his third stand-up special and his first in five years. The comedian opens up about the wild world that raised him, from his back-road upbringing to acid-filled adventures, in this revealing stand-up hour.",
-    "poster_path": "/eXmGan1CAQV4QtAeGcFUFxgfbvU.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-27",
-    "reason": "reviews",
-    "release_date": "2026-10-20",
-    "title": "Theo Von: I'm Doing Fine"
-  },
-  "svod:8:1802674": {
-    "arrived": "2026-10-22T18:01:56.529233+00:00",
-    "movie_id": 1802674,
-    "overview": "When a giant T-Rex threatens Hot Wheels City, it's up to Coop and his friends to race to the rescue and save the day.",
-    "poster_path": "/aNJ1k9gyBPXkpc3zKTymFn8LvRR.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-10-27",
-    "reason": "reviews",
-    "release_date": "2026-10-20",
-    "title": "Hot Wheels Let's Race: Attack of the T-Rex"
   },
   "svod:9:1768182": {
     "arrived": "2026-10-23T17:53:38.206939+00:00",
