@@ -23,6 +23,18 @@
     "release_date": "2026-10-23",
     "title": "The 3 Killer Pigs"
   },
+  "rentals:10:1783268": {
+    "arrived": "2026-10-28T18:54:42.694322+00:00",
+    "movie_id": 1783268,
+    "overview": "When a straightlaced young woman moves into a chic bungalow in the Hollywood Hills she imagines nothing but raging parties and romance in her future. But Sandra's new dream house quickly becomes a den of horrors after she discovers her landlords are ancient vampires and her first party guests are the victims of a bloody massacre. As the night grows more sinister and twisted, Sandra unearths the most terrifying secret of all.",
+    "poster_path": "/hhbcC4lUcaU7YW3Miq4XzUVEJY8.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-03",
+    "reason": "reviews",
+    "release_date": "2026-10-27",
+    "title": "The Teenage Vampire"
+  },
   "rentals:10:1799613": {
     "arrived": "2026-10-26T19:23:05.972154+00:00",
     "movie_id": 1799613,
@@ -83,6 +95,18 @@
     "release_date": "2026-10-23",
     "title": "Surviving Hurricane Otis"
   },
+  "svod:9:1596275": {
+    "arrived": "2026-10-28T18:54:42.694322+00:00",
+    "movie_id": 1596275,
+    "overview": "A young race car mechanic fakes an engagement with racing's most scandalous star - officially for his reputation, secretly for her own shot behind the wheel. But soon the lie threatens to destroy everything - including what's already become so much more than just a deal.",
+    "poster_path": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-11-03",
+    "reason": "reviews",
+    "release_date": "2026-10-27",
+    "title": "Drive - The Pretenders"
+  },
   "svod:9:1768182": {
     "arrived": "2026-10-23T17:53:38.206939+00:00",
     "movie_id": 1768182,
@@ -94,5 +118,17 @@
     "reason": "reviews",
     "release_date": "2026-10-23",
     "title": "Dot to Dot: Will I Be Single Forever?"
+  },
+  "svod:9:1807926": {
+    "arrived": "2026-10-28T18:54:42.694322+00:00",
+    "movie_id": 1807926,
+    "overview": "",
+    "poster_path": "/bD1axNzUONxX7jodVaeSpDNVsO0.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-11-01",
+    "reason": "reviews",
+    "release_date": "2026-10-25",
+    "title": "LARA - The Man Who Took on Escobar"
   }
 }
