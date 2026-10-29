@@ -23,6 +23,30 @@
     "release_date": "2026-10-23",
     "title": "The 3 Killer Pigs"
   },
+  "rentals:10:1659441": {
+    "arrived": "2026-10-29T18:59:19.083528+00:00",
+    "movie_id": 1659441,
+    "overview": "In the remote Scottish Highlands, a desperate mother searches for her missing son, finding herself trapped in a twisted struggle for survival.",
+    "poster_path": "/sw51DrxbE1PuJxiqfl3dsZHA3tX.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-04",
+    "reason": "reviews",
+    "release_date": "2026-10-28",
+    "title": "Savage Prey"
+  },
+  "rentals:10:1750157": {
+    "arrived": "2026-10-29T18:59:19.083528+00:00",
+    "movie_id": 1750157,
+    "overview": "A grieving woman wanders the beautiful and mysterious West Texas desert in her car searching for answers in the surreal and supernatural phenomenon known as \"The Lights.\"",
+    "poster_path": "/9bFkjWbsEEaVtC7Gs3GMp8UeYL4.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-10-31",
+    "reason": "reviews",
+    "release_date": "2026-10-24",
+    "title": "The End of Nowhere"
+  },
   "rentals:10:1783268": {
     "arrived": "2026-10-28T18:54:42.694322+00:00",
     "movie_id": 1783268,
@@ -59,6 +83,18 @@
     "release_date": "2026-10-25",
     "title": "Secrets in a Small Georgia Town"
   },
+  "rentals:10:1807796": {
+    "arrived": "2026-10-29T18:59:19.083528+00:00",
+    "movie_id": 1807796,
+    "overview": "A struggling college student fumbles his way through the stress that comes with it. Missing and failed assignments lead to a very dangerous way of coping with his problems.",
+    "poster_path": "/6DZcdjkoIR6xPxSn81jqWPYNKXb.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-04",
+    "reason": "reviews",
+    "release_date": "2026-10-28",
+    "title": "Broken Road"
+  },
   "rentals:10:1807926": {
     "arrived": "2026-10-27T18:44:01.991540+00:00",
     "movie_id": 1807926,
@@ -70,6 +106,18 @@
     "reason": "reviews",
     "release_date": "2026-10-25",
     "title": "LARA - The Man Who Took on Escobar"
+  },
+  "svod:1899:1797392": {
+    "arrived": "2026-10-29T18:59:19.083528+00:00",
+    "movie_id": 1797392,
+    "overview": "For a generation of football fans, former Pittsburgh Steelers quarterback Kordell \"Slash\" Stewart was one of the most electrifying players of the 1990s. But just as he became one of football's biggest stars, a malicious rumor upended his life. Through candid interviews with Stewart and others who witnessed his brightest and darkest moments, explore the personal toll of scrutiny beyond the football field while searching for the truth behind a story that followed Stewart for decades.",
+    "poster_path": "/wVZXTyC92jRU7lwn5QjhDs7FORk.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-11-03",
+    "reason": "reviews",
+    "release_date": "2026-10-27",
+    "title": "Kordell Stewart / Slash & Burn"
   },
   "svod:8:1453407": {
     "arrived": "2026-10-25T17:05:09.807527+00:00",
