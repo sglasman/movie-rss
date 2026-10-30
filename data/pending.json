@@ -11,17 +11,17 @@
     "release_date": "2026-10-09",
     "title": "Falling"
   },
-  "rentals:10:1393398": {
-    "arrived": "2026-10-24T16:40:39.630042+00:00",
-    "movie_id": 1393398,
-    "overview": "A local farmer is desperate and does the unthinkable in his attempt to get his precious livestock back. A blood oath is put in place when the killer pigs make their way back to where their nightmare began. Darkness shrouds the farmhouse and its occupants when the three piggies come home.",
-    "poster_path": "/mfNvQfGDRVp4NWofAtxNaZsLJDq.jpg",
+  "rentals:10:1529126": {
+    "arrived": "2026-10-30T18:39:35.805253+00:00",
+    "movie_id": 1529126,
+    "overview": "Set against the backdrop of the relentless pursuit of stardom in Tinseltown, \u2018Sticky\u2019 delves deep into the lives of three intertwined souls, each grappling with their own demons amidst the whirlwind of love, manipulation, and the chilling realization that in Hollywood, the line between obsession and rejection is dangerously thin.",
+    "poster_path": "/jw4aFEIjTBIvPnuXV4NvozgXm3t.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-30",
+    "publish_after": "2026-11-01",
     "reason": "reviews",
-    "release_date": "2026-10-23",
-    "title": "The 3 Killer Pigs"
+    "release_date": "2026-10-25",
+    "title": "Sticky"
   },
   "rentals:10:1659441": {
     "arrived": "2026-10-29T18:59:19.083528+00:00",
@@ -119,29 +119,29 @@
     "release_date": "2026-10-27",
     "title": "Kordell Stewart / Slash & Burn"
   },
-  "svod:8:1453407": {
-    "arrived": "2026-10-25T17:05:09.807527+00:00",
-    "movie_id": 1453407,
-    "overview": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
-    "poster_path": "/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+  "svod:8:1541477": {
+    "arrived": "2026-10-30T18:39:35.805253+00:00",
+    "movie_id": 1541477,
+    "overview": "A couple faces the difficult path to adoption, determined to become parents despite their complex vulnerabilities.",
+    "poster_path": "/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-10-30",
+    "publish_after": "2026-11-05",
     "reason": "reviews",
-    "release_date": "2026-10-23",
-    "title": "Gajab Raat"
+    "release_date": "2026-10-29",
+    "title": "You, Me, Us"
   },
-  "svod:8:1780005": {
-    "arrived": "2026-10-24T16:40:39.630042+00:00",
-    "movie_id": 1780005,
-    "overview": "Two estranged brothers struggle to survive Hurricane Otis in Acapulco, where their bond and courage turn adversity into hope.",
-    "poster_path": "/chZa8Jd9kSDj11bekGjwwotFPEw.jpg",
+  "svod:8:1809199": {
+    "arrived": "2026-10-30T18:39:35.805253+00:00",
+    "movie_id": 1809199,
+    "overview": "Zainab Johnson has a gun revelation, a Tesla crisis and an unshakable belief that she can find the upside in everything in this sharp stand-up hour.",
+    "poster_path": "/45aRvdvuLz2mooiHAe3j1bCFfHL.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-10-30",
+    "publish_after": "2026-11-03",
     "reason": "reviews",
-    "release_date": "2026-10-23",
-    "title": "Surviving Hurricane Otis"
+    "release_date": "2026-10-27",
+    "title": "Zainab Johnson: Toxically Optimistic"
   },
   "svod:9:1596275": {
     "arrived": "2026-10-28T18:54:42.694322+00:00",
@@ -154,18 +154,6 @@
     "reason": "reviews",
     "release_date": "2026-10-27",
     "title": "Drive - The Pretenders"
-  },
-  "svod:9:1768182": {
-    "arrived": "2026-10-23T17:53:38.206939+00:00",
-    "movie_id": 1768182,
-    "overview": "Misaki Yamada, 30 and single, has no clear ambitions. After drifting between jobs and places, she works as a care worker until trouble in love and work upends her life. Shiba, 38, avoids close relationships, but takes in his nephew and slowly bonds with him through Yamada. Shimizu, 46, faces caring for her father after years of putting work first. All three search for where they belong.",
-    "poster_path": "/4FgmM1wuQxCLzVfPUJNmRyCBMtE.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-10-30",
-    "reason": "reviews",
-    "release_date": "2026-10-23",
-    "title": "Dot to Dot: Will I Be Single Forever?"
   },
   "svod:9:1807926": {
     "arrived": "2026-10-28T18:54:42.694322+00:00",
