@@ -1,4 +1,16 @@
 {
+  "rentals:10:1293266": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1293266,
+    "overview": "The Nightblade Killer is on the loose during the night of a full moon.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-07",
+    "reason": "reviews",
+    "release_date": "2026-10-31",
+    "title": "Nightblade"
+  },
   "rentals:10:1308980": {
     "arrived": "2026-10-25T17:05:09.807527+00:00",
     "movie_id": 1308980,
@@ -35,18 +47,6 @@
     "release_date": "2026-10-28",
     "title": "Savage Prey"
   },
-  "rentals:10:1750157": {
-    "arrived": "2026-10-29T18:59:19.083528+00:00",
-    "movie_id": 1750157,
-    "overview": "A grieving woman wanders the beautiful and mysterious West Texas desert in her car searching for answers in the surreal and supernatural phenomenon known as \"The Lights.\"",
-    "poster_path": "/9bFkjWbsEEaVtC7Gs3GMp8UeYL4.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-10-31",
-    "reason": "reviews",
-    "release_date": "2026-10-24",
-    "title": "The End of Nowhere"
-  },
   "rentals:10:1783268": {
     "arrived": "2026-10-28T18:54:42.694322+00:00",
     "movie_id": 1783268,
@@ -59,17 +59,17 @@
     "release_date": "2026-10-27",
     "title": "The Teenage Vampire"
   },
-  "rentals:10:1799613": {
-    "arrived": "2026-10-26T19:23:05.972154+00:00",
-    "movie_id": 1799613,
-    "overview": "Returning to the working-class town she fled as a teenager, Kendra confronts the long-buried secret of the baby daughter she left behind. Facing pain, guilt and unanswered questions, she searches for healing, forgiveness and a second chance.",
-    "poster_path": "/s5ogboZAEErIt396T2nickf7WtG.jpg",
+  "rentals:10:1796328": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1796328,
+    "overview": "In an isolated house, a father and his son discover a painting that seems disturbingly alive. When their darkest nightmares begin bleeding into reality, a sinister presence emerges from the canvas, feeding on buried trauma and forgotten memories.",
+    "poster_path": "/93IYPILeLLbrs3BIQqG4tNJoPgF.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-10-31",
+    "publish_after": "2026-11-06",
     "reason": "reviews",
-    "release_date": "2026-10-24",
-    "title": "Secrets of Mercy Hospital"
+    "release_date": "2026-10-30",
+    "title": "The Canvas"
   },
   "rentals:10:1800491": {
     "arrived": "2026-10-27T18:44:01.991540+00:00",
@@ -131,6 +131,54 @@
     "release_date": "2026-10-29",
     "title": "You, Me, Us"
   },
+  "svod:8:1571955": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1571955,
+    "overview": "Spain, 2013. After robbing a bank, a getaway crash reveals the hidden side of each thief, exposing betrayals and lies that began long before the heist.",
+    "poster_path": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-06",
+    "reason": "reviews",
+    "release_date": "2026-10-30",
+    "title": "Collision Course"
+  },
+  "svod:8:1756307": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1756307,
+    "overview": "Legendary \"SCTV\" cast members reunite in this documentary for a funny and heartfelt celebration of how a scrappy Canadian sketch show made comedy history.",
+    "poster_path": "/vBqVyTpzv5RzHSsQdu8ECxAqSvd.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-06",
+    "reason": "reviews",
+    "release_date": "2026-10-30",
+    "title": "SCTV: The Greatest Show You've Never Heard Of"
+  },
+  "svod:8:1789549": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1789549,
+    "overview": "Single mother Marlene Frischmann organizes a birthday party for her son Theo at her brother's chic country villa, which quickly spirals into family drama, world-view quarrels, and chaos.",
+    "poster_path": "/jqGFILLsEDwsLteNDQextojsYFV.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-06",
+    "reason": "reviews",
+    "release_date": "2026-10-30",
+    "title": "The Birthday\u200b Gift\u200b"
+  },
+  "svod:8:1802464": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1802464,
+    "overview": "A young widower's grief eases at a joyful Diwali reunion \u2014 until his sister's surprise marriage throws the family into chaos.",
+    "poster_path": "/xTJYIPjyuCbkc7zEtfAFJfVDSV5.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-06",
+    "reason": "reviews",
+    "release_date": "2026-10-30",
+    "title": "Meethe Mein Kya Hai"
+  },
   "svod:8:1809199": {
     "arrived": "2026-10-30T18:39:35.805253+00:00",
     "movie_id": 1809199,
@@ -142,6 +190,18 @@
     "reason": "reviews",
     "release_date": "2026-10-27",
     "title": "Zainab Johnson: Toxically Optimistic"
+  },
+  "svod:9:1293266": {
+    "arrived": "2026-10-31T17:48:15.922735+00:00",
+    "movie_id": 1293266,
+    "overview": "The Nightblade Killer is on the loose during the night of a full moon.",
+    "poster_path": null,
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-11-07",
+    "reason": "reviews",
+    "release_date": "2026-10-31",
+    "title": "Nightblade"
   },
   "svod:9:1596275": {
     "arrived": "2026-10-28T18:54:42.694322+00:00",
