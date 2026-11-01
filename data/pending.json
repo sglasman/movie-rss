@@ -23,18 +23,6 @@
     "release_date": "2026-10-09",
     "title": "Falling"
   },
-  "rentals:10:1529126": {
-    "arrived": "2026-10-30T18:39:35.805253+00:00",
-    "movie_id": 1529126,
-    "overview": "Set against the backdrop of the relentless pursuit of stardom in Tinseltown, \u2018Sticky\u2019 delves deep into the lives of three intertwined souls, each grappling with their own demons amidst the whirlwind of love, manipulation, and the chilling realization that in Hollywood, the line between obsession and rejection is dangerously thin.",
-    "poster_path": "/jw4aFEIjTBIvPnuXV4NvozgXm3t.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-01",
-    "reason": "reviews",
-    "release_date": "2026-10-25",
-    "title": "Sticky"
-  },
   "rentals:10:1659441": {
     "arrived": "2026-10-29T18:59:19.083528+00:00",
     "movie_id": 1659441,
@@ -59,6 +47,18 @@
     "release_date": "2026-10-27",
     "title": "The Teenage Vampire"
   },
+  "rentals:10:1783757": {
+    "arrived": "2026-11-01T18:26:50.337443+00:00",
+    "movie_id": 1783757,
+    "overview": "",
+    "poster_path": "/kH3el8JpFUhvUl7d0LRVZVmNUIl.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-06",
+    "reason": "reviews",
+    "release_date": "2026-10-30",
+    "title": "Mellem Bjerge"
+  },
   "rentals:10:1796328": {
     "arrived": "2026-10-31T17:48:15.922735+00:00",
     "movie_id": 1796328,
@@ -70,18 +70,6 @@
     "reason": "reviews",
     "release_date": "2026-10-30",
     "title": "The Canvas"
-  },
-  "rentals:10:1800491": {
-    "arrived": "2026-10-27T18:44:01.991540+00:00",
-    "movie_id": 1800491,
-    "overview": "A corrupt sheriff arrests a woman for killing the man who was sexually assaulting her young daughter. Determined to stand up to the town's power structure, she decides to run against the sheriff in a local election while awaiting her day in court.",
-    "poster_path": "/iFMNHXljJtonJINkkdsmBgsGGPV.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-01",
-    "reason": "reviews",
-    "release_date": "2026-10-25",
-    "title": "Secrets in a Small Georgia Town"
   },
   "rentals:10:1807796": {
     "arrived": "2026-10-29T18:59:19.083528+00:00",
@@ -95,18 +83,6 @@
     "release_date": "2026-10-28",
     "title": "Broken Road"
   },
-  "rentals:10:1807926": {
-    "arrived": "2026-10-27T18:44:01.991540+00:00",
-    "movie_id": 1807926,
-    "overview": "",
-    "poster_path": "/bD1axNzUONxX7jodVaeSpDNVsO0.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-01",
-    "reason": "reviews",
-    "release_date": "2026-10-25",
-    "title": "LARA - The Man Who Took on Escobar"
-  },
   "svod:1899:1797392": {
     "arrived": "2026-10-29T18:59:19.083528+00:00",
     "movie_id": 1797392,
@@ -118,6 +94,18 @@
     "reason": "reviews",
     "release_date": "2026-10-27",
     "title": "Kordell Stewart / Slash & Burn"
+  },
+  "svod:1899:1813355": {
+    "arrived": "2026-11-01T18:26:50.337443+00:00",
+    "movie_id": 1813355,
+    "overview": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+    "poster_path": "/q2XCoT6AqBANz0mKmkgVeo4PyRQ.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-11-07",
+    "reason": "reviews",
+    "release_date": "2026-10-31",
+    "title": "A Story of Derry"
   },
   "svod:8:1541477": {
     "arrived": "2026-10-30T18:39:35.805253+00:00",
@@ -214,17 +202,5 @@
     "reason": "reviews",
     "release_date": "2026-10-27",
     "title": "Drive - The Pretenders"
-  },
-  "svod:9:1807926": {
-    "arrived": "2026-10-28T18:54:42.694322+00:00",
-    "movie_id": 1807926,
-    "overview": "",
-    "poster_path": "/bD1axNzUONxX7jodVaeSpDNVsO0.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-11-01",
-    "reason": "reviews",
-    "release_date": "2026-10-25",
-    "title": "LARA - The Man Who Took on Escobar"
   }
 }
