@@ -35,6 +35,18 @@
     "release_date": "2026-10-09",
     "title": "Falling"
   },
+  "rentals:10:1382316": {
+    "arrived": "2026-11-03T20:08:37.896347+00:00",
+    "movie_id": 1382316,
+    "overview": "Hitman Hank Carter is trying to save his marriage with the perfect family Christmas. Unfortunately for him, a hit has been put on his head \u2014 and a gang of festive bounty hunters will stop at nothing to collect the payday.",
+    "poster_path": "/5VfqiT4VEvfJ8CbL2ucXMZKpaqL.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-10",
+    "reason": "reviews",
+    "release_date": "2026-11-03",
+    "title": "The Holiday Hitman"
+  },
   "rentals:10:1659441": {
     "arrived": "2026-10-29T18:59:19.083528+00:00",
     "movie_id": 1659441,
@@ -46,18 +58,6 @@
     "reason": "reviews",
     "release_date": "2026-10-28",
     "title": "Savage Prey"
-  },
-  "rentals:10:1783268": {
-    "arrived": "2026-10-28T18:54:42.694322+00:00",
-    "movie_id": 1783268,
-    "overview": "When a straightlaced young woman moves into a chic bungalow in the Hollywood Hills she imagines nothing but raging parties and romance in her future. But Sandra's new dream house quickly becomes a den of horrors after she discovers her landlords are ancient vampires and her first party guests are the victims of a bloody massacre. As the night grows more sinister and twisted, Sandra unearths the most terrifying secret of all.",
-    "poster_path": "/hhbcC4lUcaU7YW3Miq4XzUVEJY8.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-03",
-    "reason": "reviews",
-    "release_date": "2026-10-27",
-    "title": "The Teenage Vampire"
   },
   "rentals:10:1783757": {
     "arrived": "2026-11-01T18:26:50.337443+00:00",
@@ -83,6 +83,18 @@
     "release_date": "2026-10-30",
     "title": "The Canvas"
   },
+  "rentals:10:1805527": {
+    "arrived": "2026-11-03T20:08:37.896347+00:00",
+    "movie_id": 1805527,
+    "overview": "A documentary about the epic rise (and subsequent fall) of beach volleyball, featuring many of the boldfaced names from Southern California who helped popularize it.",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-10",
+    "reason": "reviews",
+    "release_date": "2026-11-03",
+    "title": "Kings of the Beach"
+  },
   "rentals:10:1807796": {
     "arrived": "2026-10-29T18:59:19.083528+00:00",
     "movie_id": 1807796,
@@ -94,18 +106,6 @@
     "reason": "reviews",
     "release_date": "2026-10-28",
     "title": "Broken Road"
-  },
-  "svod:1899:1797392": {
-    "arrived": "2026-10-29T18:59:19.083528+00:00",
-    "movie_id": 1797392,
-    "overview": "For a generation of football fans, former Pittsburgh Steelers quarterback Kordell \"Slash\" Stewart was one of the most electrifying players of the 1990s. But just as he became one of football's biggest stars, a malicious rumor upended his life. Through candid interviews with Stewart and others who witnessed his brightest and darkest moments, explore the personal toll of scrutiny beyond the football field while searching for the truth behind a story that followed Stewart for decades.",
-    "poster_path": "/wVZXTyC92jRU7lwn5QjhDs7FORk.jpg",
-    "provider_id": 1899,
-    "provider_name": "Max",
-    "publish_after": "2026-11-03",
-    "reason": "reviews",
-    "release_date": "2026-10-27",
-    "title": "Kordell Stewart / Slash & Burn"
   },
   "svod:1899:1813355": {
     "arrived": "2026-11-01T18:26:50.337443+00:00",
@@ -179,17 +179,17 @@
     "release_date": "2026-10-30",
     "title": "Meethe Mein Kya Hai"
   },
-  "svod:8:1809199": {
-    "arrived": "2026-10-30T18:39:35.805253+00:00",
-    "movie_id": 1809199,
-    "overview": "Zainab Johnson has a gun revelation, a Tesla crisis and an unshakable belief that she can find the upside in everything in this sharp stand-up hour.",
-    "poster_path": "/45aRvdvuLz2mooiHAe3j1bCFfHL.jpg",
+  "svod:8:1811741": {
+    "arrived": "2026-11-03T20:08:37.896347+00:00",
+    "movie_id": 1811741,
+    "overview": "Instadocs goes inside the rape investigation and Jane Doe lawsuit at Cornell University, with the student journalists at the forefront of the story.",
+    "poster_path": "/7lSCZqdOhjsCI1BqZMUr8eNOOl5.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-03",
+    "publish_after": "2026-11-05",
     "reason": "reviews",
-    "release_date": "2026-10-27",
-    "title": "Zainab Johnson: Toxically Optimistic"
+    "release_date": "2026-10-29",
+    "title": "Instadocs: Jane Doe v. Cornell"
   },
   "svod:9:1293266": {
     "arrived": "2026-10-31T17:48:15.922735+00:00",
@@ -202,18 +202,6 @@
     "reason": "reviews",
     "release_date": "2026-10-31",
     "title": "Nightblade"
-  },
-  "svod:9:1596275": {
-    "arrived": "2026-10-28T18:54:42.694322+00:00",
-    "movie_id": 1596275,
-    "overview": "A young race car mechanic fakes an engagement with racing's most scandalous star - officially for his reputation, secretly for her own shot behind the wheel. But soon the lie threatens to destroy everything - including what's already become so much more than just a deal.",
-    "poster_path": "/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-11-03",
-    "reason": "reviews",
-    "release_date": "2026-10-27",
-    "title": "Drive - The Pretenders"
   },
   "svod:9:1783757": {
     "arrived": "2026-11-02T22:21:23.934460+00:00",
