@@ -47,18 +47,6 @@
     "release_date": "2026-11-03",
     "title": "The Holiday Hitman"
   },
-  "rentals:10:1659441": {
-    "arrived": "2026-10-29T18:59:19.083528+00:00",
-    "movie_id": 1659441,
-    "overview": "In the remote Scottish Highlands, a desperate mother searches for her missing son, finding herself trapped in a twisted struggle for survival.",
-    "poster_path": "/sw51DrxbE1PuJxiqfl3dsZHA3tX.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-04",
-    "reason": "reviews",
-    "release_date": "2026-10-28",
-    "title": "Savage Prey"
-  },
   "rentals:10:1783757": {
     "arrived": "2026-11-01T18:26:50.337443+00:00",
     "movie_id": 1783757,
@@ -70,6 +58,18 @@
     "reason": "reviews",
     "release_date": "2026-10-30",
     "title": "Mellem Bjerge"
+  },
+  "rentals:10:1792170": {
+    "arrived": "2026-11-04T20:26:55.955468+00:00",
+    "movie_id": 1792170,
+    "overview": "With his memories gone and his past a blur, ex-cop Steven Bay seeks treatment for his amnesia while working on an isolated farm. Instead, he's met with rising hostility, strange surveillance, and instincts he can\u2019t fully control. When the pressure becomes unbearable, Bay begins a desperate hunt for the truth behind his fractured reality.",
+    "poster_path": "/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-10",
+    "reason": "reviews",
+    "release_date": "2026-11-03",
+    "title": "Model Citizen"
   },
   "rentals:10:1796328": {
     "arrived": "2026-10-31T17:48:15.922735+00:00",
@@ -95,17 +95,17 @@
     "release_date": "2026-11-03",
     "title": "Kings of the Beach"
   },
-  "rentals:10:1807796": {
-    "arrived": "2026-10-29T18:59:19.083528+00:00",
-    "movie_id": 1807796,
-    "overview": "A struggling college student fumbles his way through the stress that comes with it. Missing and failed assignments lead to a very dangerous way of coping with his problems.",
-    "poster_path": "/6DZcdjkoIR6xPxSn81jqWPYNKXb.jpg",
+  "rentals:10:1814761": {
+    "arrived": "2026-11-04T20:26:55.955468+00:00",
+    "movie_id": 1814761,
+    "overview": "Desperate for views, a fading streamer stages a fake haunting connected to an unsolved case. The stream spirals into a real-time nightmare watched by tens of thousands and someone in the chat seems to know exactly how the night will end.",
+    "poster_path": "/nVeaI1TXR6ROjJJY29U61M45rY4.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-04",
+    "publish_after": "2026-11-07",
     "reason": "reviews",
-    "release_date": "2026-10-28",
-    "title": "Broken Road"
+    "release_date": "2026-10-31",
+    "title": "Last Stream"
   },
   "svod:1899:1813355": {
     "arrived": "2026-11-01T18:26:50.337443+00:00",
@@ -179,6 +179,18 @@
     "release_date": "2026-10-30",
     "title": "Meethe Mein Kya Hai"
   },
+  "svod:8:1804941": {
+    "arrived": "2026-11-04T20:26:55.955468+00:00",
+    "movie_id": 1804941,
+    "overview": "The former heavyweight champion returns to the stage for a raw one-man show, turning his wildest life stories into comedy gold at Seminole Hard Rock Hotel and Casino.",
+    "poster_path": "/uaeL5BLgmGhIZXfViBsLSnvYB4i.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-10",
+    "reason": "reviews",
+    "release_date": "2026-11-03",
+    "title": "Mike Tyson: Return of the Mike"
+  },
   "svod:8:1811741": {
     "arrived": "2026-11-03T20:08:37.896347+00:00",
     "movie_id": 1811741,
@@ -214,5 +226,17 @@
     "reason": "reviews",
     "release_date": "2026-10-30",
     "title": "Mellem Bjerge"
+  },
+  "svod:9:1814761": {
+    "arrived": "2026-11-04T20:26:55.955468+00:00",
+    "movie_id": 1814761,
+    "overview": "Desperate for views, a fading streamer stages a fake haunting connected to an unsolved case. The stream spirals into a real-time nightmare watched by tens of thousands and someone in the chat seems to know exactly how the night will end.",
+    "poster_path": "/nVeaI1TXR6ROjJJY29U61M45rY4.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-11-07",
+    "reason": "reviews",
+    "release_date": "2026-10-31",
+    "title": "Last Stream"
   }
 }
