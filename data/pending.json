@@ -95,6 +95,18 @@
     "release_date": "2026-11-03",
     "title": "Kings of the Beach"
   },
+  "rentals:10:1814118": {
+    "arrived": "2026-11-05T20:42:07.711016+00:00",
+    "movie_id": 1814118,
+    "overview": "After waking from a sleepwalking episode to find her best friend murdered and a bloody knife in her hand, a small-town writer must prove her innocence despite having no memory of the night.",
+    "poster_path": "/hFpg4itdbWIWxnQrQPJwOdWVld5.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-08",
+    "reason": "reviews",
+    "release_date": "2026-11-01",
+    "title": "While She Was Sleeping"
+  },
   "rentals:10:1814761": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
     "movie_id": 1814761,
@@ -106,6 +118,18 @@
     "reason": "reviews",
     "release_date": "2026-10-31",
     "title": "Last Stream"
+  },
+  "rentals:10:1815546": {
+    "arrived": "2026-11-05T20:42:07.711016+00:00",
+    "movie_id": 1815546,
+    "overview": "Directed and produced by 2x Emmy-award winning filmmaker Wayne Chesler, this special documentary follows Irish nutritional scientist Professor John Nolan\u2019s 20-year exploration of the link between powerful antioxidants - Carotenoids - and their effects on nutrition, vision, and brain health. From the marigold fields of Mexico to research labs in Ireland, the Omega-3 enriched Norwegian seas, and elite performance centers in Singapore, the film uncovers breakthrough science behind these incredible nutrients that support how we see, think, and age.",
+    "poster_path": "/aIEz68tBuGfXLknxIKPr3YFrNsv.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-10",
+    "reason": "reviews",
+    "release_date": "2026-11-03",
+    "title": "A Vision for Vision"
   },
   "svod:1899:1813355": {
     "arrived": "2026-11-01T18:26:50.337443+00:00",
@@ -119,17 +143,17 @@
     "release_date": "2026-10-31",
     "title": "A Story of Derry"
   },
-  "svod:8:1541477": {
-    "arrived": "2026-10-30T18:39:35.805253+00:00",
-    "movie_id": 1541477,
-    "overview": "A couple faces the difficult path to adoption, determined to become parents despite their complex vulnerabilities.",
-    "poster_path": "/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg",
+  "svod:8:1570488": {
+    "arrived": "2026-11-05T20:42:07.711016+00:00",
+    "movie_id": 1570488,
+    "overview": "When a medical emergency pulls the Goss family apart, determined dog Winstead will do all he can to bring his humans back together before Christmas Eve.",
+    "poster_path": "/wCBlcfbVPiK0mc13mgJDEoxRBHB.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-05",
+    "publish_after": "2026-11-11",
     "reason": "reviews",
-    "release_date": "2026-10-29",
-    "title": "You, Me, Us"
+    "release_date": "2026-11-04",
+    "title": "A Dog's Perfect Christmas"
   },
   "svod:8:1571955": {
     "arrived": "2026-10-31T17:48:15.922735+00:00",
@@ -190,18 +214,6 @@
     "reason": "reviews",
     "release_date": "2026-11-03",
     "title": "Mike Tyson: Return of the Mike"
-  },
-  "svod:8:1811741": {
-    "arrived": "2026-11-03T20:08:37.896347+00:00",
-    "movie_id": 1811741,
-    "overview": "Instadocs goes inside the rape investigation and Jane Doe lawsuit at Cornell University, with the student journalists at the forefront of the story.",
-    "poster_path": "/7lSCZqdOhjsCI1BqZMUr8eNOOl5.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-05",
-    "reason": "reviews",
-    "release_date": "2026-10-29",
-    "title": "Instadocs: Jane Doe v. Cornell"
   },
   "svod:9:1293266": {
     "arrived": "2026-10-31T17:48:15.922735+00:00",
