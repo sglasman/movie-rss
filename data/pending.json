@@ -47,17 +47,29 @@
     "release_date": "2026-11-03",
     "title": "The Holiday Hitman"
   },
-  "rentals:10:1783757": {
-    "arrived": "2026-11-01T18:26:50.337443+00:00",
-    "movie_id": 1783757,
-    "overview": "",
-    "poster_path": "/kH3el8JpFUhvUl7d0LRVZVmNUIl.jpg",
+  "rentals:10:1446589": {
+    "arrived": "2026-11-06T19:58:33.086229+00:00",
+    "movie_id": 1446589,
+    "overview": "WANDERER is a religious action thriller set in an alternate, dystopian future where the United States has been disbanded and divided into eight individual factions. A lone wanderer journeys across these factions, carrying a forbidden item: a Holy Bible. Hunted relentlessly by faction leaders and their military forces, the Wanderer uses the Word of God to spread hope among the oppressed citizens and fight back against the evil forces controlling them.",
+    "poster_path": "/xEhH4BUlxhqQt6ClDONwBUpkmbP.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-06",
+    "publish_after": "2026-11-13",
     "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "Mellem Bjerge"
+    "release_date": "2026-11-06",
+    "title": "Wanderer"
+  },
+  "rentals:10:1737349": {
+    "arrived": "2026-11-06T19:58:33.086229+00:00",
+    "movie_id": 1737349,
+    "overview": "A journey through the 1960s, 70s, & 80s New Jersey - reflecting on a magical time of the Old Americana we once knew. Featuring Tom Cruise, Bill Maher and Dana Bash from CNN, with a special appearance by Oscar-Nominated actor Danny Aiello.",
+    "poster_path": "/9pqGbaAMUJUQVQvDZU3uNdVTve4.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-13",
+    "reason": "reviews",
+    "release_date": "2026-11-06",
+    "title": "Once Upon a Time in Jersey"
   },
   "rentals:10:1792170": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
@@ -70,18 +82,6 @@
     "reason": "reviews",
     "release_date": "2026-11-03",
     "title": "Model Citizen"
-  },
-  "rentals:10:1796328": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1796328,
-    "overview": "In an isolated house, a father and his son discover a painting that seems disturbingly alive. When their darkest nightmares begin bleeding into reality, a sinister presence emerges from the canvas, feeding on buried trauma and forgotten memories.",
-    "poster_path": "/93IYPILeLLbrs3BIQqG4tNJoPgF.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-06",
-    "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "The Canvas"
   },
   "rentals:10:1805527": {
     "arrived": "2026-11-03T20:08:37.896347+00:00",
@@ -155,53 +155,17 @@
     "release_date": "2026-11-04",
     "title": "A Dog's Perfect Christmas"
   },
-  "svod:8:1571955": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1571955,
-    "overview": "Spain, 2013. After robbing a bank, a getaway crash reveals the hidden side of each thief, exposing betrayals and lies that began long before the heist.",
-    "poster_path": "/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
+  "svod:8:1654940": {
+    "arrived": "2026-11-06T19:58:33.086229+00:00",
+    "movie_id": 1654940,
+    "overview": "Given a year to live, frugal 40-year-old Yui finally lets herself spend: \"buying\" nightclub host Sena. What begins as a contract takes an unexpected turn.",
+    "poster_path": "/fez7kLyGzpowduJapTFZZ1feCS0.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-06",
+    "publish_after": "2026-11-12",
     "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "Collision Course"
-  },
-  "svod:8:1756307": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1756307,
-    "overview": "Legendary \"SCTV\" cast members reunite in this documentary for a funny and heartfelt celebration of how a scrappy Canadian sketch show made comedy history.",
-    "poster_path": "/vBqVyTpzv5RzHSsQdu8ECxAqSvd.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-06",
-    "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "SCTV: The Greatest Show You've Never Heard Of"
-  },
-  "svod:8:1789549": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1789549,
-    "overview": "Single mother Marlene Frischmann organizes a birthday party for her son Theo at her brother's chic country villa, which quickly spirals into family drama, world-view quarrels, and chaos.",
-    "poster_path": "/jqGFILLsEDwsLteNDQextojsYFV.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-06",
-    "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "The Birthday\u200b Gift\u200b"
-  },
-  "svod:8:1802464": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1802464,
-    "overview": "A young widower's grief eases at a joyful Diwali reunion \u2014 until his sister's surprise marriage throws the family into chaos.",
-    "poster_path": "/xTJYIPjyuCbkc7zEtfAFJfVDSV5.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-06",
-    "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "Meethe Mein Kya Hai"
+    "release_date": "2026-11-05",
+    "title": "One Year to Live, Buy a Man"
   },
   "svod:8:1804941": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
@@ -215,6 +179,18 @@
     "release_date": "2026-11-03",
     "title": "Mike Tyson: Return of the Mike"
   },
+  "svod:8:1810711": {
+    "arrived": "2026-11-06T19:58:33.086229+00:00",
+    "movie_id": 1810711,
+    "overview": "Ansh Sikkha returns to his Punjabi family home for Diwali after years working abroad. As the Sikkas gather for the festival, their clashing views on what constitutes a fulfilling life create friction and connection.",
+    "poster_path": "/cV31QO65DA6mk4Hd6S7QncVq85T.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-12",
+    "reason": "reviews",
+    "release_date": "2026-11-05",
+    "title": "Dilwali Diwali"
+  },
   "svod:9:1293266": {
     "arrived": "2026-10-31T17:48:15.922735+00:00",
     "movie_id": 1293266,
@@ -227,17 +203,17 @@
     "release_date": "2026-10-31",
     "title": "Nightblade"
   },
-  "svod:9:1783757": {
-    "arrived": "2026-11-02T22:21:23.934460+00:00",
-    "movie_id": 1783757,
-    "overview": "",
-    "poster_path": "/kH3el8JpFUhvUl7d0LRVZVmNUIl.jpg",
+  "svod:9:1480158": {
+    "arrived": "2026-11-06T19:58:33.086229+00:00",
+    "movie_id": 1480158,
+    "overview": "This feature-length documentary traces the meteoric rise of one of the most talented, accomplished, and polarizing athletes of America's most popular sport and examines his role as the preeminent \"prima donna\" wide receiver of his era, while catching up with Owens in present-day to see how he is evolving and discovering a new personal path forward.",
+    "poster_path": "/tur8rRYXYeWN7Kq2CWEPC5PiJr0.jpg",
     "provider_id": 9,
     "provider_name": "Prime Video",
-    "publish_after": "2026-11-06",
+    "publish_after": "2026-11-12",
     "reason": "reviews",
-    "release_date": "2026-10-30",
-    "title": "Mellem Bjerge"
+    "release_date": "2026-11-05",
+    "title": "Terrell & T.O."
   },
   "svod:9:1814761": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
