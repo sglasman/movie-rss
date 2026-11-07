@@ -11,18 +11,6 @@
     "release_date": "2026-11-01",
     "title": "In Transit"
   },
-  "rentals:10:1293266": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1293266,
-    "overview": "The Nightblade Killer is on the loose during the night of a full moon.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-07",
-    "reason": "reviews",
-    "release_date": "2026-10-31",
-    "title": "Nightblade"
-  },
   "rentals:10:1308980": {
     "arrived": "2026-10-25T17:05:09.807527+00:00",
     "movie_id": 1308980,
@@ -58,6 +46,18 @@
     "reason": "reviews",
     "release_date": "2026-11-06",
     "title": "Wanderer"
+  },
+  "rentals:10:1711787": {
+    "arrived": "2026-11-07T18:04:33.969009+00:00",
+    "movie_id": 1711787,
+    "overview": "",
+    "poster_path": "/imxtvxOpkReT7MLZQa2kLBkACN2.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-10",
+    "reason": "reviews",
+    "release_date": "2026-11-03",
+    "title": "Let Them Come"
   },
   "rentals:10:1737349": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
@@ -107,18 +107,6 @@
     "release_date": "2026-11-01",
     "title": "While She Was Sleeping"
   },
-  "rentals:10:1814761": {
-    "arrived": "2026-11-04T20:26:55.955468+00:00",
-    "movie_id": 1814761,
-    "overview": "Desperate for views, a fading streamer stages a fake haunting connected to an unsolved case. The stream spirals into a real-time nightmare watched by tens of thousands and someone in the chat seems to know exactly how the night will end.",
-    "poster_path": "/nVeaI1TXR6ROjJJY29U61M45rY4.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-07",
-    "reason": "reviews",
-    "release_date": "2026-10-31",
-    "title": "Last Stream"
-  },
   "rentals:10:1815546": {
     "arrived": "2026-11-05T20:42:07.711016+00:00",
     "movie_id": 1815546,
@@ -131,17 +119,17 @@
     "release_date": "2026-11-03",
     "title": "A Vision for Vision"
   },
-  "svod:1899:1813355": {
-    "arrived": "2026-11-01T18:26:50.337443+00:00",
-    "movie_id": 1813355,
-    "overview": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
-    "poster_path": "/q2XCoT6AqBANz0mKmkgVeo4PyRQ.jpg",
-    "provider_id": 1899,
-    "provider_name": "Max",
-    "publish_after": "2026-11-07",
+  "svod:15:1600653": {
+    "arrived": "2026-11-07T18:04:33.969009+00:00",
+    "movie_id": 1600653,
+    "overview": "Christina Walker, a successful shop owner who has devoted her energy to her career at the expense of her dating life, goes on 12 dates in the 12 weeks leading up to Christmas hoping to find Mr. Right.",
+    "poster_path": "/w82vKEoYNZ9SxYxvccxO85CnZKE.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-11-13",
     "reason": "reviews",
-    "release_date": "2026-10-31",
-    "title": "A Story of Derry"
+    "release_date": "2026-11-06",
+    "title": "The 12 Dates of Christmas"
   },
   "svod:8:1570488": {
     "arrived": "2026-11-05T20:42:07.711016+00:00",
@@ -167,6 +155,18 @@
     "release_date": "2026-11-05",
     "title": "One Year to Live, Buy a Man"
   },
+  "svod:8:1794569": {
+    "arrived": "2026-11-07T18:04:33.969009+00:00",
+    "movie_id": 1794569,
+    "overview": "Documentary film that tells the story of Isabel Fuentes. In April 2015, alleged burglars left her on the brink of death in her own home, in the village of Pazos, in Ver\u00edn. From the very beginning, the Guardia Civil sergeant in charge of the case suspected that the account of what had happened did not add up and tried to protect Isabel from further attack.",
+    "poster_path": "/ljDe9CMzO7PpM86WOqIZzDfokgE.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-13",
+    "reason": "reviews",
+    "release_date": "2026-11-06",
+    "title": "Unprotected: Murder in Galicia"
+  },
   "svod:8:1804941": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
     "movie_id": 1804941,
@@ -191,17 +191,29 @@
     "release_date": "2026-11-05",
     "title": "Dilwali Diwali"
   },
-  "svod:9:1293266": {
-    "arrived": "2026-10-31T17:48:15.922735+00:00",
-    "movie_id": 1293266,
-    "overview": "The Nightblade Killer is on the loose during the night of a full moon.",
-    "poster_path": null,
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-11-07",
+  "svod:8:1816668": {
+    "arrived": "2026-11-07T18:04:33.969009+00:00",
+    "movie_id": 1816668,
+    "overview": "At the height of his success in 2025, French rap star Ninho considers leaving music behind. This documentary looks back on the triumphs, sacrifices and personal challenges that brought him to that crossroads.",
+    "poster_path": "/xy02UZTSEJWXeJXG4XGb4aWDxdP.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-11",
     "reason": "reviews",
-    "release_date": "2026-10-31",
-    "title": "Nightblade"
+    "release_date": "2026-11-04",
+    "title": "Ninho: Fame Ain\u2019t Worth It"
+  },
+  "svod:8:1817773": {
+    "arrived": "2026-11-07T18:04:33.969009+00:00",
+    "movie_id": 1817773,
+    "overview": "Investigates Chile's high-profile Caso Relojes (\"Watch Case\") scandal, in which a suitcase full of smuggled luxury watches and jewelry unmasked an illicit underground network, connecting criminal elements to Chile's social elite.",
+    "poster_path": "/xd6c6evoWm6NHIjMlC7Y357crxf.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-12",
+    "reason": "reviews",
+    "release_date": "2026-11-05",
+    "title": "High End: The Watch Theft Ring"
   },
   "svod:9:1480158": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
@@ -214,17 +226,5 @@
     "reason": "reviews",
     "release_date": "2026-11-05",
     "title": "Terrell & T.O."
-  },
-  "svod:9:1814761": {
-    "arrived": "2026-11-04T20:26:55.955468+00:00",
-    "movie_id": 1814761,
-    "overview": "Desperate for views, a fading streamer stages a fake haunting connected to an unsolved case. The stream spirals into a real-time nightmare watched by tens of thousands and someone in the chat seems to know exactly how the night will end.",
-    "poster_path": "/nVeaI1TXR6ROjJJY29U61M45rY4.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-11-07",
-    "reason": "reviews",
-    "release_date": "2026-10-31",
-    "title": "Last Stream"
   }
 }
