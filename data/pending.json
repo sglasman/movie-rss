@@ -71,6 +71,18 @@
     "release_date": "2026-11-06",
     "title": "Once Upon a Time in Jersey"
   },
+  "rentals:10:1741340": {
+    "arrived": "2026-11-08T18:23:23.881812+00:00",
+    "movie_id": 1741340,
+    "overview": "Through dark magic, a medieval knight awakens in the 21st century, leaving a path of destruction.",
+    "poster_path": "/kUydjPcPG8ufuccgF0m0nuVJBQH.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-12",
+    "reason": "reviews",
+    "release_date": "2026-11-05",
+    "title": "Death Knight"
+  },
   "rentals:10:1792170": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
     "movie_id": 1792170,
@@ -95,17 +107,17 @@
     "release_date": "2026-11-03",
     "title": "Kings of the Beach"
   },
-  "rentals:10:1814118": {
-    "arrived": "2026-11-05T20:42:07.711016+00:00",
-    "movie_id": 1814118,
-    "overview": "After waking from a sleepwalking episode to find her best friend murdered and a bloody knife in her hand, a small-town writer must prove her innocence despite having no memory of the night.",
-    "poster_path": "/hFpg4itdbWIWxnQrQPJwOdWVld5.jpg",
+  "rentals:10:1815447": {
+    "arrived": "2026-11-08T18:23:23.881812+00:00",
+    "movie_id": 1815447,
+    "overview": "A protective mother discovers a wealthy, older woman is showering her young son with gifts and money. As she sets out to expose her, she discovers the woman's obsession with her son is far more dangerous than she ever could have imagined.",
+    "poster_path": "/qJnUdd4DzWsLTx1GyejjyEAMmhH.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-08",
+    "publish_after": "2026-11-13",
     "reason": "reviews",
-    "release_date": "2026-11-01",
-    "title": "While She Was Sleeping"
+    "release_date": "2026-11-06",
+    "title": "My Son\u2019s Sugar Mama"
   },
   "rentals:10:1815546": {
     "arrived": "2026-11-05T20:42:07.711016+00:00",
@@ -130,6 +142,18 @@
     "reason": "reviews",
     "release_date": "2026-11-06",
     "title": "The 12 Dates of Christmas"
+  },
+  "svod:15:1798383": {
+    "arrived": "2026-11-08T18:23:23.881812+00:00",
+    "movie_id": 1798383,
+    "overview": "Reconnecting with a pack of wolves he has followed for seven years, Bertie sets out to capture one of the Arctic's most dangerous and rarely filmed hunts: wolves taking on a bull moose, prey roughly ten times their size. Led by Kona, a striking white breeding male, the pack faces a critical winter as dwindling food supplies, an encroaching rival wolf and an aging leader threaten its survival.",
+    "poster_path": "/qzXLcjoiQpRpPZBMpXrszWhMzA5.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-11-13",
+    "reason": "reviews",
+    "release_date": "2026-11-06",
+    "title": "Wolves Up Close with Bertie Gregory"
   },
   "svod:8:1570488": {
     "arrived": "2026-11-05T20:42:07.711016+00:00",
