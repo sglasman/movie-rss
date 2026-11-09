@@ -83,6 +83,18 @@
     "release_date": "2026-11-05",
     "title": "Death Knight"
   },
+  "rentals:10:1765587": {
+    "arrived": "2026-11-09T23:00:35.604846+00:00",
+    "movie_id": 1765587,
+    "overview": "As part of a school project, Rachel begins investigating the fifty-year-old murder of infamous paranormal investigator Lucy Carter, a case the supernatural community has long attributed to an angry spirit. But as Rachel delves deeper into Lucy\u2019s past, long-buried secrets begin to surface, raising questions about what really happened that night.",
+    "poster_path": "/d4r98JUrwpIbzRIWf7kXmAvY1Bq.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-12",
+    "reason": "reviews",
+    "release_date": "2026-11-05",
+    "title": "A Ghost at Gilmore House"
+  },
   "rentals:10:1792170": {
     "arrived": "2026-11-04T20:26:55.955468+00:00",
     "movie_id": 1792170,
