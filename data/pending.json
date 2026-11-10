@@ -11,30 +11,6 @@
     "release_date": "2026-11-01",
     "title": "In Transit"
   },
-  "rentals:10:1308980": {
-    "arrived": "2026-10-25T17:05:09.807527+00:00",
-    "movie_id": 1308980,
-    "overview": "Jack, while quick-witted, charming, and avoidant, finally risks opening his heart when he starts dating Jillian. He never expected, though, that his best friend Johnny would fall for her, too.",
-    "poster_path": "/qDcws8pGIRgxwq7CoSL1MbFbvEz.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-10",
-    "reason": "digital",
-    "release_date": "2026-10-09",
-    "title": "Falling"
-  },
-  "rentals:10:1382316": {
-    "arrived": "2026-11-03T20:08:37.896347+00:00",
-    "movie_id": 1382316,
-    "overview": "Hitman Hank Carter is trying to save his marriage with the perfect family Christmas. Unfortunately for him, a hit has been put on his head \u2014 and a gang of festive bounty hunters will stop at nothing to collect the payday.",
-    "poster_path": "/5VfqiT4VEvfJ8CbL2ucXMZKpaqL.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-10",
-    "reason": "reviews",
-    "release_date": "2026-11-03",
-    "title": "The Holiday Hitman"
-  },
   "rentals:10:1446589": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
     "movie_id": 1446589,
@@ -47,17 +23,29 @@
     "release_date": "2026-11-06",
     "title": "Wanderer"
   },
-  "rentals:10:1711787": {
-    "arrived": "2026-11-07T18:04:33.969009+00:00",
-    "movie_id": 1711787,
-    "overview": "",
-    "poster_path": "/imxtvxOpkReT7MLZQa2kLBkACN2.jpg",
+  "rentals:10:1604431": {
+    "arrived": "2026-11-10T20:29:15.694119+00:00",
+    "movie_id": 1604431,
+    "overview": "An entrepreneur brokering a sponsorship to build the city zoo's new penguin habitat finds herself caught between business and romance after falling for a compassionate zookeeper over the holidays.",
+    "poster_path": "/tji0q57LIau3Rd8EqUYurH2zwK7.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-10",
+    "publish_after": "2026-11-17",
     "reason": "reviews",
-    "release_date": "2026-11-03",
-    "title": "Let Them Come"
+    "release_date": "2026-11-10",
+    "title": "Christmas at the Zoo"
+  },
+  "rentals:10:1729007": {
+    "arrived": "2026-11-10T20:29:15.694119+00:00",
+    "movie_id": 1729007,
+    "overview": "Amidst the chaos and destruction of the London Blitz, four women become trapped in an abandoned warehouse, where they must fight to survive against a murderous stranger known as The Blackout Ripper. Inspired by true events.",
+    "poster_path": "/c2ngjHpS3YEATmEqY1T18vjpmy8.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-17",
+    "reason": "reviews",
+    "release_date": "2026-11-10",
+    "title": "Into Black"
   },
   "rentals:10:1737349": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
@@ -95,30 +83,6 @@
     "release_date": "2026-11-05",
     "title": "A Ghost at Gilmore House"
   },
-  "rentals:10:1792170": {
-    "arrived": "2026-11-04T20:26:55.955468+00:00",
-    "movie_id": 1792170,
-    "overview": "With his memories gone and his past a blur, ex-cop Steven Bay seeks treatment for his amnesia while working on an isolated farm. Instead, he's met with rising hostility, strange surveillance, and instincts he can\u2019t fully control. When the pressure becomes unbearable, Bay begins a desperate hunt for the truth behind his fractured reality.",
-    "poster_path": "/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-10",
-    "reason": "reviews",
-    "release_date": "2026-11-03",
-    "title": "Model Citizen"
-  },
-  "rentals:10:1805527": {
-    "arrived": "2026-11-03T20:08:37.896347+00:00",
-    "movie_id": 1805527,
-    "overview": "A documentary about the epic rise (and subsequent fall) of beach volleyball, featuring many of the boldfaced names from Southern California who helped popularize it.",
-    "poster_path": null,
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-10",
-    "reason": "reviews",
-    "release_date": "2026-11-03",
-    "title": "Kings of the Beach"
-  },
   "rentals:10:1815447": {
     "arrived": "2026-11-08T18:23:23.881812+00:00",
     "movie_id": 1815447,
@@ -130,18 +94,6 @@
     "reason": "reviews",
     "release_date": "2026-11-06",
     "title": "My Son\u2019s Sugar Mama"
-  },
-  "rentals:10:1815546": {
-    "arrived": "2026-11-05T20:42:07.711016+00:00",
-    "movie_id": 1815546,
-    "overview": "Directed and produced by 2x Emmy-award winning filmmaker Wayne Chesler, this special documentary follows Irish nutritional scientist Professor John Nolan\u2019s 20-year exploration of the link between powerful antioxidants - Carotenoids - and their effects on nutrition, vision, and brain health. From the marigold fields of Mexico to research labs in Ireland, the Omega-3 enriched Norwegian seas, and elite performance centers in Singapore, the film uncovers breakthrough science behind these incredible nutrients that support how we see, think, and age.",
-    "poster_path": "/aIEz68tBuGfXLknxIKPr3YFrNsv.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-10",
-    "reason": "reviews",
-    "release_date": "2026-11-03",
-    "title": "A Vision for Vision"
   },
   "svod:15:1600653": {
     "arrived": "2026-11-07T18:04:33.969009+00:00",
@@ -202,18 +154,6 @@
     "reason": "reviews",
     "release_date": "2026-11-06",
     "title": "Unprotected: Murder in Galicia"
-  },
-  "svod:8:1804941": {
-    "arrived": "2026-11-04T20:26:55.955468+00:00",
-    "movie_id": 1804941,
-    "overview": "The former heavyweight champion returns to the stage for a raw one-man show, turning his wildest life stories into comedy gold at Seminole Hard Rock Hotel and Casino.",
-    "poster_path": "/uaeL5BLgmGhIZXfViBsLSnvYB4i.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-10",
-    "reason": "reviews",
-    "release_date": "2026-11-03",
-    "title": "Mike Tyson: Return of the Mike"
   },
   "svod:8:1810711": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
