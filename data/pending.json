@@ -83,6 +83,30 @@
     "release_date": "2026-11-05",
     "title": "A Ghost at Gilmore House"
   },
+  "rentals:10:1808411": {
+    "arrived": "2026-11-11T20:13:37.342366+00:00",
+    "movie_id": 1808411,
+    "overview": "A cinematic journey into the overlooked miracles of everyday existence.",
+    "poster_path": "/bWnij7QOOJCd5Jqn09VgpMwk5jC.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-18",
+    "reason": "reviews",
+    "release_date": "2026-11-11",
+    "title": "Magic in the Mundane"
+  },
+  "rentals:10:1813392": {
+    "arrived": "2026-11-11T20:13:37.342366+00:00",
+    "movie_id": 1813392,
+    "overview": "A lonely man's quiet winter routine hides a string of killings that spiral out of control when his dark double urges him toward madness.",
+    "poster_path": "/ryTIQopPrkMIcBAe4lib3q6Co0M.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-17",
+    "reason": "reviews",
+    "release_date": "2026-11-10",
+    "title": "A COLD SEASON"
+  },
   "rentals:10:1815447": {
     "arrived": "2026-11-08T18:23:23.881812+00:00",
     "movie_id": 1815447,
@@ -118,18 +142,6 @@
     "reason": "reviews",
     "release_date": "2026-11-06",
     "title": "Wolves Up Close with Bertie Gregory"
-  },
-  "svod:8:1570488": {
-    "arrived": "2026-11-05T20:42:07.711016+00:00",
-    "movie_id": 1570488,
-    "overview": "When a medical emergency pulls the Goss family apart, determined dog Winstead will do all he can to bring his humans back together before Christmas Eve.",
-    "poster_path": "/wCBlcfbVPiK0mc13mgJDEoxRBHB.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-11",
-    "reason": "reviews",
-    "release_date": "2026-11-04",
-    "title": "A Dog's Perfect Christmas"
   },
   "svod:8:1654940": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
@@ -167,18 +179,6 @@
     "release_date": "2026-11-05",
     "title": "Dilwali Diwali"
   },
-  "svod:8:1816668": {
-    "arrived": "2026-11-07T18:04:33.969009+00:00",
-    "movie_id": 1816668,
-    "overview": "At the height of his success in 2025, French rap star Ninho considers leaving music behind. This documentary looks back on the triumphs, sacrifices and personal challenges that brought him to that crossroads.",
-    "poster_path": "/xy02UZTSEJWXeJXG4XGb4aWDxdP.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-11",
-    "reason": "reviews",
-    "release_date": "2026-11-04",
-    "title": "Ninho: Fame Ain\u2019t Worth It"
-  },
   "svod:8:1817773": {
     "arrived": "2026-11-07T18:04:33.969009+00:00",
     "movie_id": 1817773,
@@ -190,6 +190,18 @@
     "reason": "reviews",
     "release_date": "2026-11-05",
     "title": "High End: The Watch Theft Ring"
+  },
+  "svod:8:1820172": {
+    "arrived": "2026-11-11T20:13:37.342366+00:00",
+    "movie_id": 1820172,
+    "overview": "In her debut hour-long stand-up special, Janelle James sounds off on body counts, bank accounts and why women should wrestle men.",
+    "poster_path": "/zjASMxUqsye6BKLbW78FA9d64Yy.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-17",
+    "reason": "reviews",
+    "release_date": "2026-11-10",
+    "title": "Janelle James: How Romantic"
   },
   "svod:9:1480158": {
     "arrived": "2026-11-06T19:58:33.086229+00:00",
