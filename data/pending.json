@@ -59,30 +59,6 @@
     "release_date": "2026-11-06",
     "title": "Once Upon a Time in Jersey"
   },
-  "rentals:10:1741340": {
-    "arrived": "2026-11-08T18:23:23.881812+00:00",
-    "movie_id": 1741340,
-    "overview": "Through dark magic, a medieval knight awakens in the 21st century, leaving a path of destruction.",
-    "poster_path": "/kUydjPcPG8ufuccgF0m0nuVJBQH.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-12",
-    "reason": "reviews",
-    "release_date": "2026-11-05",
-    "title": "Death Knight"
-  },
-  "rentals:10:1765587": {
-    "arrived": "2026-11-09T23:00:35.604846+00:00",
-    "movie_id": 1765587,
-    "overview": "As part of a school project, Rachel begins investigating the fifty-year-old murder of infamous paranormal investigator Lucy Carter, a case the supernatural community has long attributed to an angry spirit. But as Rachel delves deeper into Lucy\u2019s past, long-buried secrets begin to surface, raising questions about what really happened that night.",
-    "poster_path": "/d4r98JUrwpIbzRIWf7kXmAvY1Bq.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-12",
-    "reason": "reviews",
-    "release_date": "2026-11-05",
-    "title": "A Ghost at Gilmore House"
-  },
   "rentals:10:1808411": {
     "arrived": "2026-11-11T20:13:37.342366+00:00",
     "movie_id": 1808411,
@@ -119,6 +95,18 @@
     "release_date": "2026-11-06",
     "title": "My Son\u2019s Sugar Mama"
   },
+  "rentals:10:1820230": {
+    "arrived": "2026-11-12T20:54:35.878602+00:00",
+    "movie_id": 1820230,
+    "overview": "From PBS Frontline; Working veteran underground coal miners are suffering from an incurable lung disease at the highest rates in nearly 50 years. With NPR, publichealthwatch, and Appalachia + Mid-South Newsroom (porchlightnews), we've been investigating how industry and government have failed to protect miners in Appalachia from black lung disease.",
+    "poster_path": "/s7lltpJ3BMzNE7sZZvkNa6SCY3j.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-17",
+    "reason": "reviews",
+    "release_date": "2026-11-10",
+    "title": "Coal\u2019s Human Cost"
+  },
   "svod:15:1600653": {
     "arrived": "2026-11-07T18:04:33.969009+00:00",
     "movie_id": 1600653,
@@ -143,17 +131,29 @@
     "release_date": "2026-11-06",
     "title": "Wolves Up Close with Bertie Gregory"
   },
-  "svod:8:1654940": {
-    "arrived": "2026-11-06T19:58:33.086229+00:00",
-    "movie_id": 1654940,
-    "overview": "Given a year to live, frugal 40-year-old Yui finally lets herself spend: \"buying\" nightclub host Sena. What begins as a contract takes an unexpected turn.",
-    "poster_path": "/fez7kLyGzpowduJapTFZZ1feCS0.jpg",
+  "svod:1899:1822227": {
+    "arrived": "2026-11-12T20:54:35.878602+00:00",
+    "movie_id": 1822227,
+    "overview": "Through expert analysis and first-hand insights, this documentary examines the genetics, mindset and team support that have helped make Tadej Poga\u010dar one of cycling's most successful riders.",
+    "poster_path": "/enzXE2ddn8cliLGlF5NiOevOU1X.jpg",
+    "provider_id": 1899,
+    "provider_name": "Max",
+    "publish_after": "2026-11-14",
+    "reason": "reviews",
+    "release_date": "2026-11-07",
+    "title": "Tadej Pogacar: Anatomy of a G.O.A.T."
+  },
+  "svod:8:1559980": {
+    "arrived": "2026-11-12T20:54:35.878602+00:00",
+    "movie_id": 1559980,
+    "overview": "A struggling pastor moves his family to a troubled New York neighborhood, where they must save a neglected church from foreclosure before Christmas.",
+    "poster_path": "/k5OOd5sMEqPlKKhgFnkj1jBhNTf.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-12",
+    "publish_after": "2026-11-18",
     "reason": "reviews",
-    "release_date": "2026-11-05",
-    "title": "One Year to Live, Buy a Man"
+    "release_date": "2026-11-11",
+    "title": "The Gospel of Christmas"
   },
   "svod:8:1794569": {
     "arrived": "2026-11-07T18:04:33.969009+00:00",
@@ -167,30 +167,6 @@
     "release_date": "2026-11-06",
     "title": "Unprotected: Murder in Galicia"
   },
-  "svod:8:1810711": {
-    "arrived": "2026-11-06T19:58:33.086229+00:00",
-    "movie_id": 1810711,
-    "overview": "Ansh Sikkha returns to his Punjabi family home for Diwali after years working abroad. As the Sikkas gather for the festival, their clashing views on what constitutes a fulfilling life create friction and connection.",
-    "poster_path": "/cV31QO65DA6mk4Hd6S7QncVq85T.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-12",
-    "reason": "reviews",
-    "release_date": "2026-11-05",
-    "title": "Dilwali Diwali"
-  },
-  "svod:8:1817773": {
-    "arrived": "2026-11-07T18:04:33.969009+00:00",
-    "movie_id": 1817773,
-    "overview": "Investigates Chile's high-profile Caso Relojes (\"Watch Case\") scandal, in which a suitcase full of smuggled luxury watches and jewelry unmasked an illicit underground network, connecting criminal elements to Chile's social elite.",
-    "poster_path": "/xd6c6evoWm6NHIjMlC7Y357crxf.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-12",
-    "reason": "reviews",
-    "release_date": "2026-11-05",
-    "title": "High End: The Watch Theft Ring"
-  },
   "svod:8:1820172": {
     "arrived": "2026-11-11T20:13:37.342366+00:00",
     "movie_id": 1820172,
@@ -202,17 +178,5 @@
     "reason": "reviews",
     "release_date": "2026-11-10",
     "title": "Janelle James: How Romantic"
-  },
-  "svod:9:1480158": {
-    "arrived": "2026-11-06T19:58:33.086229+00:00",
-    "movie_id": 1480158,
-    "overview": "This feature-length documentary traces the meteoric rise of one of the most talented, accomplished, and polarizing athletes of America's most popular sport and examines his role as the preeminent \"prima donna\" wide receiver of his era, while catching up with Owens in present-day to see how he is evolving and discovering a new personal path forward.",
-    "poster_path": "/tur8rRYXYeWN7Kq2CWEPC5PiJr0.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-11-12",
-    "reason": "reviews",
-    "release_date": "2026-11-05",
-    "title": "Terrell & T.O."
   }
 }
