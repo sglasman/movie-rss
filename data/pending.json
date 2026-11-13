@@ -11,18 +11,6 @@
     "release_date": "2026-11-01",
     "title": "In Transit"
   },
-  "rentals:10:1446589": {
-    "arrived": "2026-11-06T19:58:33.086229+00:00",
-    "movie_id": 1446589,
-    "overview": "WANDERER is a religious action thriller set in an alternate, dystopian future where the United States has been disbanded and divided into eight individual factions. A lone wanderer journeys across these factions, carrying a forbidden item: a Holy Bible. Hunted relentlessly by faction leaders and their military forces, the Wanderer uses the Word of God to spread hope among the oppressed citizens and fight back against the evil forces controlling them.",
-    "poster_path": "/xEhH4BUlxhqQt6ClDONwBUpkmbP.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-13",
-    "reason": "reviews",
-    "release_date": "2026-11-06",
-    "title": "Wanderer"
-  },
   "rentals:10:1604431": {
     "arrived": "2026-11-10T20:29:15.694119+00:00",
     "movie_id": 1604431,
@@ -46,18 +34,6 @@
     "reason": "reviews",
     "release_date": "2026-11-10",
     "title": "Into Black"
-  },
-  "rentals:10:1737349": {
-    "arrived": "2026-11-06T19:58:33.086229+00:00",
-    "movie_id": 1737349,
-    "overview": "A journey through the 1960s, 70s, & 80s New Jersey - reflecting on a magical time of the Old Americana we once knew. Featuring Tom Cruise, Bill Maher and Dana Bash from CNN, with a special appearance by Oscar-Nominated actor Danny Aiello.",
-    "poster_path": "/9pqGbaAMUJUQVQvDZU3uNdVTve4.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-13",
-    "reason": "reviews",
-    "release_date": "2026-11-06",
-    "title": "Once Upon a Time in Jersey"
   },
   "rentals:10:1808411": {
     "arrived": "2026-11-11T20:13:37.342366+00:00",
@@ -83,18 +59,6 @@
     "release_date": "2026-11-10",
     "title": "A COLD SEASON"
   },
-  "rentals:10:1815447": {
-    "arrived": "2026-11-08T18:23:23.881812+00:00",
-    "movie_id": 1815447,
-    "overview": "A protective mother discovers a wealthy, older woman is showering her young son with gifts and money. As she sets out to expose her, she discovers the woman's obsession with her son is far more dangerous than she ever could have imagined.",
-    "poster_path": "/qJnUdd4DzWsLTx1GyejjyEAMmhH.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-13",
-    "reason": "reviews",
-    "release_date": "2026-11-06",
-    "title": "My Son\u2019s Sugar Mama"
-  },
   "rentals:10:1820230": {
     "arrived": "2026-11-12T20:54:35.878602+00:00",
     "movie_id": 1820230,
@@ -107,29 +71,17 @@
     "release_date": "2026-11-10",
     "title": "Coal\u2019s Human Cost"
   },
-  "svod:15:1600653": {
-    "arrived": "2026-11-07T18:04:33.969009+00:00",
-    "movie_id": 1600653,
-    "overview": "Christina Walker, a successful shop owner who has devoted her energy to her career at the expense of her dating life, goes on 12 dates in the 12 weeks leading up to Christmas hoping to find Mr. Right.",
-    "poster_path": "/w82vKEoYNZ9SxYxvccxO85CnZKE.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-11-13",
+  "rentals:10:1822624": {
+    "arrived": "2026-11-13T20:30:33.579517+00:00",
+    "movie_id": 1822624,
+    "overview": "Anne Harrington is weighing a run for Congress when she comes home to find a door cracked open, one she is certain she locked. Within minutes, silence turns to dread, and dread turns to terror, as she realizes she is not alone in her own house. Trapped and hunted through the dark, she must outwit two violent predators who will stop at nothing.",
+    "poster_path": "/aeg9CKpvcdSOkuagLreD9UgPHLA.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-20",
     "reason": "reviews",
-    "release_date": "2026-11-06",
-    "title": "The 12 Dates of Christmas"
-  },
-  "svod:15:1798383": {
-    "arrived": "2026-11-08T18:23:23.881812+00:00",
-    "movie_id": 1798383,
-    "overview": "Reconnecting with a pack of wolves he has followed for seven years, Bertie sets out to capture one of the Arctic's most dangerous and rarely filmed hunts: wolves taking on a bull moose, prey roughly ten times their size. Led by Kona, a striking white breeding male, the pack faces a critical winter as dwindling food supplies, an encroaching rival wolf and an aging leader threaten its survival.",
-    "poster_path": "/qzXLcjoiQpRpPZBMpXrszWhMzA5.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-11-13",
-    "reason": "reviews",
-    "release_date": "2026-11-06",
-    "title": "Wolves Up Close with Bertie Gregory"
+    "release_date": "2026-11-13",
+    "title": "Deadbolt"
   },
   "svod:1899:1822227": {
     "arrived": "2026-11-12T20:54:35.878602+00:00",
@@ -143,6 +95,30 @@
     "release_date": "2026-11-07",
     "title": "Tadej Pogacar: Anatomy of a G.O.A.T."
   },
+  "svod:350:1780407": {
+    "arrived": "2026-11-13T20:30:33.579517+00:00",
+    "movie_id": 1780407,
+    "overview": "Eager to get off Santa's naughty list, Snoopy goes all out to be the nicest beagle in town.",
+    "poster_path": "/9wZAvvAZgwp2Lxbhjkp9N6HHJBm.jpg",
+    "provider_id": 350,
+    "provider_name": "Apple TV+",
+    "publish_after": "2026-11-19",
+    "reason": "reviews",
+    "release_date": "2026-11-12",
+    "title": "Snoopy Presents: 12 Days of Snoopy"
+  },
+  "svod:8:1518204": {
+    "arrived": "2026-11-13T20:30:33.579517+00:00",
+    "movie_id": 1518204,
+    "overview": "20 years after his encounter with an alien, Petey never moved on. Now his old friend has returned, and the reason why is complicated \u2014 and unexpected.",
+    "poster_path": "/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-19",
+    "reason": "reviews",
+    "release_date": "2026-11-12",
+    "title": "Allen"
+  },
   "svod:8:1559980": {
     "arrived": "2026-11-12T20:54:35.878602+00:00",
     "movie_id": 1559980,
@@ -155,17 +131,17 @@
     "release_date": "2026-11-11",
     "title": "The Gospel of Christmas"
   },
-  "svod:8:1794569": {
-    "arrived": "2026-11-07T18:04:33.969009+00:00",
-    "movie_id": 1794569,
-    "overview": "Documentary film that tells the story of Isabel Fuentes. In April 2015, alleged burglars left her on the brink of death in her own home, in the village of Pazos, in Ver\u00edn. From the very beginning, the Guardia Civil sergeant in charge of the case suspected that the account of what had happened did not add up and tried to protect Isabel from further attack.",
-    "poster_path": "/ljDe9CMzO7PpM86WOqIZzDfokgE.jpg",
+  "svod:8:1616687": {
+    "arrived": "2026-11-13T20:30:33.579517+00:00",
+    "movie_id": 1616687,
+    "overview": "When a deadly gang descends on his remote home, a guilt-ridden veteran and the estranged grandchildren he barely knows must unite to survive.",
+    "poster_path": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-13",
+    "publish_after": "2026-11-19",
     "reason": "reviews",
-    "release_date": "2026-11-06",
-    "title": "Unprotected: Murder in Galicia"
+    "release_date": "2026-11-12",
+    "title": "Never Surrender"
   },
   "svod:8:1820172": {
     "arrived": "2026-11-11T20:13:37.342366+00:00",
