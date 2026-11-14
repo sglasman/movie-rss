@@ -23,6 +23,18 @@
     "release_date": "2026-11-10",
     "title": "Christmas at the Zoo"
   },
+  "rentals:10:1665406": {
+    "arrived": "2026-11-14T18:45:38.064595+00:00",
+    "movie_id": 1665406,
+    "overview": "After accidentally burning down their own business, three friends scramble through a hazy night to recover the money, while the truth about their relationships finally catches up to them.",
+    "poster_path": "/qiL75Ho9a88XsLZ4EVF0arZkHNa.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-19",
+    "reason": "reviews",
+    "release_date": "2026-11-12",
+    "title": "Fume"
+  },
   "rentals:10:1729007": {
     "arrived": "2026-11-10T20:29:15.694119+00:00",
     "movie_id": 1729007,
@@ -71,6 +83,18 @@
     "release_date": "2026-11-10",
     "title": "Coal\u2019s Human Cost"
   },
+  "rentals:10:1822148": {
+    "arrived": "2026-11-14T18:45:38.064595+00:00",
+    "movie_id": 1822148,
+    "overview": "Inspired by the character he played and told by those who know him best, Gary Sinise\u2019s story follows his mission to serve injured veterans and Gold Star families while enduring the devastating loss of his son, Mac.",
+    "poster_path": "/mvYbWDyOicP6WMYvEPlOJVra3bA.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-18",
+    "reason": "reviews",
+    "release_date": "2026-11-11",
+    "title": "The Ballad of Lieutenant Dan"
+  },
   "rentals:10:1822624": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
     "movie_id": 1822624,
@@ -82,18 +106,6 @@
     "reason": "reviews",
     "release_date": "2026-11-13",
     "title": "Deadbolt"
-  },
-  "svod:1899:1822227": {
-    "arrived": "2026-11-12T20:54:35.878602+00:00",
-    "movie_id": 1822227,
-    "overview": "Through expert analysis and first-hand insights, this documentary examines the genetics, mindset and team support that have helped make Tadej Poga\u010dar one of cycling's most successful riders.",
-    "poster_path": "/enzXE2ddn8cliLGlF5NiOevOU1X.jpg",
-    "provider_id": 1899,
-    "provider_name": "Max",
-    "publish_after": "2026-11-14",
-    "reason": "reviews",
-    "release_date": "2026-11-07",
-    "title": "Tadej Pogacar: Anatomy of a G.O.A.T."
   },
   "svod:350:1780407": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
@@ -118,6 +130,18 @@
     "reason": "reviews",
     "release_date": "2026-11-12",
     "title": "Allen"
+  },
+  "svod:8:1543469": {
+    "arrived": "2026-11-14T18:45:38.064595+00:00",
+    "movie_id": 1543469,
+    "overview": "A former country star, Misty Jones, comes out of seclusion to investigate the disappearance of her missing niece, a rising country musician and must grapple with her own past and Nashville\u2019s seedy underbelly. Her search uncovers a murky side of Nashville where no one, including Misty, is who they seem.",
+    "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-20",
+    "reason": "reviews",
+    "release_date": "2026-11-13",
+    "title": "Heartland"
   },
   "svod:8:1559980": {
     "arrived": "2026-11-12T20:54:35.878602+00:00",
