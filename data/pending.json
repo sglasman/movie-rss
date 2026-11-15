@@ -107,6 +107,18 @@
     "release_date": "2026-11-13",
     "title": "Deadbolt"
   },
+  "rentals:10:1823264": {
+    "arrived": "2026-11-15T19:24:08.924006+00:00",
+    "movie_id": 1823264,
+    "overview": "Filmed at The Den Theater in Chicago, Gareth Reynolds (We\u2019re Here to Help, The Dollop) delivers a fast, funny hour about life in an increasingly automated America. From the robo-takeover of everyday life and the strange demands of an algorithm-driven culture to the healing power of animals and the uphill battle of making a living in modern entertainment, Reynolds finds the absurdity in a world that feels less human by the day. He also turns his attention to America\u2019s billionaires, arguing that they are not only wildly powerful and deeply troubling, but embarrassingly lame. Building from sharp observations into a lively musical finale, the special brings its biggest ideas together in a closing number that is equal parts ridiculous, pointed, and unexpectedly catchy, suggesting that the antidote to all of this is the healing power of animals.",
+    "poster_path": "/lHnkaBYAA3KdqAyPR2fgKWrGlWp.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-17",
+    "reason": "reviews",
+    "release_date": "2026-11-10",
+    "title": "Gareth Reynolds: Why Aren't You Bigger?"
+  },
   "svod:350:1780407": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
     "movie_id": 1780407,
@@ -166,6 +178,18 @@
     "reason": "reviews",
     "release_date": "2026-11-12",
     "title": "Never Surrender"
+  },
+  "svod:8:1757174": {
+    "arrived": "2026-11-15T19:24:08.924006+00:00",
+    "movie_id": 1757174,
+    "overview": "Craving a change of pace, work-hard-play-hard city girl Freddie swaps lives with her homebody sister Mattie at Christmas time, only to unwrap a whole new kind of mess.",
+    "poster_path": "/9kHrUoPF2rl5Hj0QMquAy3xznXT.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-19",
+    "reason": "reviews",
+    "release_date": "2026-11-12",
+    "title": "The Christmas Switch"
   },
   "svod:8:1820172": {
     "arrived": "2026-11-11T20:13:37.342366+00:00",
