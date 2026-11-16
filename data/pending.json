@@ -11,6 +11,18 @@
     "release_date": "2026-11-01",
     "title": "In Transit"
   },
+  "rentals:10:1374853": {
+    "arrived": "2026-11-16T22:55:57.129113+00:00",
+    "movie_id": 1374853,
+    "overview": "Home for the holidays, Adam longs for the magic of his childhood. Amid the chaos of the annual Foxhall Village Christmas party, he dodges relatives, evades the political turmoil, and-surprise!-falls for his childhood friend.",
+    "poster_path": "/w9dXtAzjmhC5pLxYy8aAL4D2hlA.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-19",
+    "reason": "reviews",
+    "release_date": "2026-11-12",
+    "title": "A Christmas Party"
+  },
   "rentals:10:1604431": {
     "arrived": "2026-11-10T20:29:15.694119+00:00",
     "movie_id": 1604431,
