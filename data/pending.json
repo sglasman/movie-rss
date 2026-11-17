@@ -23,18 +23,6 @@
     "release_date": "2026-11-12",
     "title": "A Christmas Party"
   },
-  "rentals:10:1604431": {
-    "arrived": "2026-11-10T20:29:15.694119+00:00",
-    "movie_id": 1604431,
-    "overview": "An entrepreneur brokering a sponsorship to build the city zoo's new penguin habitat finds herself caught between business and romance after falling for a compassionate zookeeper over the holidays.",
-    "poster_path": "/tji0q57LIau3Rd8EqUYurH2zwK7.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-17",
-    "reason": "reviews",
-    "release_date": "2026-11-10",
-    "title": "Christmas at the Zoo"
-  },
   "rentals:10:1665406": {
     "arrived": "2026-11-14T18:45:38.064595+00:00",
     "movie_id": 1665406,
@@ -47,18 +35,6 @@
     "release_date": "2026-11-12",
     "title": "Fume"
   },
-  "rentals:10:1729007": {
-    "arrived": "2026-11-10T20:29:15.694119+00:00",
-    "movie_id": 1729007,
-    "overview": "Amidst the chaos and destruction of the London Blitz, four women become trapped in an abandoned warehouse, where they must fight to survive against a murderous stranger known as The Blackout Ripper. Inspired by true events.",
-    "poster_path": "/c2ngjHpS3YEATmEqY1T18vjpmy8.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-17",
-    "reason": "reviews",
-    "release_date": "2026-11-10",
-    "title": "Into Black"
-  },
   "rentals:10:1808411": {
     "arrived": "2026-11-11T20:13:37.342366+00:00",
     "movie_id": 1808411,
@@ -70,30 +46,6 @@
     "reason": "reviews",
     "release_date": "2026-11-11",
     "title": "Magic in the Mundane"
-  },
-  "rentals:10:1813392": {
-    "arrived": "2026-11-11T20:13:37.342366+00:00",
-    "movie_id": 1813392,
-    "overview": "A lonely man's quiet winter routine hides a string of killings that spiral out of control when his dark double urges him toward madness.",
-    "poster_path": "/ryTIQopPrkMIcBAe4lib3q6Co0M.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-17",
-    "reason": "reviews",
-    "release_date": "2026-11-10",
-    "title": "A COLD SEASON"
-  },
-  "rentals:10:1820230": {
-    "arrived": "2026-11-12T20:54:35.878602+00:00",
-    "movie_id": 1820230,
-    "overview": "From PBS Frontline; Working veteran underground coal miners are suffering from an incurable lung disease at the highest rates in nearly 50 years. With NPR, publichealthwatch, and Appalachia + Mid-South Newsroom (porchlightnews), we've been investigating how industry and government have failed to protect miners in Appalachia from black lung disease.",
-    "poster_path": "/s7lltpJ3BMzNE7sZZvkNa6SCY3j.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-17",
-    "reason": "reviews",
-    "release_date": "2026-11-10",
-    "title": "Coal\u2019s Human Cost"
   },
   "rentals:10:1822148": {
     "arrived": "2026-11-14T18:45:38.064595+00:00",
@@ -119,17 +71,17 @@
     "release_date": "2026-11-13",
     "title": "Deadbolt"
   },
-  "rentals:10:1823264": {
-    "arrived": "2026-11-15T19:24:08.924006+00:00",
-    "movie_id": 1823264,
-    "overview": "Filmed at The Den Theater in Chicago, Gareth Reynolds (We\u2019re Here to Help, The Dollop) delivers a fast, funny hour about life in an increasingly automated America. From the robo-takeover of everyday life and the strange demands of an algorithm-driven culture to the healing power of animals and the uphill battle of making a living in modern entertainment, Reynolds finds the absurdity in a world that feels less human by the day. He also turns his attention to America\u2019s billionaires, arguing that they are not only wildly powerful and deeply troubling, but embarrassingly lame. Building from sharp observations into a lively musical finale, the special brings its biggest ideas together in a closing number that is equal parts ridiculous, pointed, and unexpectedly catchy, suggesting that the antidote to all of this is the healing power of animals.",
-    "poster_path": "/lHnkaBYAA3KdqAyPR2fgKWrGlWp.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-17",
+  "svod:15:1822873": {
+    "arrived": "2026-11-17T21:48:48.664008+00:00",
+    "movie_id": 1822873,
+    "overview": "Darius Rucker gets deeply personal about the cost of stardom, revealing his struggles with drugs and alcohol, the breakdown of his marriage and brushes with death. Through candid interviews with collaborators, friends and family, new footage from the road and in the studio as he records his forthcoming album and never-before-seen tape dating back to the start of Hootie & the Blowfish, this documentary traces the full journey of his extraordinary career, revealing a deeply personal story of ambition, resilience and reinvention.",
+    "poster_path": "/ir7EsjwI0IBknrYt7JHaKGMIrqu.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-11-23",
     "reason": "reviews",
-    "release_date": "2026-11-10",
-    "title": "Gareth Reynolds: Why Aren't You Bigger?"
+    "release_date": "2026-11-16",
+    "title": "Darius Rucker: They Called Me Hootie"
   },
   "svod:350:1780407": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
@@ -202,17 +154,5 @@
     "reason": "reviews",
     "release_date": "2026-11-12",
     "title": "The Christmas Switch"
-  },
-  "svod:8:1820172": {
-    "arrived": "2026-11-11T20:13:37.342366+00:00",
-    "movie_id": 1820172,
-    "overview": "In her debut hour-long stand-up special, Janelle James sounds off on body counts, bank accounts and why women should wrestle men.",
-    "poster_path": "/zjASMxUqsye6BKLbW78FA9d64Yy.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-17",
-    "reason": "reviews",
-    "release_date": "2026-11-10",
-    "title": "Janelle James: How Romantic"
   }
 }
