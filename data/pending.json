@@ -35,29 +35,41 @@
     "release_date": "2026-11-12",
     "title": "Fume"
   },
-  "rentals:10:1808411": {
-    "arrived": "2026-11-11T20:13:37.342366+00:00",
-    "movie_id": 1808411,
-    "overview": "A cinematic journey into the overlooked miracles of everyday existence.",
-    "poster_path": "/bWnij7QOOJCd5Jqn09VgpMwk5jC.jpg",
+  "rentals:10:1748951": {
+    "arrived": "2026-11-18T21:27:55.647053+00:00",
+    "movie_id": 1748951,
+    "overview": "Ken, a Christian conservative, and Rowan, a tree-hugging skeptic, bike from Santa Monica to D.C. before Congress breaks\u2014raising money for shelters and demanding a standard: a safe bed for anyone who needs it. Their odd-couple chemistry fuels a documentary that's part comedy, part gut-punch, meeting the homelessness crisis face-to-face and proving unlikely partners can unite to change the world.",
+    "poster_path": "/jkswFx4EBym8p4PlqnCAlb6CDSj.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-18",
+    "publish_after": "2026-11-24",
     "reason": "reviews",
-    "release_date": "2026-11-11",
-    "title": "Magic in the Mundane"
+    "release_date": "2026-11-17",
+    "title": "Breaking the Cycle"
   },
-  "rentals:10:1822148": {
-    "arrived": "2026-11-14T18:45:38.064595+00:00",
-    "movie_id": 1822148,
-    "overview": "Inspired by the character he played and told by those who know him best, Gary Sinise\u2019s story follows his mission to serve injured veterans and Gold Star families while enduring the devastating loss of his son, Mac.",
-    "poster_path": "/mvYbWDyOicP6WMYvEPlOJVra3bA.jpg",
+  "rentals:10:1798903": {
+    "arrived": "2026-11-18T21:27:55.647053+00:00",
+    "movie_id": 1798903,
+    "overview": "In a locked-down megacity where reality is optional, a lonely programmer risks his mind to rescue his girlfriend from a virtual prison \u2014 only to face a truth that challenges the very meaning of salvation and free will.",
+    "poster_path": "/sFT8SPdPwgYCtnESmMJt9zAqR81.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-18",
+    "publish_after": "2026-11-24",
     "reason": "reviews",
-    "release_date": "2026-11-11",
-    "title": "The Ballad of Lieutenant Dan"
+    "release_date": "2026-11-17",
+    "title": "KILL/SAVE"
+  },
+  "rentals:10:1819503": {
+    "arrived": "2026-11-18T21:27:55.647053+00:00",
+    "movie_id": 1819503,
+    "overview": "Kevin, Kyle, and Seth are long-haired, buzzword-fluent middle managers with a passion for staying looped in and on the same page. When the ruthless Torrence Group acquires their company and sics Gen-Z efficiency experts on them, the trio must survive team-building gone haywire, a scheme to replace them with AI, and a corporate conspiracy to eliminate middle management entirely - armed with nothing but jargon, synergy, and one sacred truth: the weekend\u2019s never long enough.",
+    "poster_path": "/pAjMZ8AiE4tNsKTwIWv9942z8HC.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-24",
+    "reason": "reviews",
+    "release_date": "2026-11-17",
+    "title": "Long Haired Businessmen"
   },
   "rentals:10:1822624": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
@@ -71,6 +83,18 @@
     "release_date": "2026-11-13",
     "title": "Deadbolt"
   },
+  "rentals:10:1826133": {
+    "arrived": "2026-11-18T21:27:55.647053+00:00",
+    "movie_id": 1826133,
+    "overview": "(played by Tisha Campbell), a devoted single mother and community pillar whose life is shattered when her teenage son and basketball phenom, Chaz (Jaden Lucas Miller), is diagnosed with an aggressive brain tumor",
+    "poster_path": "/2SivpAp7xeJEFjrMWlSGB5DBGRQ.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-11-21",
+    "reason": "reviews",
+    "release_date": "2026-11-14",
+    "title": "One Last Shot\u00a0"
+  },
   "svod:15:1822873": {
     "arrived": "2026-11-17T21:48:48.664008+00:00",
     "movie_id": 1822873,
@@ -82,6 +106,18 @@
     "reason": "reviews",
     "release_date": "2026-11-16",
     "title": "Darius Rucker: They Called Me Hootie"
+  },
+  "svod:15:1826442": {
+    "arrived": "2026-11-18T21:27:55.647053+00:00",
+    "movie_id": 1826442,
+    "overview": "Follows National Geographic Explorers investigating the global Ocean from seashore to seafloor as they chase discoveries and solutions needed to protect the seas amid rapid environmental change.",
+    "poster_path": "/9sKVTdLSw8d6nEbwJ7XryEUlxRm.jpg",
+    "provider_id": 15,
+    "provider_name": "Hulu",
+    "publish_after": "2026-11-21",
+    "reason": "reviews",
+    "release_date": "2026-11-14",
+    "title": "Expedition: Saving Our Seas"
   },
   "svod:350:1780407": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
@@ -118,18 +154,6 @@
     "reason": "reviews",
     "release_date": "2026-11-13",
     "title": "Heartland"
-  },
-  "svod:8:1559980": {
-    "arrived": "2026-11-12T20:54:35.878602+00:00",
-    "movie_id": 1559980,
-    "overview": "A struggling pastor moves his family to a troubled New York neighborhood, where they must save a neglected church from foreclosure before Christmas.",
-    "poster_path": "/k5OOd5sMEqPlKKhgFnkj1jBhNTf.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-18",
-    "reason": "reviews",
-    "release_date": "2026-11-11",
-    "title": "The Gospel of Christmas"
   },
   "svod:8:1616687": {
     "arrived": "2026-11-13T20:30:33.579517+00:00",
