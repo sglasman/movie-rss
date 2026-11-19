@@ -11,29 +11,17 @@
     "release_date": "2026-11-01",
     "title": "In Transit"
   },
-  "rentals:10:1374853": {
-    "arrived": "2026-11-16T22:55:57.129113+00:00",
-    "movie_id": 1374853,
-    "overview": "Home for the holidays, Adam longs for the magic of his childhood. Amid the chaos of the annual Foxhall Village Christmas party, he dodges relatives, evades the political turmoil, and-surprise!-falls for his childhood friend.",
-    "poster_path": "/w9dXtAzjmhC5pLxYy8aAL4D2hlA.jpg",
+  "rentals:10:1744973": {
+    "arrived": "2026-11-19T21:39:05.526097+00:00",
+    "movie_id": 1744973,
+    "overview": "A colourful town inhabited by animals prepares for a carnival parade.",
+    "poster_path": "/rS6MX2aQp5BHidDbBmvZeypdRoR.jpg",
     "provider_id": 10,
     "provider_name": "Amazon Video",
-    "publish_after": "2026-11-19",
+    "publish_after": "2026-11-26",
     "reason": "reviews",
-    "release_date": "2026-11-12",
-    "title": "A Christmas Party"
-  },
-  "rentals:10:1665406": {
-    "arrived": "2026-11-14T18:45:38.064595+00:00",
-    "movie_id": 1665406,
-    "overview": "After accidentally burning down their own business, three friends scramble through a hazy night to recover the money, while the truth about their relationships finally catches up to them.",
-    "poster_path": "/qiL75Ho9a88XsLZ4EVF0arZkHNa.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-19",
-    "reason": "reviews",
-    "release_date": "2026-11-12",
-    "title": "Fume"
+    "release_date": "2026-11-19",
+    "title": "Carnival of the Animals"
   },
   "rentals:10:1748951": {
     "arrived": "2026-11-18T21:27:55.647053+00:00",
@@ -119,30 +107,6 @@
     "release_date": "2026-11-14",
     "title": "Expedition: Saving Our Seas"
   },
-  "svod:350:1780407": {
-    "arrived": "2026-11-13T20:30:33.579517+00:00",
-    "movie_id": 1780407,
-    "overview": "Eager to get off Santa's naughty list, Snoopy goes all out to be the nicest beagle in town.",
-    "poster_path": "/9wZAvvAZgwp2Lxbhjkp9N6HHJBm.jpg",
-    "provider_id": 350,
-    "provider_name": "Apple TV+",
-    "publish_after": "2026-11-19",
-    "reason": "reviews",
-    "release_date": "2026-11-12",
-    "title": "Snoopy Presents: 12 Days of Snoopy"
-  },
-  "svod:8:1518204": {
-    "arrived": "2026-11-13T20:30:33.579517+00:00",
-    "movie_id": 1518204,
-    "overview": "20 years after his encounter with an alien, Petey never moved on. Now his old friend has returned, and the reason why is complicated \u2014 and unexpected.",
-    "poster_path": "/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-19",
-    "reason": "reviews",
-    "release_date": "2026-11-12",
-    "title": "Allen"
-  },
   "svod:8:1543469": {
     "arrived": "2026-11-14T18:45:38.064595+00:00",
     "movie_id": 1543469,
@@ -155,28 +119,28 @@
     "release_date": "2026-11-13",
     "title": "Heartland"
   },
-  "svod:8:1616687": {
-    "arrived": "2026-11-13T20:30:33.579517+00:00",
-    "movie_id": 1616687,
-    "overview": "When a deadly gang descends on his remote home, a guilt-ridden veteran and the estranged grandchildren he barely knows must unite to survive.",
-    "poster_path": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
+  "svod:8:1551025": {
+    "arrived": "2026-11-19T21:39:05.526097+00:00",
+    "movie_id": 1551025,
+    "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
+    "poster_path": "/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-19",
+    "publish_after": "2026-11-25",
     "reason": "reviews",
-    "release_date": "2026-11-12",
-    "title": "Never Surrender"
+    "release_date": "2026-11-18",
+    "title": "Guarding Stars"
   },
-  "svod:8:1757174": {
-    "arrived": "2026-11-15T19:24:08.924006+00:00",
-    "movie_id": 1757174,
-    "overview": "Craving a change of pace, work-hard-play-hard city girl Freddie swaps lives with her homebody sister Mattie at Christmas time, only to unwrap a whole new kind of mess.",
-    "poster_path": "/9kHrUoPF2rl5Hj0QMquAy3xznXT.jpg",
+  "svod:8:1827471": {
+    "arrived": "2026-11-19T21:39:05.526097+00:00",
+    "movie_id": 1827471,
+    "overview": "French-Canadian comic Mike Ward delivers an unapologetically honest set, from dating after divorce to living life to the fullest - one impulse at a time",
+    "poster_path": "/oB9Pcb5grM5Gk0TDWZeBZ3vHhDZ.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-19",
+    "publish_after": "2026-11-24",
     "reason": "reviews",
-    "release_date": "2026-11-12",
-    "title": "The Christmas Switch"
+    "release_date": "2026-11-17",
+    "title": "Mike Ward: Modest"
   }
 }
