@@ -59,18 +59,6 @@
     "release_date": "2026-11-17",
     "title": "Long Haired Businessmen"
   },
-  "rentals:10:1822624": {
-    "arrived": "2026-11-13T20:30:33.579517+00:00",
-    "movie_id": 1822624,
-    "overview": "Anne Harrington is weighing a run for Congress when she comes home to find a door cracked open, one she is certain she locked. Within minutes, silence turns to dread, and dread turns to terror, as she realizes she is not alone in her own house. Trapped and hunted through the dark, she must outwit two violent predators who will stop at nothing.",
-    "poster_path": "/aeg9CKpvcdSOkuagLreD9UgPHLA.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-20",
-    "reason": "reviews",
-    "release_date": "2026-11-13",
-    "title": "Deadbolt"
-  },
   "rentals:10:1826133": {
     "arrived": "2026-11-18T21:27:55.647053+00:00",
     "movie_id": 1826133,
@@ -107,18 +95,6 @@
     "release_date": "2026-11-14",
     "title": "Expedition: Saving Our Seas"
   },
-  "svod:8:1543469": {
-    "arrived": "2026-11-14T18:45:38.064595+00:00",
-    "movie_id": 1543469,
-    "overview": "A former country star, Misty Jones, comes out of seclusion to investigate the disappearance of her missing niece, a rising country musician and must grapple with her own past and Nashville\u2019s seedy underbelly. Her search uncovers a murky side of Nashville where no one, including Misty, is who they seem.",
-    "poster_path": "/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-20",
-    "reason": "reviews",
-    "release_date": "2026-11-13",
-    "title": "Heartland"
-  },
   "svod:8:1551025": {
     "arrived": "2026-11-19T21:39:05.526097+00:00",
     "movie_id": 1551025,
@@ -142,5 +118,17 @@
     "reason": "reviews",
     "release_date": "2026-11-17",
     "title": "Mike Ward: Modest"
+  },
+  "svod:9:1568060": {
+    "arrived": "2026-11-20T21:15:28.013649+00:00",
+    "movie_id": 1568060,
+    "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face.",
+    "poster_path": "/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-11-27",
+    "reason": "reviews",
+    "release_date": "2026-11-20",
+    "title": "Perfect Liars"
   }
 }
