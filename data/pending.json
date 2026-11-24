@@ -23,66 +23,6 @@
     "release_date": "2026-11-19",
     "title": "Carnival of the Animals"
   },
-  "rentals:10:1748951": {
-    "arrived": "2026-11-18T21:27:55.647053+00:00",
-    "movie_id": 1748951,
-    "overview": "Ken, a Christian conservative, and Rowan, a tree-hugging skeptic, bike from Santa Monica to D.C. before Congress breaks\u2014raising money for shelters and demanding a standard: a safe bed for anyone who needs it. Their odd-couple chemistry fuels a documentary that's part comedy, part gut-punch, meeting the homelessness crisis face-to-face and proving unlikely partners can unite to change the world.",
-    "poster_path": "/jkswFx4EBym8p4PlqnCAlb6CDSj.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-24",
-    "reason": "reviews",
-    "release_date": "2026-11-17",
-    "title": "Breaking the Cycle"
-  },
-  "rentals:10:1798903": {
-    "arrived": "2026-11-18T21:27:55.647053+00:00",
-    "movie_id": 1798903,
-    "overview": "In a locked-down megacity where reality is optional, a lonely programmer risks his mind to rescue his girlfriend from a virtual prison \u2014 only to face a truth that challenges the very meaning of salvation and free will.",
-    "poster_path": "/sFT8SPdPwgYCtnESmMJt9zAqR81.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-24",
-    "reason": "reviews",
-    "release_date": "2026-11-17",
-    "title": "KILL/SAVE"
-  },
-  "rentals:10:1819503": {
-    "arrived": "2026-11-18T21:27:55.647053+00:00",
-    "movie_id": 1819503,
-    "overview": "Kevin, Kyle, and Seth are long-haired, buzzword-fluent middle managers with a passion for staying looped in and on the same page. When the ruthless Torrence Group acquires their company and sics Gen-Z efficiency experts on them, the trio must survive team-building gone haywire, a scheme to replace them with AI, and a corporate conspiracy to eliminate middle management entirely - armed with nothing but jargon, synergy, and one sacred truth: the weekend\u2019s never long enough.",
-    "poster_path": "/pAjMZ8AiE4tNsKTwIWv9942z8HC.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-24",
-    "reason": "reviews",
-    "release_date": "2026-11-17",
-    "title": "Long Haired Businessmen"
-  },
-  "rentals:10:1829246": {
-    "arrived": "2026-11-21T20:08:37.655100+00:00",
-    "movie_id": 1829246,
-    "overview": "One of the UK\u2019s favorite comedy stars returns with his most personal show to date, extending his nationwide tour through April 2025 after winning British Comedy Guide\u2019s Best Comedy Show of 2023. Inspired by the idea that comedy is \u201ctragedy plus time,\u201d Ed Byrne explores the most difficult event of his life with honesty, vulnerability, and sharp wit.",
-    "poster_path": "/yHhLOsubuKun9aQjVnFxH6v90s.jpg",
-    "provider_id": 10,
-    "provider_name": "Amazon Video",
-    "publish_after": "2026-11-24",
-    "reason": "reviews",
-    "release_date": "2026-11-17",
-    "title": "Ed Byrne: Tragedy Plus Time"
-  },
-  "svod:15:1822873": {
-    "arrived": "2026-11-17T21:48:48.664008+00:00",
-    "movie_id": 1822873,
-    "overview": "Darius Rucker gets deeply personal about the cost of stardom, revealing his struggles with drugs and alcohol, the breakdown of his marriage and brushes with death. Through candid interviews with collaborators, friends and family, new footage from the road and in the studio as he records his forthcoming album and never-before-seen tape dating back to the start of Hootie & the Blowfish, this documentary traces the full journey of his extraordinary career, revealing a deeply personal story of ambition, resilience and reinvention.",
-    "poster_path": "/ir7EsjwI0IBknrYt7JHaKGMIrqu.jpg",
-    "provider_id": 15,
-    "provider_name": "Hulu",
-    "publish_after": "2026-11-23",
-    "reason": "reviews",
-    "release_date": "2026-11-16",
-    "title": "Darius Rucker: They Called Me Hootie"
-  },
   "svod:8:1551025": {
     "arrived": "2026-11-19T21:39:05.526097+00:00",
     "movie_id": 1551025,
@@ -94,18 +34,6 @@
     "reason": "reviews",
     "release_date": "2026-11-18",
     "title": "Guarding Stars"
-  },
-  "svod:8:1827471": {
-    "arrived": "2026-11-19T21:39:05.526097+00:00",
-    "movie_id": 1827471,
-    "overview": "French-Canadian comic Mike Ward delivers an unapologetically honest set, from dating after divorce to living life to the fullest - one impulse at a time",
-    "poster_path": "/oB9Pcb5grM5Gk0TDWZeBZ3vHhDZ.jpg",
-    "provider_id": 8,
-    "provider_name": "Netflix",
-    "publish_after": "2026-11-24",
-    "reason": "reviews",
-    "release_date": "2026-11-17",
-    "title": "Mike Ward: Modest"
   },
   "svod:9:1568060": {
     "arrived": "2026-11-20T21:15:28.013649+00:00",
