@@ -46,5 +46,17 @@
     "reason": "reviews",
     "release_date": "2026-11-20",
     "title": "Perfect Liars"
+  },
+  "svod:9:1611767": {
+    "arrived": "2026-11-24T23:04:09.272056+00:00",
+    "movie_id": 1611767,
+    "overview": "Rival publishing editors Ryan Mitchell and Hannah Hendricks are stranded by a holiday snowstorm and forced to share a rental car to New York, where a career-saving deal awaits them both. As roadside mishaps and small-town detours pile up, the holiday spirit begins to melt their fierce rivalry into something unexpected.",
+    "poster_path": "/95K1Y96ELBDL3M8kyTVb5wocCtX.jpg",
+    "provider_id": 9,
+    "provider_name": "Prime Video",
+    "publish_after": "2026-11-30",
+    "reason": "reviews",
+    "release_date": "2026-11-23",
+    "title": "Clashing Through the Snow"
   }
 }
