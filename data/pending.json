@@ -23,17 +23,65 @@
     "release_date": "2026-11-19",
     "title": "Carnival of the Animals"
   },
-  "svod:8:1551025": {
-    "arrived": "2026-11-19T21:39:05.526097+00:00",
-    "movie_id": 1551025,
-    "overview": "When a no-nonsense bodyguard is assigned to protect a charming action star over the holidays, sparks fly, secrets unravel, and Christmas gets a whole lot more complicated.",
-    "poster_path": "/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+  "svod:350:1280115": {
+    "arrived": "2026-11-25T22:36:46.296493+00:00",
+    "movie_id": 1280115,
+    "overview": "Jake is an injured Navy SEAL who becomes a mentor for his shy, struggling nephew Marc. Using the principles of his military training, Jake teaches Marc how to be a Warrior Kid as he enters high school.",
+    "poster_path": "/atI81xXKNVah7PJFBo3aXqQKtnG.jpg",
+    "provider_id": 350,
+    "provider_name": "Apple TV+",
+    "publish_after": "2026-12-01",
+    "reason": "reviews",
+    "release_date": "2026-11-24",
+    "title": "Way of the Warrior Kid"
+  },
+  "svod:8:1599329": {
+    "arrived": "2026-11-25T22:36:46.296493+00:00",
+    "movie_id": 1599329,
+    "overview": "Podcaster Winona is forced to test love online by a holiday dating-app partnership, connecting with a mystery man who feels like everything she\u2019s been missing. What she doesn\u2019t know is that he\u2019s Luke, the rugged renovator transforming her grandmother\u2019s Christmas Eve venue \u2014 and the last guy she\u2019d ever expect to fall for in real life.",
+    "poster_path": "/oGdv5eh69qZBws5vjIFJvvSH1Uz.jpg",
     "provider_id": 8,
     "provider_name": "Netflix",
-    "publish_after": "2026-11-25",
+    "publish_after": "2026-12-01",
     "reason": "reviews",
-    "release_date": "2026-11-18",
-    "title": "Guarding Stars"
+    "release_date": "2026-11-24",
+    "title": "All for Christmas"
+  },
+  "svod:8:1802703": {
+    "arrived": "2026-11-25T22:36:46.296493+00:00",
+    "movie_id": 1802703,
+    "overview": "Traces Lowe's career from his breakout roles in \u201cThe Outsiders\u201d and \u201cSt. Elmo\u2019s Fire\u201d to his Emmy-nominated performance on \u201cThe West Wing\u201d and how he maintained his Hollywood career.",
+    "poster_path": "/dydflxYhZ0UCS5gaz8iCKFcEAvE.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-12-01",
+    "reason": "reviews",
+    "release_date": "2026-11-24",
+    "title": "Rob Lowe: The Outsider"
+  },
+  "svod:8:1824177": {
+    "arrived": "2026-11-25T22:36:46.296493+00:00",
+    "movie_id": 1824177,
+    "overview": "Nate Bargatze brings his dry wit and deadpan charm to overzealous parking sensors, the walking politics of marriage and an unhinged family group chat.",
+    "poster_path": "/fho1KwBlnQZjnup5LYNLxEGkGpn.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-12-01",
+    "reason": "reviews",
+    "release_date": "2026-11-24",
+    "title": "Nate Bargatze: Good for Nathan"
+  },
+  "svod:8:1829270": {
+    "arrived": "2026-11-25T22:36:46.296493+00:00",
+    "movie_id": 1829270,
+    "overview": "Influencer Chiara Ferragni opens up for the first time on the charity scandal that rocked her career and sparked the end of her high-profile marriage.",
+    "poster_path": "/5IXa5EEvPgwwbkw3E84ZdkuGUWs.jpg",
+    "provider_id": 8,
+    "provider_name": "Netflix",
+    "publish_after": "2026-11-30",
+    "reason": "reviews",
+    "release_date": "2026-11-23",
+    "title": "Chiara Ferragni: Front Facing"
   },
   "svod:9:1568060": {
     "arrived": "2026-11-20T21:15:28.013649+00:00",
