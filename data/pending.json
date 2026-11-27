@@ -1,4 +1,16 @@
 {
+  "rentals:10:1165369": {
+    "arrived": "2026-11-27T22:04:45.364645+00:00",
+    "movie_id": 1165369,
+    "overview": "While World War II is raging, General De Gaulle seeks to convince the world that the battle for France not lost. Reality seems determined to prove him wrong. Yet, little by little, resistance fighters, rebellious students and determined soldiers rise up. Their faith, audacity and thirst for freedom defy what history seemed to have written in advance.",
+    "poster_path": "/297x0HIqSCp19pN9wlduK9PONRv.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-12-04",
+    "reason": "digital",
+    "release_date": "2026-06-26",
+    "title": "De Gaulle: Libert\u00e9"
+  },
   "rentals:10:1219507": {
     "arrived": "2026-11-02T22:21:23.934460+00:00",
     "movie_id": 1219507,
@@ -11,6 +23,18 @@
     "release_date": "2026-11-01",
     "title": "In Transit"
   },
+  "rentals:10:1626719": {
+    "arrived": "2026-11-27T22:04:45.364645+00:00",
+    "movie_id": 1626719,
+    "overview": "A documentary director gathers her friends to document a haunted house, only to witness horrific paranormal activity.",
+    "poster_path": "/hR54vD8ZupTVF4rCtjFtMUWX2q7.jpg",
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-12-04",
+    "reason": "reviews",
+    "release_date": "2026-11-27",
+    "title": "The Wicked Hour"
+  },
   "rentals:10:1801857": {
     "arrived": "2026-11-26T22:24:53.647223+00:00",
     "movie_id": 1801857,
@@ -22,6 +46,18 @@
     "reason": "reviews",
     "release_date": "2026-11-26",
     "title": "A Memorable Christmas"
+  },
+  "rentals:10:1843337": {
+    "arrived": "2026-11-27T22:04:45.364645+00:00",
+    "movie_id": 1843337,
+    "overview": "",
+    "poster_path": null,
+    "provider_id": 10,
+    "provider_name": "Amazon Video",
+    "publish_after": "2026-12-01",
+    "reason": "reviews",
+    "release_date": "2026-11-24",
+    "title": "Viljen til sejr"
   },
   "svod:1899:1764131": {
     "arrived": "2026-11-26T22:24:53.647223+00:00",
@@ -94,18 +130,6 @@
     "reason": "reviews",
     "release_date": "2026-11-23",
     "title": "Chiara Ferragni: Front Facing"
-  },
-  "svod:9:1568060": {
-    "arrived": "2026-11-20T21:15:28.013649+00:00",
-    "movie_id": 1568060,
-    "overview": "Jude Derry arrives at the exclusive Tagus university with a hidden mission: to infiltrate the circle of the Cash brothers and uncover the truth about her brother's death. What begins as revenge turns into a dangerous triangle of seduction, forbidden attraction and lies, drawing her toward a truth she may not be ready to face.",
-    "poster_path": "/kej8EipJOvfHUHFg5wtT7gQ6bNb.jpg",
-    "provider_id": 9,
-    "provider_name": "Prime Video",
-    "publish_after": "2026-11-27",
-    "reason": "reviews",
-    "release_date": "2026-11-20",
-    "title": "Perfect Liars"
   },
   "svod:9:1611767": {
     "arrived": "2026-11-24T23:04:09.272056+00:00",
